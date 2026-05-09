@@ -1,0 +1,63 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 32px 28px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  border-color: var(--line-strong);
+  transform: translateY(-4px);
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.iconGold {
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+
+.iconPink {
+  background: rgba(233, 107, 154, 0.14);
+  color: var(--pink);
+}
+
+.iconViolet {
+  background: rgba(155, 108, 255, 0.18);
+  color: var(--violet);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 12px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.text {
+  font-size: 15px;
+  color: var(--text-dim);
+  line-height: 1.55;
+}
+
+@media (max-width: 960px) {
+  .span2 {
+    grid-column: auto;
+  }
+}

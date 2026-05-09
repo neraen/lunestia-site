@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.logo svg {
+  color: var(--gold);
+}
+
+.sm {
+  font-size: 14px;
+  gap: 6px;
+}

@@ -1,0 +1,226 @@
+.stack {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 640px;
+}
+
+.phone {
+  position: absolute;
+  width: 280px;
+  height: 580px;
+  border-radius: 42px;
+  background: linear-gradient(180deg, #1b1638 0%, #14102a 100%);
+  border: 1px solid var(--line-strong);
+  padding: 24px 22px;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(233, 223, 245, 0.06);
+}
+
+.phone::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 6px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 100px;
+}
+
+.back {
+  transform: rotate(-8deg) translateX(-30%);
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.front {
+  z-index: 2;
+  transform: rotate(4deg) translateX(20%);
+  box-shadow:
+    0 40px 100px rgba(0, 0, 0, 0.6),
+    0 0 0 1px var(--line-strong),
+    inset 0 1px 0 rgba(233, 223, 245, 0.06);
+}
+
+.content {
+  padding-top: 18px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.phoneLogo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 14px;
+  color: var(--gold);
+}
+
+.phoneLogo svg {
+  color: var(--gold);
+}
+
+.avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--card-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--text);
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 16px;
+}
+
+.chatAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.chatName {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 15px;
+}
+
+.chatStatus {
+  font-size: 9px;
+  color: var(--text-dim);
+}
+
+.msgAi {
+  font-size: 11px;
+  line-height: 1.5;
+  padding: 10px 12px;
+  border-radius: 14px;
+  margin-bottom: 8px;
+  max-width: 85%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+
+.msgUser {
+  font-size: 11px;
+  line-height: 1.5;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border-bottom-right-radius: 6px;
+  margin-bottom: 8px;
+  max-width: 85%;
+  background: linear-gradient(135deg, var(--violet) 0%, var(--violet-2) 100%);
+  color: white;
+  margin-left: auto;
+}
+
+/* Natal chart phone */
+.phBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: var(--gold-soft);
+  border-radius: 100px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.phDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+.phTitle {
+  font-size: 32px;
+  line-height: 1.05;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.phSub {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.phGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.phCard {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 10px;
+  text-align: center;
+}
+
+.phIcon {
+  width: 32px;
+  height: 32px;
+  background: var(--gold-soft);
+  border-radius: 50%;
+  margin: 0 auto 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 14px;
+}
+
+.phCardTitle {
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.phCardMeta {
+  font-size: 9px;
+  color: var(--text-dim);
+}
+
+@media (max-width: 960px) {
+  .stack {
+    height: 540px;
+  }
+
+  .phone {
+    width: 240px;
+    height: 500px;
+  }
+}

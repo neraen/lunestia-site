@@ -1,0 +1,119 @@
+.section {
+  padding: 0 0 120px;
+}
+
+.banner {
+  background:
+    radial-gradient(ellipse at top right, rgba(230, 200, 96, 0.18) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom left, rgba(155, 108, 255, 0.18) 0%, transparent 50%),
+    var(--card);
+  border: 1px solid var(--line-strong);
+  border-radius: 32px;
+  padding: 80px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner::before,
+.banner::after {
+  content: '\2726';
+  position: absolute;
+  color: var(--gold);
+  opacity: 0.3;
+  font-size: 24px;
+}
+
+.banner::before {
+  top: 30px;
+  left: 60px;
+}
+
+.banner::after {
+  bottom: 40px;
+  right: 80px;
+  font-size: 32px;
+  opacity: 0.2;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.banner h2 {
+  max-width: 720px;
+  margin: 0 auto 20px;
+}
+
+.lead {
+  color: var(--text-soft);
+  font-size: 17px;
+  max-width: 540px;
+  margin: 0 auto 36px;
+}
+
+.actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.storeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  background: rgba(233, 223, 245, 0.06);
+  border: 1px solid var(--line-strong);
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s;
+  min-height: 44px;
+}
+
+.storeBtn:hover {
+  background: rgba(233, 223, 245, 0.1);
+}
+
+.storeBtnSmall {
+  font-size: 10px;
+  color: var(--text-dim);
+  line-height: 1;
+  margin-bottom: 2px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.storeBtnBig {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+@media (max-width: 960px) {
+  .section {
+    padding: 0 0 80px;
+  }
+
+  .banner {
+    padding: 50px 24px;
+  }
+}
