@@ -6,7 +6,7 @@
 
   <!-- SEO -->
   <title>Lunestia — L'astrologie personnelle, guidée par les étoiles</title>
-  <meta name="description" content="Lunestia décode votre thème natal, vos transits et votre compatibilité au degré près. Plus qu'un horoscope — un guide intime, calculé pour votre ciel, conversationnel quand il faut." />
+  <meta name="description" content="Lunestia décode votre thème natal, vos transits et votre compatibilité au degré près. Horoscope du jour personnalisé et astrologue IA Lyra disponible 24/7." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://lunestia.app/" />
 
@@ -27,6 +27,9 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,6 +38,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/style.css" />
+  <noscript><style>.animate-in { opacity: 1 !important; transform: none !important; }</style></noscript>
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -63,7 +67,17 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Lunestia",
-      "url": "https://lunestia.app/"
+      "url": "https://lunestia.app/",
+      "description": "Astrologie personnalisée — thème natal, compatibilité et horoscope quotidien",
+      "inLanguage": "fr"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Lunestia",
+      "url": "https://lunestia.app/",
+      "logo": "https://lunestia.app/favicon.svg",
+      "sameAs": []
     },
     {
       "@context": "https://schema.org",
@@ -814,6 +828,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
+  <script src="/js/main.js" defer></script>
 </body>
 </html>

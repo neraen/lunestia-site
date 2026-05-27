@@ -104,4 +104,82 @@ npm run preview  # Preview du build
 ## Déploiement
 
 Le site est déployé automatiquement sur Vercel via Git.
-Le build command est `npm run build`, le output directory est `dist`.
+Le build command est `null` (site statique pur), le output directory est `.` (racine).
+Fichiers statiques servis directement : `index.html`, `css/`, `js/`, `favicon.svg`, `robots.txt`, `sitemap.xml`.
+
+---
+
+## SEO — Règles obligatoires
+
+Chaque page HTML du site DOIT respecter ces règles. Aucune exception.
+
+### Checklist par page
+
+- [ ] `<html lang="fr">`
+- [ ] `<meta charset="UTF-8">`
+- [ ] `<title>` unique, 50-60 caractères, mot-clé principal en tête
+- [ ] `<meta name="description">` unique, 150-160 caractères
+- [ ] `<link rel="canonical">` avec URL absolue
+- [ ] Open Graph complet : `og:title`, `og:description`, `og:image` (1200×630), `og:url`, `og:type`, `og:locale`
+- [ ] Twitter Card : `twitter:card` (summary_large_image), `twitter:title`, `twitter:description`, `twitter:image`
+- [ ] Favicons : `favicon.svg` + `apple-touch-icon.png` (180×180) + `favicon-32x32.png` + `favicon-16x16.png`
+- [ ] Une seule `<h1>` par page
+- [ ] Hiérarchie de titres h1 > h2 > h3 sans saut de niveau
+- [ ] HTML sémantique : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- [ ] Images : alt descriptif, width/height explicites, `loading="lazy"` (sauf above the fold), format WebP
+- [ ] Données structurées JSON-LD selon le type de page (voir ci-dessous)
+- [ ] Liens internes avec ancres descriptives (pas "cliquez ici")
+- [ ] JS chargé avec `defer`
+- [ ] Pas de meta keywords
+
+### JSON-LD par type de page
+
+**Toutes les pages** — `WebSite` + `Organization` :
+```json
+{ "@context": "https://schema.org", "@type": "WebSite", "name": "Lunestia", "url": "https://lunestia.app/", "description": "Astrologie personnalisée — thème natal, compatibilité et horoscope quotidien", "inLanguage": "fr" }
+{ "@context": "https://schema.org", "@type": "Organization", "name": "Lunestia", "url": "https://lunestia.app/", "logo": "https://lunestia.app/favicon.svg" }
+```
+
+**Accueil** — ajouter `SoftwareApplication` (voir `index.html` comme référence)
+
+**Pages signes & guides** — `Article` avec `headline`, `author`, `datePublished`, `dateModified`, `image`
+
+**Pages avec FAQ** — `FAQPage` avec `mainEntity` (voir section FAQ de `index.html`)
+
+**Toutes les pages sauf accueil** — `BreadcrumbList` :
+```json
+{ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+  { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lunestia.app/" },
+  { "@type": "ListItem", "position": 2, "name": "Section", "item": "https://lunestia.app/section/" },
+  { "@type": "ListItem", "position": 3, "name": "Page courante" }
+]}
+```
+
+### Quand tu crées une nouvelle page
+
+1. Copie la structure d'une page existante du même type (signe, compatibilité, guide)
+2. Modifie le `title`, `description`, `h1`, `canonical`, balises OG, JSON-LD
+3. Ajoute les liens internes vers/depuis les pages liées
+4. Mets à jour `sitemap.xml` avec la nouvelle URL et `<lastmod>` au format `YYYY-MM-DD`
+5. Vérifie que la hiérarchie de titres est correcte
+
+### Quand tu modifies une page existante
+
+1. Mets à jour `dateModified` dans le JSON-LD Article
+2. Ne casse pas les URLs existantes — si tu renommes, ajoute une redirection 301
+3. Mets à jour `<lastmod>` dans `sitemap.xml`
+
+### URLs
+
+- Format : minuscules, sans accents, tirets comme séparateurs
+- Structure : `/signes/[signe]`, `/compatibilite/[signe1]-[signe2]`, `/guide/[sujet]`
+- Les compatibilités n'existent que dans un sens (`belier-scorpion`, jamais `scorpion-belier`)
+- Cohérence trailing slash : pas de slash final, `vercel.json` a `"trailingSlash": false`
+
+### Interdit
+
+- Pas de contenu dupliqué entre les pages
+- Pas de JS bloquant le rendu (toujours `defer`)
+- Pas de liens cassés ni de pages orphelines
+- Pas de `<div>` là où une balise sémantique existe
+- Pas de `console.log` dans le code final
