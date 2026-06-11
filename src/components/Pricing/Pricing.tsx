@@ -12,10 +12,10 @@ export function Pricing() {
             eyebrow="Tarifs"
             title={
               <>
-                Simple. <em>Honnête.</em>
+                Comprenez vos cycles. <em>Explorez votre destinée.</em>
               </>
             }
-            lead="Commencez gratuitement. Passez Premium quand vous voulez aller plus loin."
+            lead="Des analyses astrologiques claires, modernes et personnalisées."
             centered
           />
         </AnimateIn>

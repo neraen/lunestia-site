@@ -17,7 +17,9 @@
       "Bash(node --check scripts/data/compat.mjs)",
       "Bash(perl -i -pe 's/q: \\\\x27\\(.*?\\)\\\\x27, a: \"/q: \"$1\", a: \"/g' scripts/data/compat.mjs)",
       "Bash(node scripts/generate.mjs)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/cgu.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/)"
     ]
   }
 }

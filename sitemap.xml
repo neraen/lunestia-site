@@ -228,4 +228,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://lunestia.app/mentions-legales</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lunestia.app/confidentialite</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://lunestia.app/cgu</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

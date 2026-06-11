@@ -1554,6 +1554,43 @@ details.faq-item > summary:focus-visible {
   margin: 56px 0;
 }
 
+/* Lists inside prose body (legal pages, guides) */
+.article-body ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.article-body ul li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+}
+
+.article-body ul li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--gold);
+  font-size: 13px;
+}
+
+/* Legal pages: smaller lead, updated-date stamp */
+.legal-updated {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+.article-body h2 + p,
+.article-body h3 + p {
+  margin-top: 0;
+}
+
 /* FAQ inside article reuses .faq-item; constrain width */
 .article-faq {
   margin-top: 16px;
