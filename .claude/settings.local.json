@@ -2,7 +2,22 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(python3 -m http.server 8899)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8899/)",
+      "Bash(python3 *)",
+      "Bash(pkill -f \"python3 -m http.server 8899\")",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(pkill -f \"http.server 8899\")",
+      "Bash(node --check scripts/data/signs.mjs)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node --check scripts/data/guides.mjs)",
+      "Bash(node --check scripts/data/compat.mjs)",
+      "Bash(perl -i -pe 's/q: \\\\x27\\(.*?\\)\\\\x27, a: \"/q: \"$1\", a: \"/g' scripts/data/compat.mjs)",
+      "Bash(node scripts/generate.mjs)",
+      "mcp__Claude_Preview__preview_start"
     ]
   }
 }
