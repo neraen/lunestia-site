@@ -1445,23 +1445,27 @@ details.faq-item > summary:focus-visible {
   box-shadow: 0 0 24px rgba(230, 200, 96, 0.12), inset 0 1px 0 rgba(230, 200, 96, 0.1);
 }
 
-.article-glyph svg {
+.article-glyph svg,
+.article-glyph img {
   width: 40px;
   height: 40px;
   filter: drop-shadow(0 0 6px rgba(230, 200, 96, 0.5));
 }
 
 /* Compat pages: two sign glyphs side by side */
-.article-glyph svg + svg {
+.article-glyph svg + svg,
+.article-glyph img + img {
   margin-left: 4px;
 }
 
-.article-glyph:has(svg + svg) {
+.article-glyph:has(svg + svg),
+.article-glyph:has(img + img) {
   width: 88px;
   gap: 2px;
 }
 
-.article-glyph:has(svg + svg) svg {
+.article-glyph:has(svg + svg) svg,
+.article-glyph:has(img + img) img {
   width: 28px;
   height: 28px;
 }
@@ -1671,7 +1675,8 @@ details.faq-item > summary:focus-visible {
   box-shadow: 0 0 10px rgba(230, 200, 96, 0.1);
 }
 
-.related-card-glyph svg {
+.related-card-glyph svg,
+.related-card-glyph img {
   width: 22px;
   height: 22px;
   filter: drop-shadow(0 0 3px rgba(230, 200, 96, 0.4));
@@ -1761,7 +1766,8 @@ details.faq-item > summary:focus-visible {
   box-shadow: 0 0 16px rgba(230, 200, 96, 0.1), inset 0 1px 0 rgba(230, 200, 96, 0.08);
 }
 
-.hub-card-glyph svg {
+.hub-card-glyph svg,
+.hub-card-glyph img {
   width: 32px;
   height: 32px;
   filter: drop-shadow(0 0 4px rgba(230, 200, 96, 0.45));
