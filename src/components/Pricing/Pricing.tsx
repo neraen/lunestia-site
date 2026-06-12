@@ -22,14 +22,16 @@ export function Pricing() {
         <div className={styles.grid}>
           <AnimateIn>
             <PriceCard
-              name="Découverte"
+              name="Gratuit"
               description="Pour comprendre les bases de votre ciel."
               price="0€"
               period="/ pour toujours"
               features={[
-                'Horoscope du jour personnalisé',
-                'Thème natal (Soleil, Lune, Asc.)',
-                '3 questions à Lyra par mois',
+                <span key="horoscope"><strong>Horoscope quotidien :</strong> Tes prévisions chaque jour.</span>,
+                <span key="theme"><strong>Thème natal :</strong> Ta carte du ciel essentielle.</span>,
+                <span key="lyra"><strong>Lyra IA :</strong> 5 questions à ton astrologue privé.</span>,
+                <span key="compat"><strong>Compatibilité :</strong> 1 analyse relationnelle.</span>,
+                <span key="miroir"><strong>Miroir Temporel :</strong> Aperçu d'une année de ta vie.</span>,
               ]}
               ctaText="Commencer gratuitement"
               ctaVariant="ghost"
@@ -39,14 +41,14 @@ export function Pricing() {
             <PriceCard
               name="Premium"
               description="L'expérience complète, sans limite."
-              price="7,99€"
+              price="7,99 €"
               period="/ mois"
               features={[
-                'Tout du plan Découverte',
-                'Lyra en illimité, 24/7',
-                'Synastrie & compatibilité détaillées',
-                'Calendrier astral complet',
-                'Notifications de transits',
+                <span key="illimite"><strong>Lyra en illimité :</strong> Pose tes questions sans aucune restriction.</span>,
+                <span key="infinies"><strong>Compatibilités infinies :</strong> Teste toutes tes relations.</span>,
+                <span key="transits"><strong>Calendrier des transits :</strong> Anticipe les mouvements planétaires.</span>,
+                <span key="integral"><strong>Miroir intégral :</strong> L'analyse complète de ta chronologie.</span>,
+                <span key="approfondi"><strong>Thème approfondi :</strong> Décrypte tes relations et ton chemin de vie.</span>,
               ]}
               ctaText="Essayer 7 jours gratuits"
               ctaVariant="primary"

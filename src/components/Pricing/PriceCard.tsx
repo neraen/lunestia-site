@@ -1,4 +1,5 @@
 import { Button } from '../ui/Button'
+import type { ReactNode } from 'react'
 import styles from './PriceCard.module.css'
 
 interface PriceCardProps {
@@ -6,7 +7,7 @@ interface PriceCardProps {
   description: string
   price: string
   period: string
-  features: string[]
+  features: (string | ReactNode)[]
   ctaText: string
   ctaVariant?: 'primary' | 'ghost'
   featured?: boolean
