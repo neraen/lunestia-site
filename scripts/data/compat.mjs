@@ -2,14 +2,15 @@
 // Each pair is analysed through its real zodiacal aspect (opposition, trigone…),
 // never reduced to a score out of 10. Both signs are treated with equal depth.
 import { GLYPH, NAME } from './signs.mjs';
+import { SPARKLE_SVG, HEART_SVG } from '../lib/icons.mjs';
 
 const ELEM = {
   belier: 'Feu', taureau: 'Terre', gemeaux: 'Air', cancer: 'Eau', lion: 'Feu', vierge: 'Terre',
   balance: 'Air', scorpion: 'Eau', sagittaire: 'Feu', capricorne: 'Terre', verseau: 'Air', poissons: 'Eau',
 };
 const sc = (slug, label) => ({ href: `/signes/${slug}`, glyph: GLYPH[slug], label, name: NAME[slug] });
-const guideCard = { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' };
-const compatCard = (slug, name) => ({ href: `/compatibilite/${slug}`, glyph: '♥', label: 'Compatibilité', name });
+const guideCard = { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'Le thème natal' };
+const compatCard = (slug, name) => ({ href: `/compatibilite/${slug}`, glyph: HEART_SVG, label: 'Compatibilité', name });
 
 // Zodiac order — drives the canonical slug direction and the aspect between signs.
 export const SIGN_ORDER = [

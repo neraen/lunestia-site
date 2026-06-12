@@ -1,10 +1,12 @@
 // Content data for the astrology guide pages.
 
+import { ZODIAC_SVG, PLANET_SVG, SPARKLE_SVG, HEART_SVG } from '../lib/icons.mjs';
+
 const signCard = (slug, glyph, label, name) => ({ href: `/signes/${slug}`, glyph, label, name });
 
 export const guides = [
   {
-    slug: 'theme-natal', name: 'Le thème natal', glyph: '✦', hubMeta: 'Le concept fondateur',
+    slug: 'theme-natal', name: 'Le thème natal', glyph: SPARKLE_SVG, hubMeta: 'Le concept fondateur',
     faqHeadingName: 'le thème natal',
     metaTitle: 'Thème natal : qu\'est-ce que c\'est et comment le lire | Lunestia',
     metaDesc: "Le thème natal est la photographie du ciel à votre naissance. Découvrez ce qu'il révèle, Soleil, Lune, Ascendant, planètes, maisons, et comment l'interpréter.",
@@ -43,15 +45,15 @@ export const guides = [
     ctaH2: "Découvrez votre thème natal complet",
     ctaP: "Lunestia calcule votre carte du ciel au degré près et vous l'explique dans un langage clair. Soleil, Lune, Ascendant, maisons, aspects, et Lyra pour répondre à toutes vos questions.",
     related: [
-      { href: '/guide/ascendant', glyph: '✦', label: 'Guide', name: "L'ascendant" },
-      { href: '/guide/elements', glyph: '✦', label: 'Guide', name: 'Les éléments' },
-      signCard('belier', '♈', 'Signe', 'Bélier'),
-      { href: '/signes', glyph: '✦', label: 'Explorer', name: 'Les 12 signes' },
+      { href: '/guide/ascendant', glyph: SPARKLE_SVG, label: 'Guide', name: "L'ascendant" },
+      { href: '/guide/elements', glyph: SPARKLE_SVG, label: 'Guide', name: 'Les éléments' },
+      signCard('belier', ZODIAC_SVG.belier, 'Signe', 'Bélier'),
+      { href: '/signes', glyph: SPARKLE_SVG, label: 'Explorer', name: 'Les 12 signes' },
     ],
   },
 
   {
-    slug: 'ascendant', name: 'L\'ascendant', glyph: '✦', hubMeta: 'Le masque et la porte',
+    slug: 'ascendant', name: 'L\'ascendant', glyph: SPARKLE_SVG, hubMeta: 'Le masque et la porte',
     faqHeadingName: "l'ascendant",
     metaTitle: 'Ascendant astrologique : ce qu\'il révèle et comment le calculer | Lunestia',
     metaDesc: "L'ascendant est le signe qui se levait à l'horizon à votre naissance. Découvrez ce qu'il dit de vous, votre style, votre masque, votre porte d'entrée dans la vie.",
@@ -87,15 +89,15 @@ export const guides = [
     ctaH2: "Quel est votre ascendant ?",
     ctaP: "Entrez votre date, heure et lieu de naissance dans Lunestia et découvrez votre ascendant en quelques secondes, avec son interprétation détaillée et sa place dans votre thème complet.",
     related: [
-      { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' },
-      { href: '/guide/elements', glyph: '✦', label: 'Guide', name: 'Les éléments' },
-      { href: '/signes', glyph: '✦', label: 'Explorer', name: 'Les 12 signes' },
-      { href: '/compatibilite', glyph: '♥', label: 'Explorer', name: 'Compatibilités' },
+      { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'Le thème natal' },
+      { href: '/guide/elements', glyph: SPARKLE_SVG, label: 'Guide', name: 'Les éléments' },
+      { href: '/signes', glyph: SPARKLE_SVG, label: 'Explorer', name: 'Les 12 signes' },
+      { href: '/compatibilite', glyph: HEART_SVG, label: 'Explorer', name: 'Compatibilités' },
     ],
   },
 
   {
-    slug: 'elements', name: 'Les éléments', glyph: '✦', hubMeta: 'Feu, terre, air, eau',
+    slug: 'elements', name: 'Les éléments', glyph: SPARKLE_SVG, hubMeta: 'Feu, terre, air, eau',
     faqHeadingName: 'les éléments',
     metaTitle: 'Les 4 éléments en astrologie : feu, terre, air, eau | Lunestia',
     metaDesc: "Feu, terre, air, eau : les quatre éléments sont la grammaire énergétique du zodiaque. Découvrez ce que chacun révèle et comment ils colorent les douze signes.",
@@ -136,15 +138,15 @@ export const guides = [
     ctaH2: "Quel est votre équilibre élémentaire ?",
     ctaP: "Lunestia analyse la répartition des éléments dans votre thème natal complet et vous explique ce que votre dominante, ou votre manque, révèle de votre tempérament.",
     related: [
-      { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' },
-      { href: '/guide/ascendant', glyph: '✦', label: 'Guide', name: "L'ascendant" },
-      { href: '/signes', glyph: '✦', label: 'Explorer', name: 'Les 12 signes' },
-      { href: '/guide/mercure-retrograde', glyph: '☿', label: 'Guide', name: 'Mercure rétrograde' },
+      { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'Le thème natal' },
+      { href: '/guide/ascendant', glyph: SPARKLE_SVG, label: 'Guide', name: "L'ascendant" },
+      { href: '/signes', glyph: SPARKLE_SVG, label: 'Explorer', name: 'Les 12 signes' },
+      { href: '/guide/mercure-retrograde', glyph: PLANET_SVG.mercure, label: 'Guide', name: 'Mercure rétrograde' },
     ],
   },
 
   {
-    slug: 'mercure-retrograde', name: 'Mercure rétrograde', glyph: '☿', hubMeta: 'Le transit le plus célèbre',
+    slug: 'mercure-retrograde', name: 'Mercure rétrograde', glyph: PLANET_SVG.mercure, hubMeta: 'Le transit le plus célèbre',
     faqHeadingName: 'Mercure rétrograde',
     metaTitle: 'Mercure rétrograde : ce que ça signifie vraiment | Lunestia',
     metaDesc: "Mercure rétrograde : ni catastrophe ni superstition. Découvrez ce que ce transit signifie réellement, ses effets et comment le traverser sereinement.",
@@ -177,10 +179,10 @@ export const guides = [
     ctaH2: "Quels transits vous concernent vraiment ?",
     ctaP: "Lunestia projette les transits, dont Mercure rétrograde, sur votre thème natal personnel et vous dit lesquels vous touchent réellement, et quand. Fini l'astrologie générique.",
     related: [
-      { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' },
-      { href: '/guide/elements', glyph: '✦', label: 'Guide', name: 'Les éléments' },
-      { href: '/signes/gemeaux', glyph: '♊', label: 'Régi par Mercure', name: 'Gémeaux' },
-      { href: '/signes/vierge', glyph: '♍', label: 'Régi par Mercure', name: 'Vierge' },
+      { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'Le thème natal' },
+      { href: '/guide/elements', glyph: SPARKLE_SVG, label: 'Guide', name: 'Les éléments' },
+      { href: '/signes/gemeaux', glyph: ZODIAC_SVG.gemeaux, label: 'Régi par Mercure', name: 'Gémeaux' },
+      { href: '/signes/vierge', glyph: ZODIAC_SVG.vierge, label: 'Régi par Mercure', name: 'Vierge' },
     ],
   },
 ];

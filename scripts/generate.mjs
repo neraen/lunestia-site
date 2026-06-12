@@ -12,6 +12,7 @@ import { SITE } from './lib/layout.mjs';
 import { signs, GLYPH, NAME } from './data/signs.mjs';
 import { compat, SIGN_ORDER, canonicalSlug, aspectInfo } from './data/compat.mjs';
 import { guides } from './data/guides.mjs';
+import { SPARKLE_SVG, HEART_SVG } from './lib/icons.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -27,7 +28,7 @@ const ELEMENT_SHORT = (s) => `${s.element} · ${s.dates}`;
 
 // --- Sign pages ---
 console.log('Signes :');
-for (const s of signs) write(`signes/${s.slug}.html`, renderSign(s));
+for (const s of signs) write(`signes/${s.slug}.html`, renderSign({ ...s, glyph: GLYPH[s.slug] }));
 
 // --- Compatibility pages ---
 console.log('Compatibilités :');
@@ -43,7 +44,7 @@ for (const s of SIGN_ORDER) {
     .filter(({ slug }) => existingCompat.has(slug))
     .map(({ p, slug }) => ({
       href: `/compatibilite/${slug}`,
-      glyph: p === s ? GLYPH[s] : `${GLYPH[s]}${GLYPH[p]}`,
+      glyph: GLYPH[p],
       name: p === s ? `${NAME[s]} & ${NAME[s]}` : `${NAME[s]} & ${NAME[p]}`,
       meta: aspectInfo(s, p),
     }));
@@ -58,8 +59,8 @@ for (const s of SIGN_ORDER) {
     ctaP: `Ces portraits comparent les signes solaires. Pour votre compatibilité réelle, la synastrie confronte vos deux thèmes natals entiers. Calculez-la dans Lunestia avec Lyra.`,
     related: [
       { href: `/signes/${s}`, glyph: GLYPH[s], label: 'Le signe', name: NAME[s] },
-      { href: '/compatibilite', glyph: '♥', label: 'Explorer', name: 'Tous les signes' },
-      { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'La synastrie' },
+      { href: '/compatibilite', glyph: HEART_SVG, label: 'Explorer', name: 'Tous les signes' },
+      { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'La synastrie' },
     ],
   }));
 }
@@ -75,7 +76,7 @@ write('signes.html', renderHub({
   metaDesc: "Découvrez les 12 signes du zodiaque comme vous ne les avez jamais lus : archétype, ombre, amour et évolution. Des portraits astrologiques profonds, loin des clichés.",
   h1Html: 'Les 12 signes du <em>zodiaque</em>',
   leadHtml: "Chaque signe est un archétype, une manière d'habiter le monde. Voici douze portraits qui vont au-delà des clichés — la psychologie profonde derrière chaque énergie, son ombre et son chemin de lumière.",
-  cards: signs.map((s) => ({ href: `/signes/${s.slug}`, glyph: s.glyph, name: s.name, meta: ELEMENT_SHORT(s) })),
+  cards: signs.map((s) => ({ href: `/signes/${s.slug}`, glyph: GLYPH[s.slug], name: s.name, meta: ELEMENT_SHORT(s) })),
   ctaH2: "Et vous, quel est votre vrai portrait astral ?",
   ctaP: "Votre signe solaire n'est qu'une pièce du puzzle. Découvrez votre thème natal complet — Lune, Ascendant, maisons — dans Lunestia, et laissez Lyra vous lire au degré près.",
 }));

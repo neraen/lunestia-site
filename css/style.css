@@ -1436,14 +1436,34 @@ details.faq-item > summary:focus-visible {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 22px;
   background: var(--gold-soft);
   color: var(--gold);
-  font-size: 34px;
-  font-family: 'Newsreader', Georgia, serif;
   margin-bottom: 24px;
+  box-shadow: 0 0 24px rgba(230, 200, 96, 0.12), inset 0 1px 0 rgba(230, 200, 96, 0.1);
+}
+
+.article-glyph svg {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 6px rgba(230, 200, 96, 0.5));
+}
+
+/* Compat pages: two sign glyphs side by side */
+.article-glyph svg + svg {
+  margin-left: 4px;
+}
+
+.article-glyph:has(svg + svg) {
+  width: 88px;
+  gap: 2px;
+}
+
+.article-glyph:has(svg + svg) svg {
+  width: 28px;
+  height: 28px;
 }
 
 .article-title {
@@ -1537,6 +1557,11 @@ details.faq-item > summary:focus-visible {
 
 .article-body a:hover {
   border-bottom-color: var(--gold);
+}
+
+.article-body a.btn-primary {
+  color: #14102a;
+  border-bottom: none;
 }
 
 .article-body strong {
@@ -1635,16 +1660,21 @@ details.faq-item > summary:focus-visible {
 
 .related-card-glyph {
   flex-shrink: 0;
-  width: 38px;
-  height: 38px;
-  border-radius: 11px;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
   background: var(--gold-soft);
   color: var(--gold);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 20px;
+  box-shadow: 0 0 10px rgba(230, 200, 96, 0.1);
+}
+
+.related-card-glyph svg {
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(0 0 3px rgba(230, 200, 96, 0.4));
 }
 
 .related-card-text {
@@ -1719,11 +1749,22 @@ details.faq-item > summary:focus-visible {
 }
 
 .hub-card-glyph {
-  font-family: 'Newsreader', Georgia, serif;
-  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: var(--gold-soft);
   color: var(--gold);
-  line-height: 1;
-  margin-bottom: 8px;
+  margin: 0 auto 12px;
+  box-shadow: 0 0 16px rgba(230, 200, 96, 0.1), inset 0 1px 0 rgba(230, 200, 96, 0.08);
+}
+
+.hub-card-glyph svg {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 0 4px rgba(230, 200, 96, 0.45));
 }
 
 .hub-card-name {

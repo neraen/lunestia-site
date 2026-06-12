@@ -2,17 +2,16 @@
 // Prose follows the Lunestia editorial voice: psychological depth, no clichés,
 // no bullet-point trait lists, warmth without new-age mysticism.
 
-export const GLYPH = {
-  belier: '♈', taureau: '♉', gemeaux: '♊', cancer: '♋', lion: '♌', vierge: '♍',
-  balance: '♎', scorpion: '♏', sagittaire: '♐', capricorne: '♑', verseau: '♒', poissons: '♓',
-};
+import { ZODIAC_SVG, SPARKLE_SVG } from '../lib/icons.mjs';
+
+export const GLYPH = ZODIAC_SVG;
 export const NAME = {
   belier: 'Bélier', taureau: 'Taureau', gemeaux: 'Gémeaux', cancer: 'Cancer', lion: 'Lion', vierge: 'Vierge',
   balance: 'Balance', scorpion: 'Scorpion', sagittaire: 'Sagittaire', capricorne: 'Capricorne', verseau: 'Verseau', poissons: 'Poissons',
 };
 
 const card = (slug, label) => ({ href: `/signes/${slug}`, glyph: GLYPH[slug], label, name: NAME[slug] });
-const guideCard = { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' };
+const guideCard = { href: '/guide/theme-natal', glyph: SPARKLE_SVG, label: 'Guide', name: 'Le thème natal' };
 
 function related(opp, same) {
   return [card(opp, 'Signe opposé'), card(same[0], 'Même élément'), card(same[1], 'Même élément'), guideCard];
@@ -20,7 +19,7 @@ function related(opp, same) {
 
 export const signs = [
   {
-    slug: 'belier', name: 'Bélier', glyph: '♈', element: 'Feu', mode: 'Cardinal', planet: 'Mars', dates: '21 mars – 19 avril',
+    slug: 'belier', name: 'Bélier', glyph: ZODIAC_SVG.belier, element: 'Feu', mode: 'Cardinal', planet: 'Mars', dates: '21 mars – 19 avril',
     metaTitle: 'Bélier : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Bélier en astrologie : l'archétype du feu cardinal, sa planète Mars, son amour, son ombre et son chemin d'évolution. Bien au-delà des clichés du fonceur.",
     ogDesc: "L'archétype du Bélier au-delà des clichés : feu cardinal, Mars, amour, ombre et évolution.",
@@ -69,7 +68,7 @@ export const signs = [
   },
 
   {
-    slug: 'taureau', name: 'Taureau', glyph: '♉', element: 'Terre', mode: 'Fixe', planet: 'Vénus', dates: '20 avril – 20 mai',
+    slug: 'taureau', name: 'Taureau', glyph: ZODIAC_SVG.taureau, element: 'Terre', mode: 'Fixe', planet: 'Vénus', dates: '20 avril – 20 mai',
     metaTitle: 'Taureau : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Taureau en astrologie : la terre fixe régie par Vénus, son rapport au plaisir et à la sécurité, son ombre possessive et son chemin d'évolution vers la confiance.",
     ogDesc: "La terre fixe de Vénus : plaisir, sécurité, ténacité et l'art de durer. Le Taureau au-delà des clichés.",
@@ -118,7 +117,7 @@ export const signs = [
   },
 
   {
-    slug: 'gemeaux', name: 'Gémeaux', glyph: '♊', element: 'Air', mode: 'Mutable', planet: 'Mercure', dates: '21 mai – 20 juin',
+    slug: 'gemeaux', name: 'Gémeaux', glyph: ZODIAC_SVG.gemeaux, element: 'Air', mode: 'Mutable', planet: 'Mercure', dates: '21 mai – 20 juin',
     metaTitle: 'Gémeaux : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Gémeaux en astrologie : l'air mutable régi par Mercure, sa curiosité, sa dualité, son ombre dispersée et son chemin vers une parole reliée au cœur.",
     ogDesc: "L'air mutable de Mercure : curiosité, langage, dualité et le besoin de relier les mondes. Les Gémeaux au-delà des clichés.",
@@ -167,7 +166,7 @@ export const signs = [
   },
 
   {
-    slug: 'cancer', name: 'Cancer', glyph: '♋', element: 'Eau', mode: 'Cardinal', planet: 'Lune', dates: '21 juin – 22 juillet',
+    slug: 'cancer', name: 'Cancer', glyph: ZODIAC_SVG.cancer, element: 'Eau', mode: 'Cardinal', planet: 'Lune', dates: '21 juin – 22 juillet',
     metaTitle: 'Cancer : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Cancer en astrologie : l'eau cardinale régie par la Lune, sa sensibilité, son besoin d'appartenance, son ombre protectrice et son chemin vers la sécurité intérieure.",
     ogDesc: "L'eau cardinale de la Lune : mémoire, tendresse, protection et le besoin d'un foyer. Le Cancer au-delà des clichés.",
@@ -216,7 +215,7 @@ export const signs = [
   },
 
   {
-    slug: 'lion', name: 'Lion', glyph: '♌', element: 'Feu', mode: 'Fixe', planet: 'Soleil', dates: '23 juillet – 22 août',
+    slug: 'lion', name: 'Lion', glyph: ZODIAC_SVG.lion, element: 'Feu', mode: 'Fixe', planet: 'Soleil', dates: '23 juillet – 22 août',
     metaTitle: 'Lion : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Lion en astrologie : le feu fixe régi par le Soleil, son besoin de rayonner, sa générosité, son ombre orgueilleuse et son chemin vers une royauté du cœur.",
     ogDesc: "Le feu fixe du Soleil : rayonnement, créativité, générosité et le besoin d'être vu. Le Lion au-delà des clichés.",
@@ -265,7 +264,7 @@ export const signs = [
   },
 
   {
-    slug: 'vierge', name: 'Vierge', glyph: '♍', element: 'Terre', mode: 'Mutable', planet: 'Mercure', dates: '23 août – 22 septembre',
+    slug: 'vierge', name: 'Vierge', glyph: ZODIAC_SVG.vierge, element: 'Terre', mode: 'Mutable', planet: 'Mercure', dates: '23 août – 22 septembre',
     metaTitle: 'Vierge : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Vierge en astrologie : la terre mutable régie par Mercure, son sens du détail, son désir de servir, son ombre critique et son chemin vers l'acceptation.",
     ogDesc: "La terre mutable de Mercure : analyse, service, perfectionnement et le désir de rendre le monde meilleur. La Vierge au-delà des clichés.",
@@ -314,7 +313,7 @@ export const signs = [
   },
 
   {
-    slug: 'balance', name: 'Balance', glyph: '♎', element: 'Air', mode: 'Cardinal', planet: 'Vénus', dates: '23 septembre – 22 octobre',
+    slug: 'balance', name: 'Balance', glyph: ZODIAC_SVG.balance, element: 'Air', mode: 'Cardinal', planet: 'Vénus', dates: '23 septembre – 22 octobre',
     metaTitle: 'Balance : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Balance en astrologie : l'air cardinal régi par Vénus, son sens de l'harmonie et de la relation, son ombre indécise et son chemin vers une paix qui ne se renie pas.",
     ogDesc: "L'air cardinal de Vénus : harmonie, relation, justice et l'art du lien. La Balance au-delà des clichés.",
@@ -363,7 +362,7 @@ export const signs = [
   },
 
   {
-    slug: 'scorpion', name: 'Scorpion', glyph: '♏', element: 'Eau', mode: 'Fixe', planet: 'Pluton (Mars trad.)', dates: '23 octobre – 21 novembre',
+    slug: 'scorpion', name: 'Scorpion', glyph: ZODIAC_SVG.scorpion, element: 'Eau', mode: 'Fixe', planet: 'Pluton (Mars trad.)', dates: '23 octobre – 21 novembre',
     metaTitle: 'Scorpion : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Scorpion en astrologie : l'eau fixe régie par Pluton, son intensité, son rapport à la transformation, son ombre de contrôle et son chemin vers la régénération.",
     ogDesc: "L'eau fixe de Pluton : intensité, vérité, transformation et le pouvoir de renaître. Le Scorpion au-delà des clichés.",
@@ -412,7 +411,7 @@ export const signs = [
   },
 
   {
-    slug: 'sagittaire', name: 'Sagittaire', glyph: '♐', element: 'Feu', mode: 'Mutable', planet: 'Jupiter', dates: '22 novembre – 21 décembre',
+    slug: 'sagittaire', name: 'Sagittaire', glyph: ZODIAC_SVG.sagittaire, element: 'Feu', mode: 'Mutable', planet: 'Jupiter', dates: '22 novembre – 21 décembre',
     metaTitle: 'Sagittaire : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Sagittaire en astrologie : le feu mutable régi par Jupiter, sa quête de sens et de liberté, son ombre fuyante et son chemin vers une sagesse incarnée.",
     ogDesc: "Le feu mutable de Jupiter : quête de sens, liberté, foi et horizon. Le Sagittaire au-delà des clichés.",
@@ -461,7 +460,7 @@ export const signs = [
   },
 
   {
-    slug: 'capricorne', name: 'Capricorne', glyph: '♑', element: 'Terre', mode: 'Cardinal', planet: 'Saturne', dates: '22 décembre – 19 janvier',
+    slug: 'capricorne', name: 'Capricorne', glyph: ZODIAC_SVG.capricorne, element: 'Terre', mode: 'Cardinal', planet: 'Saturne', dates: '22 décembre – 19 janvier',
     metaTitle: 'Capricorne : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Capricorne en astrologie : la terre cardinale régie par Saturne, son ambition, son sens des responsabilités, son ombre austère et son chemin vers une autorité juste.",
     ogDesc: "La terre cardinale de Saturne : ambition, structure, maturité et l'art de bâtir dans la durée. Le Capricorne au-delà des clichés.",
@@ -510,7 +509,7 @@ export const signs = [
   },
 
   {
-    slug: 'verseau', name: 'Verseau', glyph: '♒', element: 'Air', mode: 'Fixe', planet: 'Uranus (Saturne trad.)', dates: '20 janvier – 18 février',
+    slug: 'verseau', name: 'Verseau', glyph: ZODIAC_SVG.verseau, element: 'Air', mode: 'Fixe', planet: 'Uranus (Saturne trad.)', dates: '20 janvier – 18 février',
     metaTitle: 'Verseau : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Verseau en astrologie : l'air fixe régi par Uranus, son originalité, son idéal collectif, son ombre détachée et son chemin vers une humanité incarnée.",
     ogDesc: "L'air fixe d'Uranus : liberté, originalité, idéal et le sens du collectif. Le Verseau au-delà des clichés.",
@@ -559,7 +558,7 @@ export const signs = [
   },
 
   {
-    slug: 'poissons', name: 'Poissons', glyph: '♓', element: 'Eau', mode: 'Mutable', planet: 'Neptune (Jupiter trad.)', dates: '19 février – 20 mars',
+    slug: 'poissons', name: 'Poissons', glyph: ZODIAC_SVG.poissons, element: 'Eau', mode: 'Mutable', planet: 'Neptune (Jupiter trad.)', dates: '19 février – 20 mars',
     metaTitle: 'Poissons : signe astrologique, traits et compatibilité | Lunestia',
     metaDesc: "Poissons en astrologie : l'eau mutable régie par Neptune, sa sensibilité océanique, sa compassion, son ombre fuyante et son chemin vers une spiritualité incarnée.",
     ogDesc: "L'eau mutable de Neptune : compassion, imagination, spiritualité et dissolution des frontières. Les Poissons au-delà des clichés.",
