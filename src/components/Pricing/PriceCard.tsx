@@ -53,8 +53,8 @@ export function PriceCard({
         <span className={styles.per}>{period}</span>
       </div>
       <ul className={styles.features}>
-        {features.map((f) => (
-          <li key={f} className={styles.featureItem}>
+        {features.map((f, i) => (
+          <li key={i} className={styles.featureItem}>
             <CheckIcon />
             {f}
           </li>
