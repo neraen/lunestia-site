@@ -11,6 +11,37 @@ const sc = (slug, label) => ({ href: `/signes/${slug}`, glyph: GLYPH[slug], labe
 const guideCard = { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'Le thème natal' };
 const compatCard = (slug, name) => ({ href: `/compatibilite/${slug}`, glyph: '♥', label: 'Compatibilité', name });
 
+// Zodiac order — drives the canonical slug direction and the aspect between signs.
+export const SIGN_ORDER = [
+  'belier', 'taureau', 'gemeaux', 'cancer', 'lion', 'vierge',
+  'balance', 'scorpion', 'sagittaire', 'capricorne', 'verseau', 'poissons',
+];
+const idx = (s) => SIGN_ORDER.indexOf(s);
+
+const ASPECT_BY_DISTANCE = {
+  0: 'Conjonction (0°)',
+  1: 'Semi-sextile (30°)',
+  2: 'Sextile (60°)',
+  3: 'Carré (90°)',
+  4: 'Trigone (120°)',
+  5: 'Quinconce (150°)',
+  6: 'Opposition (180°)',
+};
+
+/** Zodiacal distance between two signs, folded to 0..6. */
+export function signDistance(a, b) {
+  const d = Math.abs(idx(a) - idx(b));
+  return Math.min(d, 12 - d);
+}
+/** Human aspect label between two signs. */
+export function aspectInfo(a, b) {
+  return ASPECT_BY_DISTANCE[signDistance(a, b)];
+}
+/** Canonical one-direction slug: earlier sign in zodiac order first. */
+export function canonicalSlug(a, b) {
+  return idx(a) <= idx(b) ? `${a}-${b}` : `${b}-${a}`;
+}
+
 // Helper to fill repetitive metadata fields from a small spec.
 function pair(spec) {
   const { a, b } = spec; // slugs
@@ -19,7 +50,7 @@ function pair(spec) {
     sign1: NAME[a], sign2: NAME[b],
     glyphs: `${GLYPH[a]}${GLYPH[b]}`,
     pairName: `${NAME[a]} & ${NAME[b]}`,
-    aspect: spec.aspect,
+    aspect: spec.aspect || aspectInfo(a, b),
     el1: ELEM[a], el2: ELEM[b],
     metaTitle: spec.metaTitle,
     metaDesc: spec.metaDesc,

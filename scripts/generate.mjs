@@ -7,10 +7,10 @@ import { writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { renderSign, renderCompat, renderGuide, renderHub } from './lib/render.mjs';
-import { SITE, page, breadcrumbLd, websiteLd, orgLd, ctaBlock, breadcrumb } from './lib/layout.mjs';
+import { renderSign, renderCompat, renderGuide, renderHub, renderCompatMenu } from './lib/render.mjs';
+import { SITE } from './lib/layout.mjs';
 import { signs, GLYPH, NAME } from './data/signs.mjs';
-import { compat } from './data/compat.mjs';
+import { compat, SIGN_ORDER, canonicalSlug, aspectInfo } from './data/compat.mjs';
 import { guides } from './data/guides.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -32,6 +32,37 @@ for (const s of signs) write(`signes/${s.slug}.html`, renderSign(s));
 // --- Compatibility pages ---
 console.log('Compatibilités :');
 for (const c of compat) write(`compatibilite/${c.slug}.html`, renderCompat(c));
+
+// --- Per-sign compatibility menus (/compatibilite/<signe>) ---
+// Menus list only couples that already have a page, so they never link to a 404.
+const existingCompat = new Set(compat.map((c) => c.slug));
+console.log('Menus compatibilité par signe :');
+for (const s of SIGN_ORDER) {
+  const cards = SIGN_ORDER
+    .map((p) => ({ p, slug: canonicalSlug(s, p) }))
+    .filter(({ slug }) => existingCompat.has(slug))
+    .map(({ p, slug }) => ({
+      href: `/compatibilite/${slug}`,
+      glyph: p === s ? GLYPH[s] : `${GLYPH[s]}${GLYPH[p]}`,
+      name: p === s ? `${NAME[s]} & ${NAME[s]}` : `${NAME[s]} & ${NAME[p]}`,
+      meta: aspectInfo(s, p),
+    }));
+  write(`compatibilite/${s}.html`, renderCompatMenu({
+    slug: s, name: NAME[s], glyph: GLYPH[s],
+    metaTitle: `Compatibilité ${NAME[s]} : tous les couples du zodiaque | Lunestia`,
+    metaDesc: `Compatibilité amoureuse du ${NAME[s]} avec les 12 signes du zodiaque. Découvrez la dynamique de chaque couple, analysée par l'aspect astrologique réel.`,
+    h1Html: `Compatibilité <em>${NAME[s]}</em> avec les 12 signes`,
+    leadHtml: `Avec quel signe le ${NAME[s]} s'accorde-t-il vraiment&nbsp;? Voici la compatibilité du ${NAME[s]} avec chacun des douze signes, lue à travers l'aspect zodiacal réel — bien plus juste qu'un simple verdict.`,
+    cards,
+    ctaH2: `La vraie compatibilité du ${NAME[s]} va plus loin`,
+    ctaP: `Ces portraits comparent les signes solaires. Pour votre compatibilité réelle, la synastrie confronte vos deux thèmes natals entiers. Calculez-la dans Lunestia avec Lyra.`,
+    related: [
+      { href: `/signes/${s}`, glyph: GLYPH[s], label: 'Le signe', name: NAME[s] },
+      { href: '/compatibilite', glyph: '♥', label: 'Explorer', name: 'Tous les signes' },
+      { href: '/guide/theme-natal', glyph: '✦', label: 'Guide', name: 'La synastrie' },
+    ],
+  }));
+}
 
 // --- Guide pages ---
 console.log('Guides :');
@@ -55,8 +86,8 @@ write('compatibilite.html', renderHub({
   metaTitle: 'Compatibilité amoureuse des signes du zodiaque | Lunestia',
   metaDesc: "La compatibilité amoureuse entre signes, analysée par l'aspect zodiacal réel — pas un score sur 10. Découvrez la dynamique profonde de chaque couple astrologique.",
   h1Html: 'Compatibilité <em>amoureuse</em> des signes',
-  leadHtml: "Oubliez les scores sur dix. Chaque couple raconte une dynamique unique, lue à travers l'aspect réel qui relie les deux signes. Voici nos analyses de compatibilité, fondées sur la rencontre des archétypes.",
-  cards: compat.map((c) => ({ href: `/compatibilite/${c.slug}`, glyph: c.glyphs, name: `${c.sign1} & ${c.sign2}`, meta: c.aspect })),
+  leadHtml: "Oubliez les scores sur dix. Chaque couple raconte une dynamique unique, lue à travers l'aspect réel qui relie les deux signes. Choisissez un signe pour voir sa compatibilité avec les douze autres.",
+  cards: SIGN_ORDER.map((s) => ({ href: `/compatibilite/${s}`, glyph: GLYPH[s], name: NAME[s], meta: 'Ses 12 compatibilités' })),
   ctaH2: "Votre vraie compatibilité va plus loin que les signes solaires",
   ctaP: "La synastrie compare vos deux thèmes natals entiers, pas seulement vos signes du Soleil. Calculez votre compatibilité réelle dans Lunestia avec Lyra.",
 }));
@@ -81,6 +112,7 @@ const urls = [
   { loc: `${SITE}/compatibilite`, pri: '0.8', freq: 'monthly' },
   { loc: `${SITE}/guide`, pri: '0.8', freq: 'monthly' },
   ...signs.map((s) => ({ loc: `${SITE}/signes/${s.slug}`, pri: '0.7', freq: 'monthly' })),
+  ...SIGN_ORDER.map((s) => ({ loc: `${SITE}/compatibilite/${s}`, pri: '0.7', freq: 'monthly' })),
   ...compat.map((c) => ({ loc: `${SITE}/compatibilite/${c.slug}`, pri: '0.6', freq: 'monthly' })),
   ...guides.map((g) => ({ loc: `${SITE}/guide/${g.slug}`, pri: '0.6', freq: 'monthly' })),
 ];

@@ -189,6 +189,53 @@ ${relatedBlock('À explorer ensuite', g.related)}
   });
 }
 
+/** Per-sign compatibility menu: lists the sign's couples (one card per partner). */
+export function renderCompatMenu(m) {
+  const url = `${SITE}/compatibilite/${m.slug}`;
+  const crumb = [
+    { name: 'Accueil', href: '/' },
+    { name: 'Compatibilité', href: '/compatibilite' },
+    { name: m.name },
+  ];
+  const cards = m.cards.map((c) => `              <a href="${c.href}" class="hub-card">
+                <span class="hub-card-glyph" aria-hidden="true">${c.glyph}</span>
+                <span class="hub-card-name">${c.name}</span>
+                <span class="hub-card-meta">${c.meta}</span>
+              </a>`).join('\n');
+  const main = `    <div class="container">
+      <article class="article-wrap">
+
+        ${breadcrumb(crumb)}
+
+        <header class="article-header animate-in">
+          <div class="article-glyph" aria-hidden="true">${m.glyph}</div>
+          <h1 class="article-title">${m.h1Html}</h1>
+          <p class="article-lead">${m.leadHtml}</p>
+        </header>
+
+        <div class="hub-grid">
+${cards}
+        </div>
+
+        <div class="article-body">
+${ctaBlock(m.ctaH2, m.ctaP, 'Calculer notre compatibilité')}
+
+${relatedBlock('Le signe en détail', m.related)}
+        </div>
+      </article>
+    </div>`;
+
+  return page({
+    title: m.metaTitle,
+    description: m.metaDesc,
+    canonical: url,
+    ogType: 'website',
+    mainClass: 'article-shell',
+    jsonLd: [websiteLd, orgLd, breadcrumbLd(crumb)],
+    main,
+  });
+}
+
 /** Hub / listing page. */
 export function renderHub(h) {
   const url = `${SITE}/${h.slug}`;
