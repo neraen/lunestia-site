@@ -2162,4 +2162,461 @@ export const compat = [
       { q: "Quel est le plus grand défi du couple Bélier-Poissons&nbsp;?", a: "Concilier l'affirmation du Bélier avec la sensibilité fuyante des Poissons. Le défi est que le Bélier devienne protecteur plutôt que dominateur et que les Poissons s'ancrent et s'affirment." },
     ],
   }),
+
+  // ===================== QUINCONCES (150°) — décalage, adaptation =====================
+  pair({
+    a: 'belier', b: 'vierge',
+    metaDesc: "Compatibilité Bélier Vierge : un quinconce entre le feu et la terre, deux signes sans rien en commun. L'impulsion contre la méthode, un ajustement permanent. Dynamique et forces.",
+    ogDesc: "Quinconce feu/terre : l'ajustement permanent entre l'élan du Bélier et la rigueur de la Vierge.",
+    h1Html: "Compatibilité Bélier & Vierge, l'<em>impulsion</em> et la <em>méthode</em>",
+    leadHtml: "Bélier et Vierge forment un quinconce, l'aspect du décalage et de l'adaptation. Cette compatibilité Bélier Vierge unit deux signes que rien ne relie naturellement — le feu pressé et la terre minutieuse — dans une relation qui exige des ajustements constants.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/belier\">Bélier</a> et la <a href=\"/signes/vierge\">Vierge</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Le Bélier fonce sans réfléchir, la Vierge analyse avant d'agir. Aucune affinité évidente — mais une relation où chacun, en s'ajustant à l'autre, comble ses propres angles morts.",
+      ] },
+      { h2: 'Bélier et Vierge : la dynamique profonde', paras: [
+        "Mars (Bélier) et Mercure (Vierge) opposent l'action instinctive et la réflexion méthodique. Le Bélier veut le résultat tout de suite, la Vierge veut le faire bien. Le Bélier apprend de la Vierge la précision et la patience, la Vierge apprend du Bélier l'audace et la spontanéité.",
+        "Le quinconce ne se résout jamais vraiment : il demande un effort d'adaptation continu. Le Bélier trouve la Vierge tatillonne et anxieuse, la Vierge trouve le Bélier brouillon et imprudent. C'est en acceptant l'inconfort que chacun grandit.",
+      ] },
+      { h2: 'Comment Bélier et Vierge communiquent', paras: [
+        "Le Bélier tranche vite et fort, la Vierge nuance et corrige. Le Bélier s'agace des objections de la Vierge, la Vierge se crispe devant la précipitation du Bélier. Leurs modes de pensée se télescopent.",
+        "La clé est la complémentarité assumée : le Bélier écoute les mises en garde de la Vierge, la Vierge soutient les élans du Bélier au lieu de les freiner. Ensemble, ils peuvent transformer une idée en action bien menée.",
+      ] },
+      { h2: "L'alchimie entre Bélier et Vierge", paras: [
+        "L'attirance vient du contraste : la Vierge est fascinée par l'assurance du Bélier, le Bélier intrigué par la pudeur attentive de la Vierge. L'un apporte l'ardeur, l'autre le soin délicat.",
+        "L'écueil tient au tempérament : le Bélier veut l'intensité immédiate, la Vierge a besoin de confiance et de lenteur pour s'ouvrir. Si le Bélier patiente et la Vierge se laisse aller, leur intimité conjugue fougue et tendresse attentive.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose l'impulsivité du Bélier au perfectionnisme de la Vierge. Le Bélier veut agir sans s'embarrasser des détails, la Vierge veut tout maîtriser avant de bouger. Le Bélier se sent freiné, la Vierge stressée par l'imprudence.",
+        "La clé de résolution : chacun adopte un peu du tempérament de l'autre. Le Bélier apprend à préparer, la Vierge à oser sans tout contrôler. Le décalage du quinconce devient un apprentissage mutuel exigeant mais fécond.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Bélier et Vierge forment une équipe complémentaire : le Bélier lance et ose, la Vierge affine et fiabilise. L'énergie de l'un et la rigueur de l'autre peuvent accomplir de belles choses.",
+        "La Vierge protège le Bélier de ses imprudences, le Bélier sort la Vierge de ses hésitations. Le décalage du quinconce, une fois apprivoisé, devient une vraie force entre le feu et la terre.",
+      ] },
+    ],
+    faq: [
+      { q: "Bélier et Vierge sont-ils compatibles&nbsp;?", a: "Bélier et Vierge forment un quinconce, aspect de décalage entre deux signes sans affinité naturelle : impulsion contre méthode. Leur compatibilité demande des ajustements constants, mais chacun comble les angles morts de l'autre. La synastrie complète des deux thèmes nuance fortement ce portrait." },
+      { q: "Pourquoi le Bélier et la Vierge sont-ils si différents&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Bélier (feu) agit par instinct et veut le résultat immédiat ; la Vierge (terre) analyse et veut bien faire. Le Bélier trouve la Vierge tatillonne, la Vierge trouve le Bélier imprudent : c'est le propre du quinconce." },
+      { q: "Quel est le plus grand défi du couple Bélier-Vierge&nbsp;?", a: "Concilier l'impulsivité du Bélier avec le perfectionnisme de la Vierge. Le défi est que le Bélier apprenne à préparer et que la Vierge apprenne à oser sans tout contrôler, chacun adoptant un peu du tempérament de l'autre." },
+    ],
+  }),
+
+  pair({
+    a: 'taureau', b: 'balance',
+    metaDesc: "Compatibilité Taureau Balance : un quinconce entre la terre et l'air, deux signes de Vénus aux mondes différents. La sécurité contre l'harmonie sociale. Dynamique, défis et forces.",
+    ogDesc: "Quinconce terre/air sous Vénus : l'ajustement entre l'ancrage du Taureau et la sociabilité de la Balance.",
+    h1Html: "Compatibilité Taureau & Balance, deux <em>Vénus</em> aux antipodes",
+    leadHtml: "Taureau et Balance forment un quinconce, l'aspect du décalage, tout en partageant la même planète : Vénus. Cette compatibilité Taureau Balance unit deux amoureux de la beauté qui ne l'habitent pas du tout de la même manière.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/taureau\">Taureau</a> et la <a href=\"/signes/balance\">Balance</a> sont tous deux gouvernés par Vénus, mais ne partagent ni élément ni mode : leur quinconce est l'aspect du décalage. Le Taureau aime par les sens et la sécurité, la Balance par l'harmonie et le lien social. Même planète, deux mondes — un ajustement permanent à trouver.",
+      ] },
+      { h2: 'Taureau et Balance : la dynamique profonde', paras: [
+        "Vénus terrienne (Taureau) et Vénus aérienne (Balance) : la première veut posséder et savourer, la seconde plaire et harmoniser. Le Taureau cherche la stabilité et l'intimité, la Balance la vie sociale et l'esthétique du lien. Le Taureau apprend de la Balance le raffinement et le sens de l'autre, la Balance apprend du Taureau l'ancrage et la constance.",
+        "Le quinconce demande un effort d'adaptation : le Taureau trouve la Balance trop tournée vers les autres et indécise, la Balance trouve le Taureau casanier et possessif. Mais leur amour commun de la beauté offre un terrain d'entente.",
+      ] },
+      { h2: 'Comment Taureau et Balance communiquent', paras: [
+        "Le Taureau est direct et concret, la Balance diplomate et nuancée. Le Taureau peut sembler abrupt à la Balance, qui peut sembler évasive au Taureau. Leurs styles relationnels diffèrent nettement.",
+        "La clé est la patience mutuelle : le Taureau accepte le besoin de dialogue et de vie sociale de la Balance, la Balance valorise la fiabilité du Taureau et ose trancher. Le concret rencontre alors l'élégance.",
+      ] },
+      { h2: "L'alchimie entre Taureau et Balance", paras: [
+        "L'attirance Vénusienne est réelle : tous deux aiment le plaisir, la beauté, la douceur. Le Taureau apporte la sensualité charnelle, la Balance la séduction raffinée. Leur goût commun de l'esthétique crée une connexion sensuelle.",
+        "L'écueil tient au besoin : le Taureau veut de la régularité et de la présence, la Balance de la romance et de la vie sociale. Si le Taureau s'ouvre et la Balance s'engage, leur intimité allie sensualité et raffinement.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de sécurité du Taureau à la sociabilité de la Balance. Le Taureau veut un cocon stable, la Balance a besoin de monde et d'échanges. La possessivité du Taureau se heurte au besoin de liberté sociale de la Balance.",
+        "La clé de résolution : le Taureau accorde de l'espace social à la Balance, la Balance rassure le Taureau par sa fidélité. Le décalage du quinconce devient un équilibre entre l'intimité et la vie sociale.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Taureau et Balance forment un couple esthète et harmonieux. Leur double Vénus en fait des amoureux de la beauté, du confort et des plaisirs partagés : leur foyer peut être à la fois douillet et élégant.",
+        "Le Taureau ancre la Balance, la Balance affine et socialise le Taureau. Le décalage du quinconce, une fois apprivoisé, devient une complicité autour de tout ce qui rend la vie belle.",
+      ] },
+    ],
+    faq: [
+      { q: "Taureau et Balance sont-ils compatibles&nbsp;?", a: "Taureau et Balance forment un quinconce, aspect de décalage, mais partagent Vénus : leur compatibilité unit deux amoureux de la beauté aux mondes différents. Elle demande des ajustements, mais le goût commun de l'esthétique aide. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Taureau et la Balance sont-ils différents malgré Vénus&nbsp;?", a: "Tous deux gouvernés par Vénus, ils l'expriment autrement : le Taureau (terre) par les sens, la possession et la sécurité ; la Balance (air) par l'harmonie, le lien social et l'esthétique. Même amour de la beauté, deux manières opposées de la vivre." },
+      { q: "Quel est le plus grand défi du couple Taureau-Balance&nbsp;?", a: "Concilier le besoin de sécurité et d'intimité du Taureau avec la sociabilité de la Balance. Le défi est que le Taureau accorde de l'espace social et que la Balance rassure le Taureau par sa fidélité." },
+    ],
+  }),
+
+  pair({
+    a: 'gemeaux', b: 'scorpion',
+    metaDesc: "Compatibilité Gémeaux Scorpion : un quinconce entre l'air et l'eau, la légèreté contre l'intensité. Deux signes sans rien en commun qui se fascinent. Dynamique, défis et forces.",
+    ogDesc: "Quinconce air/eau : l'ajustement déroutant entre la légèreté des Gémeaux et l'intensité du Scorpion.",
+    h1Html: "Compatibilité Gémeaux & Scorpion, la <em>légèreté</em> et l'<em>abîme</em>",
+    leadHtml: "Gémeaux et Scorpion forment un quinconce, l'aspect du décalage. Cette compatibilité Gémeaux Scorpion unit deux signes que tout sépare — l'air volatil et l'eau profonde — dans une fascination déroutante qui demande beaucoup d'adaptation.",
+    sections: [
+      { h2: null, paras: [
+        "Les <a href=\"/signes/gemeaux\">Gémeaux</a> et le <a href=\"/signes/scorpion\">Scorpion</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Les Gémeaux survolent et papillonnent, le Scorpion plonge et fusionne. La légèreté de l'un déroute la profondeur de l'autre — et pourtant, ils se fascinent.",
+      ] },
+      { h2: 'Gémeaux et Scorpion : la dynamique profonde', paras: [
+        "Mercure (Gémeaux) et Pluton (Scorpion) opposent la curiosité légère et l'obsession profonde. Les Gémeaux veulent tout savoir un peu, le Scorpion veut tout connaître à fond. Les Gémeaux apprennent du Scorpion l'intensité et l'engagement, le Scorpion apprend des Gémeaux la légèreté et le détachement.",
+        "Le quinconce demande un effort constant : les Gémeaux trouvent le Scorpion trop intense et possessif, le Scorpion trouve les Gémeaux superficiels et insaisissables. Mais le mystère de l'un attire la curiosité de l'autre.",
+      ] },
+      { h2: 'Comment Gémeaux et Scorpion communiquent', paras: [
+        "Les Gémeaux parlent de tout avec aisance, le Scorpion garde ses secrets et sonde. Les Gémeaux peuvent agacer le Scorpion par leur dispersion, le Scorpion peut inquiéter les Gémeaux par son intensité et sa méfiance.",
+        "La clé est l'authenticité : les Gémeaux osent la profondeur et la constance, le Scorpion accorde sa confiance et lâche le contrôle. Leur échange peut alors mêler vivacité et profondeur.",
+      ] },
+      { h2: "L'alchimie entre Gémeaux et Scorpion", paras: [
+        "L'attirance est magnétique et énigmatique : les Gémeaux sont fascinés par l'intensité du Scorpion, le Scorpion par l'insaisissabilité des Gémeaux. L'un apporte le jeu, l'autre la passion brûlante.",
+        "L'écueil tient au besoin : le Scorpion veut fusion et exclusivité, les Gémeaux liberté et légèreté. Si les Gémeaux s'investissent et le Scorpion lâche prise, leur intimité allie curiosité et intensité — un mélange rare.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose la légèreté des Gémeaux à l'intensité du Scorpion. Les Gémeaux fuient la lourdeur émotionnelle, le Scorpion exige profondeur et exclusivité. La jalousie du Scorpion se heurte au besoin de liberté et de sociabilité des Gémeaux.",
+        "La clé de résolution : les Gémeaux rassurent le Scorpion par leur sincérité, le Scorpion respecte le besoin d'air des Gémeaux. Le décalage du quinconce devient une rencontre entre surface lumineuse et profondeur.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Gémeaux et Scorpion forment un couple fascinant et complémentaire. Les Gémeaux allègent le Scorpion et l'ouvrent, le Scorpion approfondit les Gémeaux et les ancre dans le ressenti.",
+        "Les Gémeaux apportent l'air et le mouvement, le Scorpion l'eau et la profondeur. Le décalage du quinconce, une fois apprivoisé, devient une attraction durable entre deux mondes opposés.",
+      ] },
+    ],
+    faq: [
+      { q: "Gémeaux et Scorpion sont-ils compatibles&nbsp;?", a: "Gémeaux et Scorpion forment un quinconce, aspect de décalage entre deux signes sans affinité : légèreté contre intensité. Leur compatibilité est déroutante et demande beaucoup d'adaptation, mais la fascination mutuelle est réelle. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi les Gémeaux et le Scorpion se déroutent-ils&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Les Gémeaux (air) survolent, papillonnent et restent légers ; le Scorpion (eau) plonge, fusionne et exige la profondeur. La légèreté de l'un déroute l'intensité de l'autre." },
+      { q: "Quel est le plus grand défi du couple Gémeaux-Scorpion&nbsp;?", a: "Concilier la légèreté des Gémeaux avec l'intensité du Scorpion. Le défi est que les Gémeaux s'investissent émotionnellement et rassurent le Scorpion, et que le Scorpion lâche le contrôle et respecte leur besoin de liberté." },
+    ],
+  }),
+
+  pair({
+    a: 'cancer', b: 'sagittaire',
+    metaDesc: "Compatibilité Cancer Sagittaire : un quinconce entre l'eau et le feu, le foyer contre l'aventure. Deux signes sans rien en commun à ajuster. Dynamique, défis et forces du couple.",
+    ogDesc: "Quinconce eau/feu : l'ajustement entre le besoin de foyer du Cancer et la soif d'aventure du Sagittaire.",
+    h1Html: "Compatibilité Cancer & Sagittaire, le <em>foyer</em> et l'<em>horizon</em>",
+    leadHtml: "Cancer et Sagittaire forment un quinconce, l'aspect du décalage. Cette compatibilité Cancer Sagittaire unit deux signes que rien ne relie — l'eau qui veut un nid et le feu qui veut partir — dans une relation faite d'ajustements.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/cancer\">Cancer</a> et le <a href=\"/signes/sagittaire\">Sagittaire</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Le Cancer veut construire un foyer et se blottir, le Sagittaire veut courir le monde et s'envoler. Le besoin de racines de l'un défie le besoin d'ailes de l'autre.",
+      ] },
+      { h2: 'Cancer et Sagittaire : la dynamique profonde', paras: [
+        "La Lune (Cancer) et Jupiter (Sagittaire) opposent l'intimité protectrice et l'expansion joyeuse. Le Cancer cherche la sécurité émotionnelle, le Sagittaire la liberté et le sens. Le Cancer apprend du Sagittaire l'optimisme et l'ouverture, le Sagittaire apprend du Cancer la tendresse et l'enracinement.",
+        "Le quinconce demande un effort d'adaptation : le Cancer trouve le Sagittaire fuyant et insouciant, le Sagittaire trouve le Cancer trop émotif et casanier. Mais la chaleur du Sagittaire et la douceur du Cancer peuvent se rencontrer.",
+      ] },
+      { h2: 'Comment Cancer et Sagittaire communiquent', paras: [
+        "Le Cancer s'exprime par l'émotion et les sous-entendus, le Sagittaire par la franchise large et directe. La franchise du Sagittaire peut blesser la sensibilité du Cancer, dont les humeurs peuvent dérouter le Sagittaire.",
+        "La clé est la douceur et l'ouverture : le Sagittaire tient compte de la sensibilité du Cancer, le Cancer s'ouvre à la légèreté du Sagittaire sans tout prendre à cœur. Leur échange mêle alors chaleur et horizon.",
+      ] },
+      { h2: "L'alchimie entre Cancer et Sagittaire", paras: [
+        "L'attirance vient du contraste : le Cancer est réchauffé par la joie de vivre du Sagittaire, le Sagittaire attendri par la tendresse du Cancer. L'un apporte la fougue aventureuse, l'autre la douceur enveloppante.",
+        "L'écueil tient au besoin : le Cancer veut intimité et réassurance, le Sagittaire liberté et mouvement. Si le Sagittaire offre de la présence et le Cancer de l'espace, leur intimité allie tendresse et aventure.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de foyer du Cancer à la soif de liberté du Sagittaire. Le Cancer veut un nid et de la proximité, le Sagittaire veut de l'air et de l'aventure. Le Cancer peut se sentir abandonné, le Sagittaire enfermé.",
+        "La clé de résolution : le Sagittaire rassure le Cancer par sa fidélité et sa présence, le Cancer accorde au Sagittaire la liberté dont il a besoin. Le décalage du quinconce devient un équilibre entre racines et ailes.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Cancer et Sagittaire forment un couple où la chaleur du foyer rencontre la joie de l'aventure. Le Cancer offre au Sagittaire un port d'attache, le Sagittaire offre au Cancer des horizons et de l'optimisme.",
+        "Le Cancer ancre le Sagittaire, le Sagittaire élargit le monde du Cancer. Le décalage du quinconce, une fois apprivoisé, devient une complémentarité entre l'eau et le feu, le nid et le voyage.",
+      ] },
+    ],
+    faq: [
+      { q: "Cancer et Sagittaire sont-ils compatibles&nbsp;?", a: "Cancer et Sagittaire forment un quinconce, aspect de décalage entre deux signes sans affinité : le foyer contre l'aventure. Leur compatibilité demande des ajustements, mais la chaleur du Sagittaire et la douceur du Cancer peuvent se rejoindre. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Cancer et le Sagittaire sont-ils si différents&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Cancer (eau) veut un foyer, de la sécurité et de la proximité ; le Sagittaire (feu) veut la liberté, l'aventure et les horizons. Le besoin de racines de l'un défie le besoin d'ailes de l'autre." },
+      { q: "Quel est le plus grand défi du couple Cancer-Sagittaire&nbsp;?", a: "Concilier le besoin de foyer du Cancer avec la soif de liberté du Sagittaire. Le défi est que le Sagittaire rassure par sa présence et que le Cancer accorde de la liberté, équilibrant racines et ailes." },
+    ],
+  }),
+
+  pair({
+    a: 'lion', b: 'capricorne',
+    metaDesc: "Compatibilité Lion Capricorne : un quinconce entre le feu et la terre, l'éclat contre l'ambition discrète. Deux signes de pouvoir à ajuster. Dynamique, défis et forces du couple.",
+    ogDesc: "Quinconce feu/terre : l'ajustement entre le rayonnement du Lion et l'ambition réservée du Capricorne.",
+    h1Html: "Compatibilité Lion & Capricorne, l'<em>éclat</em> et l'<em>ambition</em>",
+    leadHtml: "Lion et Capricorne forment un quinconce, l'aspect du décalage. Cette compatibilité Lion Capricorne unit deux signes de pouvoir que tout sépare dans le style — le feu flamboyant et la terre réservée — dans une relation d'ajustement où le respect peut naître.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/lion\">Lion</a> et le <a href=\"/signes/capricorne\">Capricorne</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Tous deux veulent réussir et marquer, mais le Lion par l'éclat et la chaleur, le Capricorne par l'effort discret et la maîtrise. Deux ambitions, deux styles opposés.",
+      ] },
+      { h2: 'Lion et Capricorne : la dynamique profonde', paras: [
+        "Le Soleil (Lion) et Saturne (Capricorne) opposent le rayonnement spontané et la construction patiente. Le Lion veut être reconnu maintenant, le Capricorne bâtit sur le long terme. Le Lion apprend du Capricorne la discipline et la persévérance, le Capricorne apprend du Lion la chaleur et la confiance.",
+        "Le quinconce demande un effort d'adaptation : le Lion trouve le Capricorne froid et trop sérieux, le Capricorne trouve le Lion vaniteux et dépensier. Mais leur ambition commune et leur loyauté offrent un terrain de respect.",
+      ] },
+      { h2: 'Comment Lion et Capricorne communiquent', paras: [
+        "Le Lion s'exprime avec chaleur et grandeur, le Capricorne avec sobriété et pragmatisme. Le Lion a besoin d'éloges, le Capricorne reste avare de compliments : le Lion peut se sentir mal aimé, le Capricorne agacé par le besoin d'attention du Lion.",
+        "La clé est la reconnaissance mutuelle : le Lion respecte le sérieux du Capricorne, le Capricorne offre au Lion des marques de reconnaissance. Leur dialogue gagne alors en estime réciproque.",
+      ] },
+      { h2: "L'alchimie entre Lion et Capricorne", paras: [
+        "L'attirance vient du respect : le Lion est intrigué par la maîtrise du Capricorne, le Capricorne séduit par la vitalité du Lion. L'un apporte la passion chaleureuse, l'autre une sensualité contenue qui se révèle avec la confiance.",
+        "L'écueil tient au tempérament : le Lion veut démonstration et romance, le Capricorne est pudique et réservé. Si le Lion respecte la pudeur du Capricorne et le Capricorne se réchauffe, leur intimité allie chaleur et profondeur.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de reconnaissance du Lion à la réserve du Capricorne. Le Lion veut briller et être admiré, le Capricorne reste discret et concentré sur ses objectifs. Le Lion peut se sentir négligé, le Capricorne exaspéré par l'ego du Lion.",
+        "La clé de résolution : le Capricorne valorise le Lion, le Lion respecte le rythme et le sérieux du Capricorne. Le décalage du quinconce devient une alliance entre l'éclat et la persévérance.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Lion et Capricorne forment un couple ambitieux et solide. Le Lion apporte la lumière et la chaleur, le Capricorne la structure et la durée : ensemble, ils peuvent bâtir une réussite à la fois éclatante et pérenne.",
+        "Le Capricorne ancre les élans du Lion, le Lion réchauffe la rigueur du Capricorne. Le décalage du quinconce, une fois apprivoisé, devient une force entre le feu et la terre, l'éclat et l'ambition.",
+      ] },
+    ],
+    faq: [
+      { q: "Lion et Capricorne sont-ils compatibles&nbsp;?", a: "Lion et Capricorne forment un quinconce, aspect de décalage entre deux signes de pouvoir aux styles opposés : éclat contre ambition discrète. Leur compatibilité demande des ajustements, mais leur loyauté et leur ambition communes nourrissent le respect. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Lion et le Capricorne s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Lion (feu) veut briller, être admiré et créer en grand ; le Capricorne (terre) bâtit dans l'effort discret et la durée. Le Lion trouve le Capricorne froid, le Capricorne trouve le Lion vaniteux." },
+      { q: "Quel est le plus grand défi du couple Lion-Capricorne&nbsp;?", a: "Concilier le besoin de reconnaissance du Lion avec la réserve du Capricorne. Le défi est que le Capricorne valorise le Lion et que le Lion respecte le sérieux et le rythme du Capricorne." },
+    ],
+  }),
+
+  pair({
+    a: 'vierge', b: 'verseau',
+    metaDesc: "Compatibilité Vierge Verseau : un quinconce entre la terre et l'air, la méthode contre l'utopie. Deux esprits différents à ajuster. Dynamique, communication, défis et forces.",
+    ogDesc: "Quinconce terre/air : l'ajustement entre la rigueur de la Vierge et la vision du Verseau.",
+    h1Html: "Compatibilité Vierge & Verseau, la <em>méthode</em> et l'<em>utopie</em>",
+    leadHtml: "Vierge et Verseau forment un quinconce, l'aspect du décalage. Cette compatibilité Vierge Verseau unit deux esprits brillants mais opposés — la terre minutieuse et l'air visionnaire — dans une relation d'ajustement intellectuel.",
+    sections: [
+      { h2: null, paras: [
+        "La <a href=\"/signes/vierge\">Vierge</a> et le <a href=\"/signes/verseau\">Verseau</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. La Vierge perfectionne le détail concret, le Verseau réinvente le grand système. L'une veut que tout fonctionne, l'autre que tout change — deux intelligences qui se cherchent.",
+      ] },
+      { h2: 'Vierge et Verseau : la dynamique profonde', paras: [
+        "Mercure (Vierge) et Uranus (Verseau) opposent l'analyse précise et l'intuition fulgurante. La Vierge avance par petites améliorations, le Verseau par ruptures soudaines. La Vierge apprend du Verseau l'audace et la vision, le Verseau apprend de la Vierge la rigueur et la concrétisation.",
+        "Le quinconce demande un effort d'adaptation : la Vierge trouve le Verseau imprévisible et utopiste, le Verseau trouve la Vierge tatillonne et conventionnelle. Mais leur intelligence commune et leur sens du service offrent un terrain d'entente.",
+      ] },
+      { h2: 'Comment Vierge et Verseau communiquent', paras: [
+        "La Vierge raisonne par le concret et le détail, le Verseau par les concepts et l'avenir. La Vierge peut trouver le Verseau abstrait et brouillon, le Verseau peut trouver la Vierge enfermée dans les petites choses.",
+        "La clé est la curiosité mutuelle : la Vierge s'ouvre aux grandes idées du Verseau, le Verseau respecte le souci du détail de la Vierge. Ensemble, ils peuvent transformer une vision en réalité bien construite.",
+      ] },
+      { h2: "L'alchimie entre Vierge et Verseau", paras: [
+        "L'attirance est avant tout intellectuelle : tous deux cérébraux, ils se séduisent par l'esprit et les idées. La Vierge apporte l'attention dévouée, le Verseau l'originalité et la surprise.",
+        "L'écueil tient à l'émotion : ni l'un ni l'autre n'est très démonstratif, et la chaleur peut manquer. Si la Vierge se détend et le Verseau s'engage, leur intimité gagne en tendresse derrière la réserve.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin d'ordre de la Vierge à l'esprit de rupture du Verseau. La Vierge veut maîtriser et perfectionner, le Verseau veut bousculer et innover. La Vierge peut être déstabilisée, le Verseau bridé par les exigences de la Vierge.",
+        "La clé de résolution : la Vierge accueille l'imprévu du Verseau, le Verseau ancre ses idées dans le concret. Le décalage du quinconce devient une collaboration entre la méthode et la vision.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Vierge et Verseau forment un couple intellectuellement riche et utile. La Vierge donne corps aux visions du Verseau, le Verseau ouvre la Vierge à de nouveaux horizons. Tous deux animés par le désir d'améliorer le monde, ils peuvent œuvrer ensemble.",
+        "La Vierge ancre les idées du Verseau, le Verseau élargit l'horizon de la Vierge. Le décalage du quinconce, une fois apprivoisé, devient une force entre la terre et l'air, la méthode et l'innovation.",
+      ] },
+    ],
+    faq: [
+      { q: "Vierge et Verseau sont-ils compatibles&nbsp;?", a: "Vierge et Verseau forment un quinconce, aspect de décalage entre deux esprits opposés : méthode contre utopie. Leur compatibilité demande des ajustements, mais leur intelligence et leur sens du service communs créent un terrain d'entente. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi la Vierge et le Verseau s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. La Vierge (terre) perfectionne le détail concret par petites améliorations ; le Verseau (air) réinvente les grands systèmes par ruptures. La Vierge trouve le Verseau utopiste, le Verseau trouve la Vierge tatillonne." },
+      { q: "Quel est le plus grand défi du couple Vierge-Verseau&nbsp;?", a: "Concilier le besoin d'ordre de la Vierge avec l'esprit de rupture du Verseau, et trouver de la chaleur. Le défi est que la Vierge accueille l'imprévu et que le Verseau ancre ses idées dans le concret." },
+    ],
+  }),
+
+  pair({
+    a: 'balance', b: 'poissons',
+    metaDesc: "Compatibilité Balance Poissons : un quinconce entre l'air et l'eau, deux signes Vénus-Neptune doux et idéalistes. La raison contre le rêve. Dynamique, défis et forces du couple.",
+    ogDesc: "Quinconce air/eau : l'ajustement délicat entre la grâce de la Balance et le rêve des Poissons.",
+    h1Html: "Compatibilité Balance & Poissons, la <em>grâce</em> et le <em>rêve</em>",
+    leadHtml: "Balance et Poissons forment un quinconce, l'aspect du décalage. Cette compatibilité Balance Poissons unit deux âmes douces et romantiques — l'air harmonieux et l'eau rêveuse — dans une relation tendre mais qui manque parfois d'ancrage.",
+    sections: [
+      { h2: null, paras: [
+        "La <a href=\"/signes/balance\">Balance</a> et les <a href=\"/signes/poissons\">Poissons</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Pourtant, tous deux sont sensibles, romantiques et épris d'harmonie. La Balance vit dans les relations et l'esthétique, les Poissons dans l'émotion et le rêve — un décalage doux à ajuster.",
+      ] },
+      { h2: 'Balance et Poissons : la dynamique profonde', paras: [
+        "Vénus (Balance) et Neptune (Poissons) associent la beauté et le rêve, l'harmonie et la compassion. La Balance cherche l'équilibre relationnel, les Poissons la fusion spirituelle. La Balance apprend des Poissons la profondeur émotionnelle, les Poissons apprennent de la Balance le sens des limites et de l'équilibre.",
+        "Le quinconce demande un effort d'adaptation : la Balance trouve les Poissons trop flous et émotifs, les Poissons trouvent la Balance trop mentale et sociale. Mais leur douceur commune et leur idéalisme les rapprochent.",
+      ] },
+      { h2: 'Comment Balance et Poissons communiquent', paras: [
+        "La Balance communique par la nuance et la diplomatie, les Poissons par l'intuition et le ressenti. Tous deux fuient le conflit, ce qui peut créer des non-dits et un flou émotionnel difficile à dissiper.",
+        "La clé est la clarté douce : la Balance ose nommer les choses sans rompre l'harmonie, les Poissons mettent des mots sur leurs ressentis. Leur sensibilité partagée devient alors un dialogue tendre et profond.",
+      ] },
+      { h2: "L'alchimie entre Balance et Poissons", paras: [
+        "L'attirance est romantique et poétique : la Balance séduit par sa grâce, les Poissons par leur tendresse rêveuse. Tous deux aiment la beauté, la douceur, le romantisme — une connexion délicate.",
+        "L'écueil tient au besoin : les Poissons veulent fusion et profondeur, la Balance harmonie et un peu de distance esthétique. Si la Balance plonge dans l'émotion et les Poissons respectent son besoin de lien social, leur intimité devient tendre et magique.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central est le manque d'ancrage. Tous deux sensibles, indécis et fuyant le conflit, ils peuvent dériver sans direction, laisser les non-dits s'accumuler ou se perdre dans l'idéalisation de l'autre.",
+        "La clé de résolution : développer ensemble plus de clarté et de structure, oser les vrais sujets. La Balance apporte un peu de raison, les Poissons un peu de profondeur. Le décalage du quinconce devient une tendresse mieux ancrée.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Balance et Poissons forment un couple d'une grande douceur. Leur sensibilité, leur romantisme et leur idéalisme communs en font des partenaires tendres et inspirants, attentifs à la beauté et aux autres.",
+        "La Balance apporte l'équilibre et la grâce sociale, les Poissons la profondeur et l'imaginaire. Le décalage du quinconce, une fois apprivoisé, devient une rencontre poétique entre l'air et l'eau.",
+      ] },
+    ],
+    faq: [
+      { q: "Balance et Poissons sont-ils compatibles&nbsp;?", a: "Balance et Poissons forment un quinconce, aspect de décalage entre deux âmes douces et idéalistes. Sans affinité de fond, leur compatibilité est tendre mais manque d'ancrage. Avec de la clarté, le couple peut être très romantique. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi la Balance et les Poissons s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. La Balance (air) vit dans les relations, le mental et l'esthétique ; les Poissons (eau) vivent dans l'émotion, l'intuition et le rêve. La Balance trouve les Poissons flous, les Poissons trouvent la Balance trop mentale." },
+      { q: "Quel est le plus grand défi du couple Balance-Poissons&nbsp;?", a: "Le manque d'ancrage. Deux signes sensibles qui fuient le conflit peuvent dériver et accumuler les non-dits. Le défi est de développer ensemble plus de clarté et de structure, et d'oser les vrais sujets." },
+    ],
+  }),
+
+  pair({
+    a: 'belier', b: 'scorpion',
+    metaDesc: "Compatibilité Bélier Scorpion : un quinconce entre le feu et l'eau, deux signes martiens intenses. L'action contre la profondeur, une attraction puissante. Dynamique, défis et forces.",
+    ogDesc: "Quinconce feu/eau sous Mars : l'attraction intense et l'ajustement entre le Bélier et le Scorpion.",
+    h1Html: "Compatibilité Bélier & Scorpion, deux <em>guerriers</em> de Mars",
+    leadHtml: "Bélier et Scorpion forment un quinconce, l'aspect du décalage, mais partagent un héritage martien. Cette compatibilité Bélier Scorpion unit deux intensités — le feu direct et l'eau profonde — dans une attraction puissante qui demande de l'ajustement.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/belier\">Bélier</a> et le <a href=\"/signes/scorpion\">Scorpion</a> ne partagent ni élément ni mode, mais l'astrologie traditionnelle les rattachait tous deux à Mars : leur quinconce mêle décalage et parenté secrète. Le Bélier agit au grand jour, le Scorpion œuvre dans les profondeurs. Deux puissances que tout oppose en surface et qu'une même intensité relie.",
+      ] },
+      { h2: 'Bélier et Scorpion : la dynamique profonde', paras: [
+        "Mars guerrier (Bélier) et Pluton/Mars souterrain (Scorpion) : la pulsion directe rencontre le désir profond. Le Bélier veut conquérir vite, le Scorpion veut posséder totalement. Le Bélier apprend du Scorpion la profondeur et la stratégie, le Scorpion apprend du Bélier la franchise et la spontanéité.",
+        "Le quinconce demande un effort d'adaptation : le Bélier trouve le Scorpion trop secret et contrôlant, le Scorpion trouve le Bélier trop impulsif et superficiel. Mais leur intensité commune crée une attraction magnétique.",
+      ] },
+      { h2: 'Comment Bélier et Scorpion communiquent', paras: [
+        "Le Bélier dit tout immédiatement, le Scorpion garde ses cartes et sonde. Le Bélier peut s'agacer du mystère du Scorpion, le Scorpion peut mépriser l'impulsivité du Bélier. Leurs stratégies s'opposent.",
+        "La clé est la confiance : le Bélier apprend la patience et la profondeur, le Scorpion la transparence et le lâcher-prise. Quand ils cessent de se méfier, leur intensité partagée devient une force.",
+      ] },
+      { h2: "L'alchimie entre Bélier et Scorpion", paras: [
+        "L'attirance est brûlante : ces deux signes martiens dégagent une intensité physique rare. Le Bélier apporte l'ardeur directe, le Scorpion la passion profonde et magnétique. Le désir entre eux est puissant, presque dangereux.",
+        "L'écueil tient au pouvoir : le Bélier veut dominer ouvertement, le Scorpion contrôler en profondeur. Si le Bélier respecte l'intensité du Scorpion et le Scorpion accorde sa confiance, leur intimité devient un feu rare.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central est la lutte de pouvoir et la jalousie. Deux volontés intenses s'affrontent : le Bélier fonce et provoque, le Scorpion calcule et n'oublie rien. La possessivité du Scorpion se heurte à l'indépendance du Bélier.",
+        "La clé de résolution : le Bélier apprend la nuance et la profondeur, le Scorpion la confiance et le pardon. Le décalage du quinconce, doublé de la parenté martienne, devient une intensité partagée plutôt qu'une guerre.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Bélier et Scorpion forment un couple d'une force redoutable. Leur intensité commune, leur passion et leur détermination en font des alliés puissants une fois la confiance établie.",
+        "Le Bélier apporte la lumière et l'action, le Scorpion la profondeur et la stratégie. Le décalage du quinconce, une fois apprivoisé, devient une alliance brûlante entre le feu et l'eau, l'épée et l'ombre.",
+      ] },
+    ],
+    faq: [
+      { q: "Bélier et Scorpion sont-ils compatibles&nbsp;?", a: "Bélier et Scorpion forment un quinconce, aspect de décalage, mais partagent un héritage martien : leur compatibilité mêle attraction intense et lutte de pouvoir. Elle demande des ajustements et de la confiance. La synastrie complète des deux thèmes nuance fortement ce portrait." },
+      { q: "Pourquoi le Bélier et le Scorpion s'attirent-ils autant&nbsp;?", a: "Tous deux liés traditionnellement à Mars, ils partagent une intensité rare et un fort magnétisme physique. Le Bélier agit au grand jour, le Scorpion dans les profondeurs : la franchise de l'un et le mystère de l'autre créent une attraction puissante." },
+      { q: "Quel est le plus grand défi du couple Bélier-Scorpion&nbsp;?", a: "La lutte de pouvoir et la jalousie. Le Bélier fonce et provoque, le Scorpion contrôle et n'oublie rien. Le défi est que le Bélier apprenne la nuance et que le Scorpion accorde sa confiance, transformant l'affrontement en intensité partagée." },
+    ],
+  }),
+
+  pair({
+    a: 'taureau', b: 'sagittaire',
+    metaDesc: "Compatibilité Taureau Sagittaire : un quinconce entre la terre et le feu, la sécurité contre la liberté. Deux signes sans rien en commun à ajuster. Dynamique, défis et forces.",
+    ogDesc: "Quinconce terre/feu : l'ajustement entre le besoin de stabilité du Taureau et la soif d'aventure du Sagittaire.",
+    h1Html: "Compatibilité Taureau & Sagittaire, la <em>sécurité</em> et l'<em>aventure</em>",
+    leadHtml: "Taureau et Sagittaire forment un quinconce, l'aspect du décalage. Cette compatibilité Taureau Sagittaire unit deux signes que rien ne relie — la terre qui veut s'installer et le feu qui veut partir — dans une relation d'ajustement constant.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/taureau\">Taureau</a> et le <a href=\"/signes/sagittaire\">Sagittaire</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Le Taureau veut la sécurité, le confort, la routine ; le Sagittaire veut l'aventure, la liberté, l'horizon. L'enracinement de l'un défie le nomadisme de l'autre.",
+      ] },
+      { h2: 'Taureau et Sagittaire : la dynamique profonde', paras: [
+        "Vénus (Taureau) et Jupiter (Sagittaire) associent le plaisir et l'expansion. Le Taureau savoure ce qu'il a, le Sagittaire cherche toujours plus loin. Le Taureau apprend du Sagittaire l'ouverture et l'optimisme, le Sagittaire apprend du Taureau l'ancrage et la patience.",
+        "Le quinconce demande un effort d'adaptation : le Taureau trouve le Sagittaire instable et imprudent, le Sagittaire trouve le Taureau casanier et borné. Mais tous deux aiment la vie, les plaisirs et la générosité — un terrain commun.",
+      ] },
+      { h2: 'Comment Taureau et Sagittaire communiquent', paras: [
+        "Le Taureau est concret et mesuré, le Sagittaire enthousiaste et large. Le Sagittaire peut trouver le Taureau étroit, le Taureau peut trouver le Sagittaire irréaliste. Leurs visions diffèrent.",
+        "La clé est l'ouverture mutuelle : le Taureau s'intéresse aux horizons du Sagittaire, le Sagittaire respecte le besoin de stabilité du Taureau. Leur amour commun de la bonne vie crée un pont.",
+      ] },
+      { h2: "L'alchimie entre Taureau et Sagittaire", paras: [
+        "L'attirance vient du contraste : le Taureau est séduit par la joie de vivre du Sagittaire, le Sagittaire par la sensualité du Taureau. L'un apporte le plaisir des sens, l'autre la fougue aventureuse.",
+        "L'écueil tient au besoin : le Taureau veut régularité et présence, le Sagittaire liberté et mouvement. Si le Taureau accepte un peu d'imprévu et le Sagittaire offre de la fidélité, leur intimité allie sensualité et fantaisie.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de sécurité du Taureau à la soif de liberté du Sagittaire. Le Taureau veut construire un nid stable, le Sagittaire refuse de se sentir enfermé. Le Taureau peut se sentir insécurisé, le Sagittaire bridé.",
+        "La clé de résolution : le Taureau accorde de la liberté au Sagittaire, le Sagittaire rassure le Taureau par sa fidélité et sa présence. Le décalage du quinconce devient un équilibre entre racines et horizons.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Taureau et Sagittaire forment un couple où la stabilité accueille l'aventure. Le Taureau offre au Sagittaire un port d'attache, le Sagittaire offre au Taureau des horizons et de la légèreté.",
+        "Le Taureau ancre le Sagittaire, le Sagittaire ouvre le monde du Taureau. Le décalage du quinconce, une fois apprivoisé, devient une complémentarité entre la terre et le feu, le foyer et le voyage.",
+      ] },
+    ],
+    faq: [
+      { q: "Taureau et Sagittaire sont-ils compatibles&nbsp;?", a: "Taureau et Sagittaire forment un quinconce, aspect de décalage entre deux signes sans affinité : la sécurité contre la liberté. Leur compatibilité demande des ajustements, mais leur amour commun de la vie et des plaisirs crée un terrain d'entente. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Taureau et le Sagittaire sont-ils si différents&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Taureau (terre) veut la sécurité, le confort et la routine ; le Sagittaire (feu) veut l'aventure, la liberté et l'horizon. L'enracinement de l'un défie le nomadisme de l'autre." },
+      { q: "Quel est le plus grand défi du couple Taureau-Sagittaire&nbsp;?", a: "Concilier le besoin de sécurité du Taureau avec la soif de liberté du Sagittaire. Le défi est que le Taureau accorde de la liberté et que le Sagittaire rassure par sa fidélité, équilibrant racines et horizons." },
+    ],
+  }),
+
+  pair({
+    a: 'gemeaux', b: 'capricorne',
+    metaDesc: "Compatibilité Gémeaux Capricorne : un quinconce entre l'air et la terre, la légèreté contre le sérieux. Deux signes opposés à ajuster. Dynamique, communication, défis et forces.",
+    ogDesc: "Quinconce air/terre : l'ajustement entre la vivacité des Gémeaux et le sérieux du Capricorne.",
+    h1Html: "Compatibilité Gémeaux & Capricorne, la <em>légèreté</em> et le <em>sérieux</em>",
+    leadHtml: "Gémeaux et Capricorne forment un quinconce, l'aspect du décalage. Cette compatibilité Gémeaux Capricorne unit deux tempéraments opposés — l'air joueur et la terre grave — dans une relation où l'ajustement est de chaque instant.",
+    sections: [
+      { h2: null, paras: [
+        "Les <a href=\"/signes/gemeaux\">Gémeaux</a> et le <a href=\"/signes/capricorne\">Capricorne</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Les Gémeaux papillonnent et plaisantent, le Capricorne planifie et persévère. La légèreté de l'un défie la gravité de l'autre.",
+      ] },
+      { h2: 'Gémeaux et Capricorne : la dynamique profonde', paras: [
+        "Mercure (Gémeaux) et Saturne (Capricorne) opposent la curiosité mobile et la discipline patiente. Les Gémeaux explorent tous azimuts, le Capricorne avance vers un sommet précis. Les Gémeaux apprennent du Capricorne la constance et la profondeur, le Capricorne apprend des Gémeaux la souplesse et l'humour.",
+        "Le quinconce demande un effort d'adaptation : les Gémeaux trouvent le Capricorne rigide et austère, le Capricorne trouve les Gémeaux dispersés et superficiels. Mais l'esprit vif des Gémeaux et le réalisme du Capricorne peuvent se compléter.",
+      ] },
+      { h2: 'Comment Gémeaux et Capricorne communiquent', paras: [
+        "Les Gémeaux parlent vite et de tout, le Capricorne pèse ses mots et va à l'essentiel. Le Capricorne peut trouver les Gémeaux bavards et inconstants, les Gémeaux peuvent trouver le Capricorne fermé et sévère.",
+        "La clé est le respect mutuel : les Gémeaux prennent le Capricorne au sérieux, le Capricorne accueille la légèreté des Gémeaux. L'esprit et la méthode trouvent alors un terrain commun.",
+      ] },
+      { h2: "L'alchimie entre Gémeaux et Capricorne", paras: [
+        "L'attirance vient du contraste : les Gémeaux sont intrigués par la maîtrise du Capricorne, le Capricorne séduit par la vivacité des Gémeaux. L'un apporte le jeu, l'autre la profondeur contenue.",
+        "L'écueil tient au tempérament : les Gémeaux veulent variété et légèreté, le Capricorne se livre lentement et privilégie le concret. Si les Gémeaux apportent de la fantaisie et le Capricorne se détend, leur intimité s'enrichit.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose la légèreté des Gémeaux au sérieux du Capricorne. Les Gémeaux fuient l'ennui et la lourdeur, le Capricorne valorise l'effort et la durée. Les Gémeaux peuvent sembler peu fiables au Capricorne, qui peut sembler rabat-joie aux Gémeaux.",
+        "La clé de résolution : les Gémeaux apprennent du Capricorne à approfondir et à tenir, le Capricorne apprend des Gémeaux à s'alléger. Le décalage du quinconce devient une complémentarité entre l'esprit et la méthode.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Gémeaux et Capricorne forment un couple où l'idée rencontre la réalisation. Les Gémeaux apportent les idées et la souplesse, le Capricorne la structure et la persévérance : ensemble, ils peuvent concrétiser beaucoup.",
+        "Les Gémeaux allègent le Capricorne, le Capricorne ancre les Gémeaux. Le décalage du quinconce, une fois apprivoisé, devient une force entre l'air et la terre, la curiosité et la discipline.",
+      ] },
+    ],
+    faq: [
+      { q: "Gémeaux et Capricorne sont-ils compatibles&nbsp;?", a: "Gémeaux et Capricorne forment un quinconce, aspect de décalage entre deux tempéraments opposés : légèreté contre sérieux. Leur compatibilité demande des ajustements, mais l'esprit des Gémeaux et le réalisme du Capricorne peuvent se compléter. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi les Gémeaux et le Capricorne s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Les Gémeaux (air) papillonnent, plaisantent et explorent ; le Capricorne (terre) planifie, persévère et reste sérieux. La légèreté de l'un défie la gravité de l'autre." },
+      { q: "Quel est le plus grand défi du couple Gémeaux-Capricorne&nbsp;?", a: "Concilier la légèreté des Gémeaux avec le sérieux du Capricorne. Le défi est que les Gémeaux apprennent à approfondir et à tenir, et que le Capricorne apprenne à s'alléger." },
+    ],
+  }),
+
+  pair({
+    a: 'cancer', b: 'verseau',
+    metaDesc: "Compatibilité Cancer Verseau : un quinconce entre l'eau et l'air, le cœur contre la raison. Deux signes opposés à ajuster. Dynamique, communication, défis et forces du couple.",
+    ogDesc: "Quinconce eau/air : l'ajustement entre la sensibilité du Cancer et le détachement du Verseau.",
+    h1Html: "Compatibilité Cancer & Verseau, le <em>cœur</em> et la <em>raison</em>",
+    leadHtml: "Cancer et Verseau forment un quinconce, l'aspect du décalage. Cette compatibilité Cancer Verseau unit deux mondes opposés — l'eau intime et l'air détaché — dans une relation qui demande beaucoup d'adaptation entre l'émotion et l'idée.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/cancer\">Cancer</a> et le <a href=\"/signes/verseau\">Verseau</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Le Cancer vit dans l'émotion, le foyer, l'attachement ; le Verseau dans les idées, la liberté, le collectif. Le besoin de fusion de l'un défie le besoin d'indépendance de l'autre.",
+      ] },
+      { h2: 'Cancer et Verseau : la dynamique profonde', paras: [
+        "La Lune (Cancer) et Uranus (Verseau) opposent l'intimité protectrice et la liberté visionnaire. Le Cancer veut un cocon, le Verseau veut l'espace. Le Cancer apprend du Verseau le recul et l'ouverture, le Verseau apprend du Cancer la profondeur émotionnelle et la tendresse.",
+        "Le quinconce demande un effort d'adaptation : le Cancer trouve le Verseau froid et distant, le Verseau trouve le Cancer envahissant et trop émotif. Mais leur attention aux autres — l'un par le cœur, l'autre par les idées — crée un pont.",
+      ] },
+      { h2: 'Comment Cancer et Verseau communiquent', paras: [
+        "Le Cancer s'exprime par l'émotion et l'intuition, le Verseau par la raison et le concept. Le Cancer peut être blessé par le détachement du Verseau, le Verseau désarçonné par les humeurs du Cancer.",
+        "La clé est le pont entre cœur et raison : le Verseau cultive la présence émotionnelle, le Cancer respecte le besoin d'indépendance du Verseau. Leur échange peut alors relier l'intime et l'universel.",
+      ] },
+      { h2: "L'alchimie entre Cancer et Verseau", paras: [
+        "L'attirance vient du contraste : le Cancer est intrigué par l'originalité du Verseau, le Verseau touché par la tendresse du Cancer. L'un apporte la chaleur enveloppante, l'autre la surprise et la liberté.",
+        "L'écueil tient au besoin : le Cancer veut fusion et réassurance, le Verseau espace et liberté mentale. Si le Verseau s'engage émotionnellement et le Cancer accorde de l'air, leur intimité allie tendresse et originalité.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de fusion du Cancer au détachement du Verseau. Le Cancer veut de la proximité et de la sécurité, le Verseau de la distance et de l'indépendance. Le Cancer peut se sentir abandonné, le Verseau étouffé.",
+        "La clé de résolution : le Verseau offre de la présence et de la chaleur, le Cancer respecte la liberté du Verseau sans la vivre comme un rejet. Le décalage du quinconce devient un équilibre entre le cœur et la raison.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Cancer et Verseau forment un couple où l'émotion et la vision se rencontrent. Le Cancer apporte la chaleur et le soin, le Verseau l'ouverture et les idées : ensemble, ils relient l'intime et le collectif.",
+        "Le Cancer réchauffe le Verseau, le Verseau élargit le monde du Cancer. Le décalage du quinconce, une fois apprivoisé, devient une complémentarité entre l'eau et l'air, le cœur et l'esprit.",
+      ] },
+    ],
+    faq: [
+      { q: "Cancer et Verseau sont-ils compatibles&nbsp;?", a: "Cancer et Verseau forment un quinconce, aspect de décalage entre deux mondes opposés : le cœur contre la raison. Leur compatibilité demande beaucoup d'adaptation, mais leur attention commune aux autres crée un pont. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Cancer et le Verseau s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Cancer (eau) vit dans l'émotion, le foyer et l'attachement ; le Verseau (air) vit dans les idées, la liberté et le collectif. Le besoin de fusion de l'un défie le besoin d'indépendance de l'autre." },
+      { q: "Quel est le plus grand défi du couple Cancer-Verseau&nbsp;?", a: "Concilier le besoin de fusion du Cancer avec le détachement du Verseau. Le défi est que le Verseau offre de la présence émotionnelle et que le Cancer respecte la liberté du Verseau sans la vivre comme un rejet." },
+    ],
+  }),
+
+  pair({
+    a: 'lion', b: 'poissons',
+    metaDesc: "Compatibilité Lion Poissons : un quinconce entre le feu et l'eau, l'éclat contre le rêve. Deux signes sans rien en commun à ajuster. Dynamique, communication, défis et forces.",
+    ogDesc: "Quinconce feu/eau : l'ajustement entre le rayonnement du Lion et la sensibilité rêveuse des Poissons.",
+    h1Html: "Compatibilité Lion & Poissons, l'<em>éclat</em> et le <em>rêve</em>",
+    leadHtml: "Lion et Poissons forment un quinconce, l'aspect du décalage. Cette compatibilité Lion Poissons unit deux signes que tout sépare — le feu rayonnant et l'eau rêveuse — dans une relation tendre mais qui demande des ajustements.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/lion\">Lion</a> et les <a href=\"/signes/poissons\">Poissons</a> ne partagent ni élément, ni mode, ni planète : leur quinconce est l'aspect du décalage. Le Lion brille et s'affirme, les Poissons se fondent et rêvent. L'éclat solaire de l'un défie la sensibilité océanique de l'autre.",
+      ] },
+      { h2: 'Lion et Poissons : la dynamique profonde', paras: [
+        "Le Soleil (Lion) et Neptune (Poissons) opposent le rayonnement individuel et la dissolution compatissante. Le Lion veut être reconnu, les Poissons veulent fusionner et aider. Le Lion apprend des Poissons l'humilité et la compassion, les Poissons apprennent du Lion la confiance et l'affirmation.",
+        "Le quinconce demande un effort d'adaptation : le Lion trouve les Poissons trop flous et effacés, les Poissons trouvent le Lion trop centré sur lui-même. Mais la générosité du Lion et la douceur des Poissons peuvent se rencontrer.",
+      ] },
+      { h2: 'Comment Lion et Poissons communiquent', paras: [
+        "Le Lion s'exprime avec chaleur et grandeur, les Poissons par l'intuition et le ressenti. Le Lion a besoin d'admiration, les Poissons d'être compris en douceur. Le Lion peut écraser les Poissons, qui peuvent dérouter le Lion par leur flou.",
+        "La clé est la délicatesse : le Lion tient compte de la sensibilité des Poissons et les valorise, les Poissons offrent au Lion l'admiration tendre dont il a besoin. Le dialogue gagne en chaleur et en douceur.",
+      ] },
+      { h2: "L'alchimie entre Lion et Poissons", paras: [
+        "L'attirance est romantique : les Poissons sont éblouis par la chaleur du Lion, le Lion attendri par la tendresse rêveuse des Poissons. L'un apporte la passion généreuse, les autres la douceur et l'imaginaire.",
+        "L'écueil tient au tempérament : le Lion veut démonstration et grandeur, les Poissons douceur et fusion. Si le Lion se fait protecteur et tendre et les Poissons admirent le Lion, leur intimité allie chaleur et magie.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de reconnaissance du Lion à la sensibilité effacée des Poissons. Le Lion veut briller et être au centre, les Poissons se sacrifient et se dérobent. Le Lion peut dominer, les Poissons se perdre.",
+        "La clé de résolution : le Lion devient protecteur généreux plutôt que dominateur, les Poissons s'affirment et offrent au Lion une admiration sincère. Le décalage du quinconce devient une rencontre entre la lumière et la tendresse.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Lion et Poissons forment un couple où la force protège la douceur. Le Lion défend et inspire les Poissons, les Poissons adoucissent et enchantent le Lion. La générosité de l'un rencontre la compassion des autres.",
+        "Le Lion offre aux Poissons confiance et rayonnement, les Poissons offrent au Lion profondeur et tendresse. Le décalage du quinconce, une fois apprivoisé, devient une complémentarité entre le feu et l'eau, l'éclat et le rêve.",
+      ] },
+    ],
+    faq: [
+      { q: "Lion et Poissons sont-ils compatibles&nbsp;?", a: "Lion et Poissons forment un quinconce, aspect de décalage entre deux signes sans affinité : l'éclat contre le rêve. Leur compatibilité demande des ajustements, mais la générosité du Lion et la douceur des Poissons peuvent se rejoindre. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Lion et les Poissons s'ajustent-ils difficilement&nbsp;?", a: "Ils ne partagent ni élément, ni mode, ni planète. Le Lion (feu) brille, s'affirme et veut être reconnu ; les Poissons (eau) se fondent, rêvent et se sacrifient. L'éclat solaire de l'un défie la sensibilité effacée de l'autre." },
+      { q: "Quel est le plus grand défi du couple Lion-Poissons&nbsp;?", a: "Concilier le besoin de reconnaissance du Lion avec la sensibilité effacée des Poissons. Le défi est que le Lion devienne protecteur plutôt que dominateur et que les Poissons s'affirment en offrant une admiration sincère." },
+    ],
+  }),
 ];
