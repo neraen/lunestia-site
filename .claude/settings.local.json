@@ -18,7 +18,8 @@
       "Bash(perl -i -pe 's/q: \\\\x27\\(.*?\\)\\\\x27, a: \"/q: \"$1\", a: \"/g' scripts/data/compat.mjs)",
       "Bash(node scripts/generate.mjs)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(git commit -q -m ' *)"
+      "Bash(git commit -q -m ' *)",
+      "Bash(echo \"SYNTAX EXIT: $?\")"
     ]
   }
 }
