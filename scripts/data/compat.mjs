@@ -2619,4 +2619,473 @@ export const compat = [
       { q: "Quel est le plus grand défi du couple Lion-Poissons&nbsp;?", a: "Concilier le besoin de reconnaissance du Lion avec la sensibilité effacée des Poissons. Le défi est que le Lion devienne protecteur plutôt que dominateur et que les Poissons s'affirment en offrant une admiration sincère." },
     ],
   }),
+
+  // ===================== CONJONCTIONS (0°) — effet miroir, intensification =====================
+  pair({
+    a: 'belier', b: 'belier',
+    metaDesc: "Compatibilité Bélier Bélier : deux feux cardinaux en miroir, une passion explosive et une rivalité d'égos. Quand deux conquérants s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Béliers face à face, passion explosive et rivalité de deux fonceurs qui se ressemblent trop.",
+    h1Html: "Compatibilité Bélier & Bélier, deux <em>flammes</em> en miroir",
+    leadHtml: "Deux Béliers ensemble, c'est une conjonction : l'effet miroir absolu. Cette compatibilité Bélier–Bélier double l'énergie du feu cardinal — une passion explosive, une complicité immédiate, mais aussi le risque que deux conquérants se disputent le même trône.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/belier\">Béliers</a> se rencontrent, ils se reconnaissent instantanément. Même fougue, même franchise, même besoin d'action : la conjonction crée une entente électrique où chacun comprend l'autre sans un mot. Mais ce miroir amplifie tout — le meilleur comme les excès.",
+      ] },
+      { h2: 'Bélier et Bélier : la dynamique profonde', paras: [
+        "Deux Mars dans la même direction : une énergie redoublée, tournée vers l'action et la conquête. Tous deux veulent initier, mener, gagner — ce qui crée une stimulation formidable et une rivalité latente. Ils s'admirent comme on admire son propre reflet, mais peinent à céder le premier rôle.",
+        "L'avantage de la conjonction est la compréhension immédiate ; son défi est le manque de complémentarité. Aucun des deux n'apporte la patience ou la nuance qui équilibrerait l'autre. Leur relation file à vive allure, pour le meilleur ou pour l'embrasement.",
+      ] },
+      { h2: 'Comment deux Béliers communiquent', paras: [
+        "La communication est directe, franche, sans détour — parfois trop. Aucun ne joue de jeux, ce qui est rafraîchissant, mais les disputes peuvent être spectaculaires : deux tempéraments explosifs qui ne reculent pas. Heureusement, la colère du Bélier retombe aussi vite qu'elle monte, sans rancune.",
+        "La clé est d'apprendre à s'écouter autant qu'à s'affirmer. Quand chacun laisse l'autre exister sans vouloir avoir le dernier mot, leur franchise commune devient une force de transparence rare.",
+      ] },
+      { h2: "L'alchimie entre deux Béliers", paras: [
+        "La passion est immédiate et brûlante. Deux Béliers partagent une intensité physique et une spontanéité qui rendent leur intimité ardente et joueuse. La conquête mutuelle les électrise, et ils savent entretenir le désir par le défi.",
+        "L'écueil est la lassitude si la flamme n'est plus alimentée par la nouveauté, ou l'épuisement si tout devient compétition. Tant qu'ils gardent le sens du jeu, leur désir reste vif.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est la rivalité et l'impulsivité redoublée. Deux meneurs se disputent le contrôle ; deux impulsifs foncent sans personne pour tempérer. Sans modération, le couple s'épuise en bras de fer ou en décisions hâtives.",
+        "La clé de résolution : alterner les rôles, célébrer les victoires de l'autre, cultiver la patience qu'aucun ne possède naturellement. Apprendre à coopérer plutôt qu'à rivaliser transforme leur énergie commune en force.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Béliers forment un couple d'une vitalité éclatante. Ils s'encouragent, foncent ensemble, vivent intensément et ne s'embarrassent jamais de faux-semblants. Leur franchise et leur courage partagés en font des partenaires d'aventure exaltants.",
+        "Quand ils canalisent leur feu vers des buts communs plutôt que l'un contre l'autre, ils deviennent imparables — deux flammes qui éclairent la même direction.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Béliers sont-ils compatibles&nbsp;?", a: "Deux Béliers forment une conjonction : un effet miroir fait de passion immédiate et de complicité, mais aussi de rivalité entre deux meneurs. Leur compatibilité est intense ; le défi est de coopérer plutôt que de rivaliser. La synastrie complète des deux thèmes nuance fortement ce portrait." },
+      { q: "Pourquoi deux Béliers se disputent-ils le pouvoir&nbsp;?", a: "Le Bélier est un signe cardinal régi par Mars : il initie et veut mener. Quand deux Béliers s'aiment, chacun veut diriger, d'où une rivalité naturelle. Apprendre à alterner les rôles et à célébrer l'autre désamorce ce bras de fer." },
+      { q: "Quel est le plus grand défi de deux Béliers en couple&nbsp;?", a: "La rivalité et l'impulsivité redoublée, sans personne pour tempérer. Le défi est d'alterner les rôles, de cultiver une patience qu'aucun ne possède d'instinct, et de coopérer plutôt que de transformer la relation en compétition permanente." },
+    ],
+    related: [sc('belier', 'Le signe'), { href: '/compatibilite/belier', glyph: GLYPH.belier, label: 'Compatibilités', name: NAME.belier }, guideCard],
+  }),
+
+  pair({
+    a: 'taureau', b: 'taureau',
+    metaDesc: "Compatibilité Taureau Taureau : deux terres fixes en miroir, une stabilité sensuelle et un risque d'entêtement. Quand deux jouisseurs s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Taureaux, sécurité, sensualité et le risque d'un entêtement à deux têtes.",
+    h1Html: "Compatibilité Taureau & Taureau, le <em>même</em> goût du durable",
+    leadHtml: "Deux Taureaux ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Taureau–Taureau double la terre fixe — une stabilité profonde, une sensualité partagée, mais aussi le risque que deux têtus s'enracinent dans la même routine.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/taureau\">Taureaux</a> se rencontrent, ils reconnaissent le même amour du concret, du plaisir et de la sécurité. La conjonction crée une entente paisible et sensuelle, fondée sur des valeurs identiques. Mais ce miroir amplifie aussi l'inertie et l'obstination.",
+      ] },
+      { h2: 'Taureau et Taureau : la dynamique profonde', paras: [
+        "Deux Vénus terriennes : un amour du beau, du bon, du durable. Tous deux cherchent la stabilité et la jouissance tranquille — ils se comprennent dans leur besoin de sécurité et leur rythme lent. Leur relation se construit comme une maison solide, pierre après pierre.",
+        "L'avantage de la conjonction est l'harmonie des valeurs ; son défi est l'absence de mouvement. Aucun des deux n'apporte l'élan ou la nouveauté qui les sortirait de la routine. Confortable, leur couple peut s'endormir.",
+      ] },
+      { h2: 'Comment deux Taureaux communiquent', paras: [
+        "La communication est posée, concrète, sans drame. Tous deux préfèrent les actes aux grands discours, et un silence partagé leur suffit souvent. Mais quand un désaccord survient, deux entêtements se font face : aucun ne veut céder, et la bouderie peut durer.",
+        "La clé est la souplesse volontaire : apprendre à lâcher du lest, à faire le premier pas, à ne pas confondre fermeté et rigidité. Quand ils renoncent au bras de fer, leur entente retrouve sa douceur.",
+      ] },
+      { h2: "L'alchimie entre deux Taureaux", paras: [
+        "L'intimité est sensuelle, lente et profondément satisfaisante. Deux Taureaux, les plus sensoriels des signes, savent savourer le plaisir sans hâte. Leur connexion physique est riche, tendre et durable, nourrie par un fort sentiment de sécurité.",
+        "L'écueil est la routine : à force de confort, le désir peut s'endormir. Tant qu'ils s'autorisent un peu de surprise et de renouveau, leur sensualité partagée reste un délice.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est l'entêtement et l'immobilisme. Deux signes fixes qui ne cèdent pas peuvent s'enliser dans les conflits ou la routine. La peur commune du changement les fige parfois dans une zone de confort sans relief.",
+        "La clé de résolution : cultiver la nouveauté, faire des compromis, oser bousculer les habitudes ensemble. Apprendre à fléchir, qu'aucun ne fait naturellement, est leur grand travail.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Taureaux forment un couple d'une stabilité et d'une loyauté exemplaires. Leur fiabilité, leur sens du plaisir et leurs valeurs communes en font des partenaires de vie solides, capables de bâtir un foyer doux et durable.",
+        "Quand ils ajoutent un peu de mouvement à leur belle constance, ils créent un havre de paix sensuel et sûr — un amour qui ne fait pas de bruit mais ne s'effondre jamais.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Taureaux sont-ils compatibles&nbsp;?", a: "Deux Taureaux forment une conjonction : un effet miroir fait de stabilité, de sensualité et de valeurs communes. Très compatibles en surface, ils doivent surveiller l'entêtement et la routine. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Taureaux s'entêtent-ils&nbsp;?", a: "Le Taureau est un signe de terre fixe : il tient ses positions et résiste au changement. Quand deux Taureaux s'opposent, aucun ne veut céder, et la bouderie peut s'éterniser. Apprendre à faire le premier pas est essentiel pour eux." },
+      { q: "Quel est le plus grand défi de deux Taureaux en couple&nbsp;?", a: "L'entêtement et l'immobilisme. Deux signes fixes peuvent s'enliser dans la routine ou des conflits sans issue. Le défi est de cultiver la nouveauté, de faire des compromis et d'oser bousculer ensemble les habitudes." },
+    ],
+    related: [sc('taureau', 'Le signe'), { href: '/compatibilite/taureau', glyph: GLYPH.taureau, label: 'Compatibilités', name: NAME.taureau }, guideCard],
+  }),
+
+  pair({
+    a: 'gemeaux', b: 'gemeaux',
+    metaDesc: "Compatibilité Gémeaux Gémeaux : deux airs mutables en miroir, une complicité pétillante et un risque de superficialité. Quand deux esprits vifs s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Gémeaux, vivacité, jeu et le risque de rester en surface à deux.",
+    h1Html: "Compatibilité Gémeaux & Gémeaux, deux <em>esprits</em> en écho",
+    leadHtml: "Deux Gémeaux ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Gémeaux–Gémeaux double l'air mutable — une complicité intellectuelle étincelante, un duo qui ne s'ennuie jamais, mais qui risque de fuir ensemble la profondeur.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/gemeaux\">Gémeaux</a> se rencontrent, c'est un feu d'artifice d'idées et de rires. La conjonction crée une complicité immédiate : même curiosité, même vivacité, même horreur de l'ennui. Mais ce miroir amplifie aussi la dispersion et l'évitement émotionnel.",
+      ] },
+      { h2: 'Gémeaux et Gémeaux : la dynamique profonde', paras: [
+        "Deux Mercure en mouvement : un échange d'idées perpétuel, léger et stimulant. Tous deux aiment explorer, commenter, jouer avec les mots et les concepts — ils se comprennent à demi-mot et se renouvellent sans cesse. Leur relation est une conversation qui ne s'arrête jamais.",
+        "L'avantage de la conjonction est cette entente d'esprit ; son défi est l'ancrage. Aucun des deux n'apporte la stabilité ou la profondeur émotionnelle qui équilibrerait l'autre. Leur couple peut voler haut sans jamais se poser.",
+      ] },
+      { h2: 'Comment deux Gémeaux communiquent', paras: [
+        "La communication est leur paradis : vive, drôle, infatigable. Ils débattent, plaisantent, changent de sujet à la vitesse de l'éclair. Les conflits se règlent souvent par l'humour et la parole plutôt que par le drame.",
+        "L'écueil est de tout intellectualiser et d'éviter les sujets qui fâchent ou qui touchent. La clé est d'oser la profondeur émotionnelle derrière le jeu, de ne pas fuir l'intime dans le bavardage.",
+      ] },
+      { h2: "L'alchimie entre deux Gémeaux", paras: [
+        "L'attirance est joueuse et cérébrale : ils se séduisent par l'esprit, l'humour, la curiosité. Leur intimité est inventive, légère, jamais routinière — ils aiment expérimenter et se surprendre.",
+        "L'écueil est le manque de profondeur émotionnelle : à rester dans la tête, le désir peut manquer d'enracinement charnel. S'ils plongent dans le ressenti, leur complicité devient une intimité riche.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est la dispersion et la fuite émotionnelle. Deux Gémeaux peuvent s'éparpiller dans mille projets, négliger le quotidien, éviter ensemble les conversations profondes. Le couple risque de rester une belle amitié pétillante sans racines.",
+        "La clé de résolution : développer de la constance et de l'intimité, oser la vulnérabilité, ancrer la relation dans le concret. Ce que ni l'un ni l'autre n'apporte naturellement, ils doivent le cultiver volontairement.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Gémeaux forment un couple vif, drôle et stimulant. Leur complicité intellectuelle, leur curiosité et leur souplesse en font des partenaires qui s'amusent et grandissent ensemble sans jamais se lasser.",
+        "Quand ils ajoutent de la profondeur à leur légèreté, ils vivent une relation aussi joyeuse que riche — un dialogue infini entre deux esprits qui se comprennent parfaitement.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Gémeaux sont-ils compatibles&nbsp;?", a: "Deux Gémeaux forment une conjonction : un effet miroir fait de complicité intellectuelle et de légèreté. Très compatibles sur le plan de l'esprit, ils doivent surveiller la dispersion et l'évitement émotionnel. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Gémeaux restent-ils en surface&nbsp;?", a: "Les Gémeaux (air mutable) privilégient le mental et fuient la lourdeur émotionnelle. Quand deux Gémeaux s'aiment, ils peuvent éviter ensemble la profondeur, restant dans le jeu et les idées. Oser la vulnérabilité est leur grand apprentissage." },
+      { q: "Quel est le plus grand défi de deux Gémeaux en couple&nbsp;?", a: "La dispersion et le manque d'ancrage émotionnel. Deux esprits vifs peuvent s'éparpiller et éviter l'intime. Le défi est de cultiver la constance, la profondeur et l'enracinement dans le concret." },
+    ],
+    related: [sc('gemeaux', 'Le signe'), { href: '/compatibilite/gemeaux', glyph: GLYPH.gemeaux, label: 'Compatibilités', name: NAME.gemeaux }, guideCard],
+  }),
+
+  pair({
+    a: 'cancer', b: 'cancer',
+    metaDesc: "Compatibilité Cancer Cancer : deux eaux cardinales en miroir, une tendresse profonde et un risque de fusion émotionnelle. Quand deux cœurs sensibles s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Cancers, tendresse, foyer et le risque d'une fusion émotionnelle qui submerge.",
+    h1Html: "Compatibilité Cancer & Cancer, deux <em>cœurs</em> en miroir",
+    leadHtml: "Deux Cancers ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Cancer–Cancer double l'eau cardinale — une tendresse infinie, un foyer chaleureux, mais aussi le risque que deux hypersensibles se noient dans les marées de l'autre.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/cancer\">Cancers</a> se rencontrent, ils se devinent par le cœur. La conjonction crée une intimité émotionnelle immédiate : même besoin de sécurité, même tendresse, même attachement au foyer. Mais ce miroir amplifie aussi la susceptibilité et les humeurs.",
+      ] },
+      { h2: 'Cancer et Cancer : la dynamique profonde', paras: [
+        "Deux Lunes en résonance : une vie émotionnelle intense et partagée. Tous deux cherchent la sécurité, la fusion, le nid douillet — ils se comprennent dans leurs besoins profonds et créent ensemble un cocon protecteur. Leur amour est nourricier et profond.",
+        "L'avantage de la conjonction est cette compréhension intuitive ; son défi est le manque de recul. Aucun des deux n'apporte la légèreté ou la distance qui équilibrerait l'autre. Leurs marées émotionnelles, sans contrepoids, peuvent les submerger ensemble.",
+      ] },
+      { h2: 'Comment deux Cancers communiquent', paras: [
+        "La communication passe par l'intuition, les gestes tendres, les non-dits compris. Ils se devinent sans mots, ce qui crée une grande douceur. Mais tous deux susceptibles, ils peuvent se replier dans la bouderie plutôt que d'exprimer un grief.",
+        "La clé est d'oser dire les choses directement plutôt que d'attendre que l'autre devine. Quand ils nomment leurs besoins, leur tendresse mutuelle dissout vite les blessures.",
+      ] },
+      { h2: "L'alchimie entre deux Cancers", paras: [
+        "L'intimité est tendre, fusionnelle et profondément émotionnelle. Deux Cancers se donnent entièrement, dans une connexion où le corps et le cœur ne font qu'un. Leur sensualité est enveloppante, nourrie par un fort sentiment de sécurité.",
+        "L'écueil est l'excès de fusion : à force de ne faire qu'un, ils peuvent perdre leurs limites. Préserver un espace individuel garde l'intimité vivante plutôt qu'envahissante.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est l'hypersensibilité et la fusion. Deux Cancers émotifs peuvent se blesser facilement, ressasser, créer un climat lourd ou s'enfermer dans un cocon coupé du monde. Les humeurs se contagent et s'amplifient.",
+        "La clé de résolution : exprimer les ressentis à temps, préserver des limites saines, s'ouvrir à l'extérieur. La légèreté et le recul, qu'aucun ne possède d'instinct, sont à cultiver volontairement.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Cancers forment un couple d'une tendresse et d'une loyauté rares. Leur empathie mutuelle, leur sens du foyer et leur profondeur émotionnelle en font des partenaires qui se consolent et se protègent comme nuls autres.",
+        "Quand ils gardent un peu de recul et d'ouverture, ils créent un refuge d'amour inégalé — un foyer où chacun se sent profondément aimé et en sûreté.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Cancers sont-ils compatibles&nbsp;?", a: "Deux Cancers forment une conjonction : un effet miroir fait de tendresse, de profondeur émotionnelle et d'amour du foyer. Très compatibles, ils doivent surveiller l'hypersensibilité et l'excès de fusion. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Cancers se blessent-ils facilement&nbsp;?", a: "Le Cancer (eau cardinale, régi par la Lune) ressent tout intensément et se protège par une carapace. Quand deux Cancers s'aiment, leurs susceptibilités se rencontrent et leurs humeurs s'amplifient. Exprimer ses besoins plutôt que bouder est essentiel." },
+      { q: "Quel est le plus grand défi de deux Cancers en couple&nbsp;?", a: "L'hypersensibilité et la fusion excessive. Deux émotifs peuvent se submerger mutuellement et s'enfermer dans un cocon. Le défi est d'exprimer les ressentis à temps, de préserver des limites et de s'ouvrir à l'extérieur." },
+    ],
+    related: [sc('cancer', 'Le signe'), { href: '/compatibilite/cancer', glyph: GLYPH.cancer, label: 'Compatibilités', name: NAME.cancer }, guideCard],
+  }),
+
+  pair({
+    a: 'lion', b: 'lion',
+    metaDesc: "Compatibilité Lion Lion : deux feux fixes en miroir, une passion flamboyante et une rivalité pour la scène. Quand deux soleils s'aiment. Dynamique, défis et forces du couple.",
+    ogDesc: "Conjonction : deux Lions, flamboyance, générosité et le risque que deux soleils se disputent la scène.",
+    h1Html: "Compatibilité Lion & Lion, deux <em>soleils</em> dans le même ciel",
+    leadHtml: "Deux Lions ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Lion–Lion double le feu fixe — une passion flamboyante, une générosité royale, mais aussi le risque que deux soleils se disputent le centre de la scène.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/lion\">Lions</a> se rencontrent, c'est un face-à-face de rois. La conjonction crée une attraction magnétique et une admiration mutuelle : même chaleur, même générosité, même besoin de briller. Mais ce miroir amplifie aussi l'orgueil et la soif de reconnaissance.",
+      ] },
+      { h2: 'Lion et Lion : la dynamique profonde', paras: [
+        "Deux Soleils dans le même ciel : une lumière redoublée, mais aussi deux egos qui veulent rayonner. Tous deux loyaux, chaleureux et créatifs, ils se comprennent dans leur besoin d'être aimés et reconnus. Leur amour est grandiose, romanesque, généreux.",
+        "L'avantage de la conjonction est cette grandeur partagée ; son défi est la place. Aucun des deux n'apporte la modestie qui ferait de la place à l'autre. La scène est trop petite pour deux soleils qui veulent tous deux l'occuper.",
+      ] },
+      { h2: 'Comment deux Lions communiquent', paras: [
+        "La communication est chaleureuse, théâtrale, généreuse. Ils s'expriment avec panache et savent se complimenter — mais leur fierté est sensible, et une blessure d'orgueil peut déclencher des drames spectaculaires.",
+        "La clé est l'admiration réciproque : quand chacun met l'autre en valeur au lieu de réclamer toute la lumière, leur dialogue devient un échange royal. Reconnaître la grandeur de l'autre est leur grande leçon.",
+      ] },
+      { h2: "L'alchimie entre deux Lions", paras: [
+        "La passion est ardente et romanesque. Deux Lions s'aiment en grand, avec générosité, théâtralité et chaleur. Leur intimité est intense, flamboyante, nourrie par l'admiration mutuelle et le sens du romanesque.",
+        "L'écueil est la compétition jusque dans la séduction. Tant que chacun se sent désiré et honoré, leur désir reste éclatant ; s'il devient un concours, il s'épuise.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est la rivalité d'egos et la soif de reconnaissance. Deux Lions veulent tous deux être le héros, ce qui peut tourner à la lutte pour l'attention et l'admiration. L'orgueil blessé, doublé, peut provoquer des conflits dramatiques.",
+        "La clé de résolution : partager la lumière, célébrer les succès de l'autre, soigner mutuellement leur fierté. Apprendre à régner à deux plutôt qu'à se disputer le trône transforme leur feu en alliance.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Lions forment un couple rayonnant, généreux et loyal. Leur chaleur, leur créativité et leur sens de la fête en font des partenaires admirés, capables de s'aimer avec une intensité et une magnificence rares.",
+        "Quand ils partagent la scène plutôt que de la disputer, ils deviennent un couple royal — deux soleils qui éclairent le même monde au lieu de se faire de l'ombre.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Lions sont-ils compatibles&nbsp;?", a: "Deux Lions forment une conjonction : un effet miroir fait de passion flamboyante, de générosité et de loyauté, mais aussi de rivalité d'egos. Leur compatibilité est intense ; le défi est de partager la lumière. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Lions se disputent-ils l'attention&nbsp;?", a: "Le Lion (feu fixe, régi par le Soleil) a besoin de rayonner et d'être reconnu. Quand deux Lions s'aiment, chacun veut être le centre, d'où une rivalité pour la scène. Apprendre à célébrer l'autre et à partager la lumière apaise ce conflit." },
+      { q: "Quel est le plus grand défi de deux Lions en couple&nbsp;?", a: "La rivalité d'egos et la soif de reconnaissance redoublée. Le défi est de partager la scène, de soigner mutuellement la fierté de l'autre et de régner à deux plutôt que de se disputer le trône." },
+    ],
+    related: [sc('lion', 'Le signe'), { href: '/compatibilite/lion', glyph: GLYPH.lion, label: 'Compatibilités', name: NAME.lion }, guideCard],
+  }),
+
+  pair({
+    a: 'vierge', b: 'vierge',
+    metaDesc: "Compatibilité Vierge Vierge : deux terres mutables en miroir, un dévouement attentif et un risque d'excès de critique. Quand deux perfectionnistes s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Vierges, dévouement, soin et le risque d'une critique et d'une anxiété redoublées.",
+    h1Html: "Compatibilité Vierge & Vierge, le <em>même</em> souci du détail",
+    leadHtml: "Deux Vierges ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Vierge–Vierge double la terre mutable — un dévouement mutuel, un quotidien impeccable, mais aussi le risque que deux perfectionnistes nourrissent ensemble la critique et l'anxiété.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/vierge\">Vierges</a> se rencontrent, elles reconnaissent le même sérieux, la même intelligence pratique, le même désir de bien faire. La conjonction crée une entente fondée sur le dévouement et l'attention. Mais ce miroir amplifie aussi le perfectionnisme et l'inquiétude.",
+      ] },
+      { h2: 'Vierge et Vierge : la dynamique profonde', paras: [
+        "Deux Mercure terriens : une intelligence méthodique au service du concret. Tous deux soucieux du détail, serviables et fiables, ils se comprennent dans leur exigence et leur besoin d'être utiles. Leur relation est attentionnée, ordonnée, profondément loyale.",
+        "L'avantage de la conjonction est cette complicité du soin ; son défi est l'autocritique redoublée. Aucun des deux n'apporte la légèreté ou la confiance qui apaiserait l'autre. Leur perfectionnisme, sans contrepoids, peut tourner à l'anxiété partagée.",
+      ] },
+      { h2: 'Comment deux Vierges communiquent', paras: [
+        "La communication est précise, sincère, tournée vers les solutions. Ils analysent, planifient, s'entraident avec efficacité. Mais deux esprits critiques peuvent se reprendre mutuellement, transformant l'attention en jugement.",
+        "La clé est la bienveillance : remplacer la critique par l'encouragement, accepter l'imperfection de l'autre comme la sienne. Quand ils s'accueillent avec douceur, leur exigence devient un soin partagé précieux.",
+      ] },
+      { h2: "L'alchimie entre deux Vierges", paras: [
+        "L'intimité se construit dans la confiance et la délicatesse. Tous deux pudiques, ils s'ouvrent lentement, mais leur connexion gagne en profondeur avec le temps. Leur attention mutuelle au bien-être de l'autre rend leur intimité tendre et dévouée.",
+        "L'écueil est l'excès de mental et la retenue : à trop analyser, le lâcher-prise est difficile. S'ils osent la spontanéité, leur tendresse s'épanouit.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est la critique et l'anxiété redoublées. Deux Vierges peuvent se noyer dans les détails, s'inquiéter à l'unisson, viser une perfection épuisante et créer un climat tendu de petites remarques.",
+        "La clé de résolution : célébrer les réussites, dédramatiser, cultiver la détente et l'humour. Apprendre à se reposer sans culpabilité, ce qu'aucune ne fait d'instinct, est leur grand travail commun.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Vierges forment un couple attentionné, fiable et harmonieux. Leur dévouement mutuel, leur intelligence et leur sens du concret en font des partenaires qui construisent une vie commune soignée et bien organisée.",
+        "Quand elles troquent la critique contre la bienveillance, elles vivent une relation d'un soin rare — un quotidien doux où chacune se sent vraiment prise en charge.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Vierges sont-elles compatibles&nbsp;?", a: "Deux Vierges forment une conjonction : un effet miroir fait de dévouement, de fiabilité et d'intelligence pratique. Très compatibles, elles doivent surveiller le perfectionnisme et l'anxiété redoublés. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Vierges deviennent-elles trop critiques&nbsp;?", a: "La Vierge (terre mutable) voit ce qui peut être amélioré et tend à le signaler. Quand deux Vierges s'aiment, leurs regards critiques se rencontrent et peuvent transformer l'attention en jugement. Remplacer la critique par l'encouragement est essentiel." },
+      { q: "Quel est le plus grand défi de deux Vierges en couple&nbsp;?", a: "La critique et l'anxiété redoublées. Deux perfectionnistes peuvent viser une perfection épuisante et créer un climat tendu. Le défi est de dédramatiser, de cultiver l'humour et d'apprendre à se reposer sans culpabilité." },
+    ],
+    related: [sc('vierge', 'Le signe'), { href: '/compatibilite/vierge', glyph: GLYPH.vierge, label: 'Compatibilités', name: NAME.vierge }, guideCard],
+  }),
+
+  pair({
+    a: 'balance', b: 'balance',
+    metaDesc: "Compatibilité Balance Balance : deux airs cardinaux en miroir, une harmonie raffinée et un risque d'indécision à deux. Quand deux esthètes s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Balances, harmonie, raffinement et le risque d'une indécision et d'un évitement partagés.",
+    h1Html: "Compatibilité Balance & Balance, la <em>même</em> quête d'harmonie",
+    leadHtml: "Deux Balances ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Balance–Balance double l'air cardinal — une relation gracieuse et équilibrée, mais aussi le risque que deux indécis évitent ensemble tout conflit et toute décision.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/balance\">Balances</a> se rencontrent, c'est une rencontre de charme et d'élégance. La conjonction crée une harmonie immédiate : même amour de la beauté, du lien, de la paix. Mais ce miroir amplifie aussi l'indécision et la peur du conflit.",
+      ] },
+      { h2: 'Balance et Balance : la dynamique profonde', paras: [
+        "Deux Vénus aériennes : un amour de l'harmonie, de la relation, de l'esthétique. Tous deux diplomates et attentifs à l'autre, ils créent une relation douce, équilibrée et raffinée. Ils se comprennent dans leur quête de paix et de beauté.",
+        "L'avantage de la conjonction est cette grâce partagée ; son défi est l'absence de décision. Aucun des deux n'apporte la fermeté qui trancherait. À force de vouloir plaire et éviter le conflit, leur couple peut stagner dans le non-dit.",
+      ] },
+      { h2: 'Comment deux Balances communiquent', paras: [
+        "La communication est courtoise, nuancée, diplomate. Ils s'écoutent, cherchent l'accord, soignent la forme. Mais tous deux fuient le conflit : les vrais désaccords sont lissés, et les frustrations s'accumulent sous une surface lisse.",
+        "La clé est le courage d'aborder les sujets difficiles. Quand ils osent la franchise sans craindre de rompre l'harmonie, leur dialogue gagne en authenticité ce qu'il ne perd pas en élégance.",
+      ] },
+      { h2: "L'alchimie entre deux Balances", paras: [
+        "L'intimité est romantique, sensuelle et raffinée. Deux Balances soignent la séduction, l'ambiance, la beauté du moment partagé. Leur connexion est tendre, élégante, nourrie par une admiration mutuelle.",
+        "L'écueil est de privilégier la forme sur la profondeur. S'ils osent la vraie vulnérabilité émotionnelle, leur romantisme gagne en intensité.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est l'indécision et l'évitement du conflit. Deux Balances peuvent hésiter sans fin, se renvoyer les décisions, lisser les désaccords jusqu'à l'inertie. La peur partagée de déplaire peut paralyser le couple.",
+        "La clé de résolution : oser trancher, nommer les frustrations, accepter que le désaccord ne menace pas le lien. La fermeté, qu'aucun ne possède d'instinct, est à cultiver ensemble.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Balances forment un couple harmonieux, élégant et profondément attentif à l'autre. Leur diplomatie, leur goût de la beauté et leur sens du lien en font des partenaires qui rendent la vie douce et raffinée.",
+        "Quand ils ajoutent un peu de franchise et de décision à leur grâce, ils vivent une relation aussi équilibrée que vivante — un véritable art de la relation à deux.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Balances sont-elles compatibles&nbsp;?", a: "Deux Balances forment une conjonction : un effet miroir fait d'harmonie, de raffinement et d'attention mutuelle. Très compatibles, elles doivent surveiller l'indécision et l'évitement du conflit. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Balances ont-elles du mal à décider&nbsp;?", a: "La Balance (air cardinal) pèse le pour et le contre et redoute de déplaire. Quand deux Balances s'aiment, chacune attend que l'autre tranche, d'où une indécision redoublée. Oser décider et nommer les désaccords est leur grand apprentissage." },
+      { q: "Quel est le plus grand défi de deux Balances en couple&nbsp;?", a: "L'indécision et l'évitement du conflit. Deux esthètes qui fuient les tensions peuvent stagner dans le non-dit. Le défi est d'oser trancher, de nommer les frustrations et d'accepter que le désaccord ne menace pas le lien." },
+    ],
+    related: [sc('balance', 'Le signe'), { href: '/compatibilite/balance', glyph: GLYPH.balance, label: 'Compatibilités', name: NAME.balance }, guideCard],
+  }),
+
+  pair({
+    a: 'scorpion', b: 'scorpion',
+    metaDesc: "Compatibilité Scorpion Scorpion : deux eaux fixes en miroir, une passion abyssale et un risque de lutte de pouvoir. Quand deux intensités s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Scorpions, passion abyssale, loyauté et le risque d'une lutte de pouvoir et de jalousie.",
+    h1Html: "Compatibilité Scorpion & Scorpion, deux <em>abysses</em> qui se reconnaissent",
+    leadHtml: "Deux Scorpions ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Scorpion–Scorpion double l'eau fixe — une passion abyssale, une loyauté totale, mais aussi le risque que deux volontés de fer s'enferment dans la jalousie et le contrôle.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/scorpion\">Scorpions</a> se rencontrent, c'est une reconnaissance d'âme — intense, magnétique, presque dangereuse. La conjonction crée une fusion profonde : même intensité, même loyauté, même refus de la superficialité. Mais ce miroir amplifie aussi la jalousie et le besoin de contrôle.",
+      ] },
+      { h2: 'Scorpion et Scorpion : la dynamique profonde', paras: [
+        "Deux Pluton en résonance : une puissance émotionnelle redoublée, une plongée commune dans les profondeurs. Tous deux passionnés, perçants et secrets, ils se comprennent là où personne d'autre ne les suit. Leur amour est total, transformateur, sans demi-mesure.",
+        "L'avantage de la conjonction est cette intimité absolue ; son défi est l'intensité sans contrepoids. Aucun des deux n'apporte la légèreté qui apaiserait l'autre. Deux volontés de fer, deux jaloux, peuvent s'enfermer dans une spirale de pouvoir.",
+      ] },
+      { h2: 'Comment deux Scorpions communiquent', paras: [
+        "La communication est profonde, intuitive, sans bavardage. Ils se devinent, vont au fond des choses, ne craignent pas les vérités difficiles. Mais deux êtres secrets et méfiants peuvent aussi se tester, se soupçonner, garder rancune.",
+        "La clé est la confiance et la transparence : cesser de contrôler, oser se livrer sans armure. Quand ils s'accordent une confiance totale, leur lien atteint une profondeur que peu de couples connaissent.",
+      ] },
+      { h2: "L'alchimie entre deux Scorpions", paras: [
+        "La passion est abyssale et fusionnelle. Deux Scorpions partagent une intensité physique et émotionnelle d'une puissance rare — leur intimité est totale, magnétique, transformatrice. Le désir entre eux est profond et durable.",
+        "L'écueil est l'obsession et le contrôle. Tant que la confiance règne, leur fusion est sublime ; si la jalousie s'en mêle, elle peut devenir destructrice. Préserver un espace de confiance est vital.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est la lutte de pouvoir et la jalousie redoublées. Deux Scorpions possessifs et déterminés peuvent s'enfermer dans le soupçon, le contrôle, les bras de fer silencieux. L'intensité, sans soupape, peut tourner à la spirale destructrice.",
+        "La clé de résolution : accorder une confiance totale, renoncer au contrôle, transformer leur puissance en régénération plutôt qu'en combat. Cultiver un peu de légèreté, qu'aucun ne possède, les sauve de l'excès.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Scorpions forment un couple d'une profondeur et d'une loyauté absolues. Leur intensité partagée, leur compréhension mutuelle et leur fidélité féroce en font des partenaires liés corps et âme, capables de tout traverser ensemble.",
+        "Quand ils choisissent la confiance plutôt que le contrôle, ils vivent une union transformatrice et inébranlable — deux abysses qui se révèlent et se régénèrent mutuellement.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Scorpions sont-ils compatibles&nbsp;?", a: "Deux Scorpions forment une conjonction : un effet miroir fait de passion abyssale, de profondeur et de loyauté totale, mais aussi de jalousie et de lutte de pouvoir. Leur compatibilité est intense ; le défi est la confiance. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Scorpions se livrent-ils une lutte de pouvoir&nbsp;?", a: "Le Scorpion (eau fixe, régi par Pluton) est intense, possessif et déterminé. Quand deux Scorpions s'aiment, leurs volontés de fer et leurs jalousies se rencontrent, pouvant créer une spirale de contrôle. Accorder une confiance totale est essentiel." },
+      { q: "Quel est le plus grand défi de deux Scorpions en couple&nbsp;?", a: "La jalousie et la lutte de pouvoir redoublées. Deux possessifs peuvent s'enfermer dans le soupçon et le contrôle. Le défi est d'accorder une confiance totale, de renoncer au contrôle et de cultiver un peu de légèreté." },
+    ],
+    related: [sc('scorpion', 'Le signe'), { href: '/compatibilite/scorpion', glyph: GLYPH.scorpion, label: 'Compatibilités', name: NAME.scorpion }, guideCard],
+  }),
+
+  pair({
+    a: 'sagittaire', b: 'sagittaire',
+    metaDesc: "Compatibilité Sagittaire Sagittaire : deux feux mutables en miroir, une aventure partagée et un risque d'instabilité. Quand deux explorateurs s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Sagittaires, aventure, optimisme et le risque d'une fuite de l'engagement à deux.",
+    h1Html: "Compatibilité Sagittaire & Sagittaire, deux <em>flèches</em> vers l'horizon",
+    leadHtml: "Deux Sagittaires ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Sagittaire–Sagittaire double le feu mutable — une aventure perpétuelle, un optimisme communicatif, mais aussi le risque que deux esprits libres fuient ensemble l'engagement et l'ancrage.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/sagittaire\">Sagittaires</a> se rencontrent, c'est une explosion d'enthousiasme. La conjonction crée une complicité immédiate : même soif d'aventure, même optimisme, même amour de la liberté. Mais ce miroir amplifie aussi l'instabilité et la peur de s'attacher.",
+      ] },
+      { h2: 'Sagittaire et Sagittaire : la dynamique profonde', paras: [
+        "Deux Jupiter en expansion : une foi en l'avenir et un goût de l'exploration redoublés. Tous deux francs, généreux et avides de sens, ils se comprennent dans leur besoin de liberté et de découverte. Leur relation est une grande aventure partagée.",
+        "L'avantage de la conjonction est cette joie commune ; son défi est l'ancrage. Aucun des deux n'apporte la stabilité ou la constance qui enracinerait le couple. À deux, ils peuvent fuir indéfiniment l'engagement et le quotidien.",
+      ] },
+      { h2: 'Comment deux Sagittaires communiquent', paras: [
+        "La communication est franche, enthousiaste, pleine d'humour et de grandes idées. Ils refont le monde, débattent de philosophie, rient de tout. Leur honnêteté commune évite les non-dits, même si leur franchise peut parfois manquer de tact.",
+        "La clé est de ne pas tout esquiver par la légèreté : oser aborder les sujets sérieux et les émotions profondes. Quand ils ajoutent la profondeur à leur enthousiasme, leur dialogue devient aussi riche que joyeux.",
+      ] },
+      { h2: "L'alchimie entre deux Sagittaires", paras: [
+        "L'attirance est joueuse et aventureuse. Deux Sagittaires s'aiment dans le mouvement, la nouveauté, l'exploration. Leur intimité est spontanée, libre, jamais routinière — ils savent transformer l'amour en aventure.",
+        "L'écueil est le manque d'enracinement émotionnel : à toujours chercher l'ailleurs, le lien peut manquer de profondeur. S'ils s'engagent vraiment, leur complicité devient une intimité durable.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est l'instabilité et la fuite de l'engagement. Deux esprits libres peuvent négliger le quotidien, repousser les responsabilités, fuir ensemble l'intimité contraignante. Le couple risque de rester une belle aventure sans fondations.",
+        "La clé de résolution : oser l'engagement et la profondeur, construire un ancrage commun. La constance, qu'aucun ne possède d'instinct, est à cultiver volontairement pour que l'aventure dure.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Sagittaires forment un couple rayonnant d'optimisme et de liberté. Leur soif d'aventure, leur honnêteté et leur joie de vivre en font des partenaires de route exaltants, qui agrandissent mutuellement leur monde.",
+        "Quand ils ajoutent l'engagement à leur liberté, ils vivent une histoire pleine de sens et de découvertes — deux flèches qui visent ensemble le même horizon.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Sagittaires sont-ils compatibles&nbsp;?", a: "Deux Sagittaires forment une conjonction : un effet miroir fait d'aventure, d'optimisme et de liberté. Très compatibles, ils doivent surveiller l'instabilité et la fuite de l'engagement. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Sagittaires fuient-ils l'engagement&nbsp;?", a: "Le Sagittaire (feu mutable, régi par Jupiter) chérit la liberté et redoute l'enfermement. Quand deux Sagittaires s'aiment, leur besoin commun d'espace peut les pousser à fuir ensemble l'intimité contraignante. Oser l'engagement est leur grand apprentissage." },
+      { q: "Quel est le plus grand défi de deux Sagittaires en couple&nbsp;?", a: "L'instabilité et le manque d'ancrage. Deux esprits libres peuvent négliger le quotidien et fuir la profondeur. Le défi est d'oser l'engagement et de construire des fondations pour que l'aventure dure." },
+    ],
+    related: [sc('sagittaire', 'Le signe'), { href: '/compatibilite/sagittaire', glyph: GLYPH.sagittaire, label: 'Compatibilités', name: NAME.sagittaire }, guideCard],
+  }),
+
+  pair({
+    a: 'capricorne', b: 'capricorne',
+    metaDesc: "Compatibilité Capricorne Capricorne : deux terres cardinales en miroir, une ambition solide et un risque d'austérité. Quand deux bâtisseurs s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Capricornes, ambition, loyauté et le risque d'un couple qui sacrifie la tendresse au devoir.",
+    h1Html: "Compatibilité Capricorne & Capricorne, les <em>mêmes</em> sommets",
+    leadHtml: "Deux Capricornes ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Capricorne–Capricorne double la terre cardinale — une solidité et une ambition partagées, mais aussi le risque que deux travailleurs acharnés sacrifient la tendresse au devoir.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/capricorne\">Capricornes</a> se rencontrent, ils reconnaissent la même ambition, le même sérieux, la même loyauté. La conjonction crée une entente fondée sur le respect et les valeurs communes. Mais ce miroir amplifie aussi l'austérité et la difficulté à exprimer les émotions.",
+      ] },
+      { h2: 'Capricorne et Capricorne : la dynamique profonde', paras: [
+        "Deux Saturne en résonance : une discipline et une persévérance redoublées. Tous deux ambitieux, fiables et tournés vers le long terme, ils se comprennent dans leur sens du devoir et leur quête de réussite. Leur relation se bâtit comme un édifice solide, fait pour durer.",
+        "L'avantage de la conjonction est cette solidité ; son défi est le manque de légèreté. Aucun des deux n'apporte la chaleur ou l'insouciance qui réchaufferait l'autre. Deux Saturne, sans contrepoids, peuvent transformer leur couple en entreprise austère.",
+      ] },
+      { h2: 'Comment deux Capricornes communiquent', paras: [
+        "La communication est sobre, honnête, tournée vers le concret et les objectifs. Ils se respectent, planifient, s'épaulent dans leurs ambitions. Mais tous deux pudiques, ils peuvent laisser les émotions implicites et se réfugier dans le travail.",
+        "La clé est d'oser verbaliser l'affection et la vulnérabilité. Quand ils sortent de la pudeur pour se dire les choses, leur respect mutuel se double d'une vraie tendresse.",
+      ] },
+      { h2: "L'alchimie entre deux Capricornes", paras: [
+        "L'intimité se construit lentement, dans la confiance et la pudeur. Deux Capricornes ont besoin de temps pour baisser la garde, mais leur sensualité contenue se révèle profonde et durable une fois la sécurité installée.",
+        "L'écueil est de tout sacrifier au travail et au devoir, au détriment du plaisir. S'ils s'autorisent la détente et le jeu, leur intimité gagne en chaleur.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est l'austérité et la rétention émotionnelle. Deux Capricornes peuvent se noyer dans le travail, négliger la tendresse, transformer leur couple en partenariat sérieux mais froid. Le pessimisme, doublé, peut peser.",
+        "La clé de résolution : se ménager du plaisir et de la légèreté, exprimer les émotions, célébrer les réussites. Apprendre à se reposer et à jouer, ce qu'aucun ne fait d'instinct, est leur grand travail commun.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Capricornes forment un couple d'une solidité et d'une loyauté exemplaires. Leur ambition, leur fiabilité et leur persévérance en font des partenaires capables de bâtir une vie entière — patrimoine, foyer, réussite — avec une constance rare.",
+        "Quand ils ajoutent la chaleur et le jeu à leur sérieux, ils deviennent un roc inébranlable l'un pour l'autre — un amour mûr qui se bonifie avec le temps.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Capricornes sont-ils compatibles&nbsp;?", a: "Deux Capricornes forment une conjonction : un effet miroir fait d'ambition, de loyauté et de valeurs communes. Très compatibles et solides, ils doivent surveiller l'austérité et la rétention émotionnelle. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Capricornes manquent-ils de chaleur&nbsp;?", a: "Le Capricorne (terre cardinale, régi par Saturne) est pudique, sérieux et tourné vers le travail. Quand deux Capricornes s'aiment, leur réserve se double et les émotions restent implicites. Oser verbaliser l'affection est essentiel pour eux." },
+      { q: "Quel est le plus grand défi de deux Capricornes en couple&nbsp;?", a: "L'austérité et le sacrifice de la tendresse au devoir. Deux travailleurs acharnés peuvent transformer leur couple en partenariat froid. Le défi est de se ménager du plaisir, d'exprimer les émotions et d'apprendre à jouer." },
+    ],
+    related: [sc('capricorne', 'Le signe'), { href: '/compatibilite/capricorne', glyph: GLYPH.capricorne, label: 'Compatibilités', name: NAME.capricorne }, guideCard],
+  }),
+
+  pair({
+    a: 'verseau', b: 'verseau',
+    metaDesc: "Compatibilité Verseau Verseau : deux airs fixes en miroir, une liberté et des idéaux partagés, un risque de froideur. Quand deux esprits libres s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Verseaux, liberté, idéaux et le risque d'une relation trop cérébrale et détachée.",
+    h1Html: "Compatibilité Verseau & Verseau, les <em>mêmes</em> idéaux",
+    leadHtml: "Deux Verseaux ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Verseau–Verseau double l'air fixe — une amitié amoureuse libre, des idéaux partagés, mais aussi le risque que deux esprits détachés peinent à plonger dans l'intimité du cœur.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/verseau\">Verseaux</a> se rencontrent, ils reconnaissent la même originalité, la même soif de liberté, les mêmes idéaux. La conjonction crée une complicité intellectuelle et un respect mutuel total. Mais ce miroir amplifie aussi le détachement émotionnel.",
+      ] },
+      { h2: 'Verseau et Verseau : la dynamique profonde', paras: [
+        "Deux Uranus en résonance : une indépendance et une inventivité redoublées. Tous deux libres, visionnaires et attachés au collectif, ils se comprennent dans leur refus des conventions et leur besoin d'espace. Leur relation est une amitié amoureuse fondée sur la liberté.",
+        "L'avantage de la conjonction est ce respect de l'indépendance ; son défi est la chaleur. Aucun des deux n'apporte la profondeur émotionnelle qui réchaufferait l'autre. Deux Verseaux, sans contrepoids, peuvent vivre côte à côte sans vraiment plonger dans l'intime.",
+      ] },
+      { h2: 'Comment deux Verseaux communiquent', paras: [
+        "La communication est brillante, originale, tournée vers les idées et les causes. Ils débattent, refont le monde, s'enthousiasment pour le futur. Leur entente intellectuelle est immédiate et leur respect total.",
+        "L'écueil est de tout intellectualiser et d'éviter le terrain des émotions. La clé est d'oser la vulnérabilité, de descendre de la tête au cœur. Quand ils s'autorisent l'intime, leur complicité devient une vraie intimité.",
+      ] },
+      { h2: "L'alchimie entre deux Verseaux", paras: [
+        "L'attirance est mentale et électrique : ils se séduisent par l'originalité, les idées, la liberté partagée. Leur intimité est inventive, décontractée, sans possessivité — deux êtres qui s'aiment sans s'enchaîner.",
+        "L'écueil est le détachement : à rester dans les idées, la passion charnelle peut manquer de profondeur. S'ils osent l'engagement émotionnel, leur lien gagne en chaleur.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est le détachement émotionnel redoublé. Deux Verseaux peuvent fuir ensemble la vulnérabilité, rester dans l'amitié et les idées, ne jamais vraiment plonger dans l'intimité du cœur. Le couple risque de ressembler à une belle amitié qui n'ose pas l'intime.",
+        "La clé de résolution : oser la profondeur émotionnelle, exprimer les sentiments sans les rationaliser. La chaleur et l'engagement, qu'aucun ne possède d'instinct, sont à cultiver volontairement.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Verseaux forment un couple libre, original et inspirant. Leur indépendance mutuellement respectée, leur ouverture d'esprit et leurs idéaux communs en font des partenaires qui grandissent ensemble sans s'étouffer.",
+        "Quand ils ajoutent la profondeur du cœur à leur complicité d'esprit, ils vivent une relation aussi rare que durable — une amitié amoureuse qui ose enfin l'intime.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Verseaux sont-ils compatibles&nbsp;?", a: "Deux Verseaux forment une conjonction : un effet miroir fait de liberté, d'originalité et d'idéaux partagés. Très compatibles intellectuellement, ils doivent surveiller le détachement émotionnel. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Verseaux manquent-ils de chaleur&nbsp;?", a: "Le Verseau (air fixe, régi par Uranus) privilégie les idées et chérit son indépendance. Quand deux Verseaux s'aiment, leur détachement se double et l'intimité émotionnelle peut manquer. Oser la vulnérabilité est leur grand apprentissage." },
+      { q: "Quel est le plus grand défi de deux Verseaux en couple&nbsp;?", a: "Le détachement émotionnel redoublé. Deux esprits indépendants peuvent rester dans l'amitié et les idées sans plonger dans l'intime. Le défi est d'oser la profondeur du cœur et d'exprimer les sentiments sans les rationaliser." },
+    ],
+    related: [sc('verseau', 'Le signe'), { href: '/compatibilite/verseau', glyph: GLYPH.verseau, label: 'Compatibilités', name: NAME.verseau }, guideCard],
+  }),
+
+  pair({
+    a: 'poissons', b: 'poissons',
+    metaDesc: "Compatibilité Poissons Poissons : deux eaux mutables en miroir, une fusion romantique et un risque de perte d'ancrage. Quand deux rêveurs s'aiment. Dynamique, défis et forces.",
+    ogDesc: "Conjonction : deux Poissons, romantisme, compassion et le risque d'un couple qui se noie dans le rêve.",
+    h1Html: "Compatibilité Poissons & Poissons, deux <em>océans</em> qui se mêlent",
+    leadHtml: "Deux Poissons ensemble, c'est une conjonction : l'effet miroir. Cette compatibilité Poissons–Poissons double l'eau mutable — une fusion romantique et spirituelle, une tendresse infinie, mais aussi le risque que deux rêveurs perdent ensemble pied avec le réel.",
+    sections: [
+      { h2: null, paras: [
+        "Quand deux <a href=\"/signes/poissons\">Poissons</a> se rencontrent, c'est une reconnaissance d'âme à âme. La conjonction crée une fusion immédiate : même sensibilité, même compassion, même imaginaire. Mais ce miroir amplifie aussi le manque d'ancrage et la tendance à fuir le réel.",
+      ] },
+      { h2: 'Poissons et Poissons : la dynamique profonde', paras: [
+        "Deux Neptune en résonance : une compassion et une imagination redoublées. Tous deux sensibles, intuitifs et romantiques, ils se comprennent sans mots, dans une connexion presque télépathique. Leur amour est tendre, spirituel, fusionnel.",
+        "L'avantage de la conjonction est cette communion d'âmes ; son défi est l'absence d'ancrage. Aucun des deux n'apporte le sens pratique ou les limites qui structureraient le couple. Deux Poissons, sans contrepoids, peuvent se perdre ensemble dans le rêve ou l'idéalisation.",
+      ] },
+      { h2: 'Comment deux Poissons communiquent', paras: [
+        "La communication passe par l'intuition, les ressentis, les non-dits compris. Ils se devinent et se consolent avec une douceur infinie. Mais tous deux fuient le conflit, ce qui peut laisser les vrais sujets sous la surface, dans un flou émotionnel.",
+        "La clé est d'oser la clarté et l'honnêteté, de mettre des mots sur les ressentis. Quand ils ajoutent un peu de concret à leur tendresse, leur connexion devient aussi solide que douce.",
+      ] },
+      { h2: "L'alchimie entre deux Poissons", paras: [
+        "L'intimité est fusionnelle, romantique et profondément spirituelle. Deux Poissons se donnent entièrement, dans une connexion où les frontières s'effacent. Leur sensualité est tendre, imaginative, empreinte d'une dimension presque mystique.",
+        "L'écueil est l'excès de fusion et l'idéalisation : à ne faire qu'un, ils peuvent perdre leurs limites ou aimer une image plutôt que la personne réelle. Préserver un soi distinct garde l'amour vivant.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi majeur est le manque d'ancrage et la fuite du réel. Deux Poissons peuvent manquer de sens pratique, se laisser submerger par les émotions, fuir ensemble dans le rêve, l'idéalisation ou l'évitement. Le quotidien risque d'être le grand absent.",
+        "La clé de résolution : développer ensemble plus de structure et de réalisme, oser les vrais sujets, préserver des limites. L'ancrage, qu'aucun ne possède d'instinct, est leur grand travail commun.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Deux Poissons forment un couple d'une tendresse et d'une profondeur spirituelle rares. Leur empathie mutuelle, leur imaginaire et leur compassion en font des partenaires qui se comprennent et s'aiment au plus profond de l'âme.",
+        "Quand ils ajoutent un peu d'ancrage à leur fusion, ils vivent une histoire d'amour d'une beauté presque irréelle — deux océans qui se mêlent sans se perdre.",
+      ] },
+    ],
+    faq: [
+      { q: "Deux Poissons sont-ils compatibles&nbsp;?", a: "Deux Poissons forment une conjonction : un effet miroir fait de tendresse, de compassion et de fusion romantique. Très compatibles sur le plan de l'âme, ils doivent surveiller le manque d'ancrage et la fuite du réel. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi deux Poissons perdent-ils pied avec le réel&nbsp;?", a: "Les Poissons (eau mutable, régis par Neptune) sont rêveurs, sensibles et fuient volontiers le réel. Quand deux Poissons s'aiment, leur manque d'ancrage se double et le quotidien peut être négligé. Développer du concret est leur grand apprentissage." },
+      { q: "Quel est le plus grand défi de deux Poissons en couple&nbsp;?", a: "Le manque d'ancrage et la fuite du réel. Deux rêveurs peuvent se submerger d'émotions et négliger le quotidien. Le défi est de développer ensemble structure et réalisme, et de préserver des limites saines." },
+    ],
+    related: [sc('poissons', 'Le signe'), { href: '/compatibilite/poissons', glyph: GLYPH.poissons, label: 'Compatibilités', name: NAME.poissons }, guideCard],
+  }),
 ];

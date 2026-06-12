@@ -97,11 +97,9 @@ export function renderCompat(c) {
           <div class="article-glyph" aria-hidden="true">${c.glyphs}</div>
           <h1 class="article-title">${c.h1Html}</h1>
           <p class="article-lead">${c.leadHtml}</p>
-${metaStrip([
-    { label: 'Aspect', value: c.aspect },
-    { label: c.sign1, value: c.el1 },
-    { label: c.sign2, value: c.el2 },
-  ])}
+${metaStrip(c.sign1 === c.sign2
+    ? [{ label: 'Aspect', value: c.aspect }, { label: 'Élément', value: c.el1 }]
+    : [{ label: 'Aspect', value: c.aspect }, { label: c.sign1, value: c.el1 }, { label: c.sign2, value: c.el2 }])}
         </header>
 
         <div class="article-body">
