@@ -18,12 +18,12 @@ const faqs = [
   {
     question: "Puis-je calculer le thème de quelqu'un d'autre\u00a0?",
     answer:
-      "Oui, dans la section Compatibilité. Vous pouvez sauvegarder plusieurs profils (partenaire, enfants, amis) et faire des analyses synastriques entre eux.",
+      "Oui, au bas de la page de vos résultats de compatibilité, vous pouvez accéder au thème astral de l'autre personne. Notez que les calculs de compatibilité sont toujours centrés sur vous ; vous ne pouvez donc pas tester la compatibilité de deux autres personnes entre elles.",
   },
   {
     question: "Et si je ne connais pas mon heure de naissance\u00a0?",
     answer:
-      "Lunestia fonctionne sans heure exacte (vous obtenez votre Soleil, Lune et signes principaux). Mais pour l'Ascendant et les maisons, l'heure est nécessaire — un mode «\u00a0rectification\u00a0» vous aide à l'estimer.",
+      "Lunestia fonctionne sans heure exacte (vous obtenez votre Soleil, Lune et signes principaux). Mais pour l'Ascendant et les maisons, l'heure est nécessaire.",
   },
   {
     question: 'Puis-je annuler à tout moment\u00a0?',

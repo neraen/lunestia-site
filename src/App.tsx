@@ -23,7 +23,7 @@ function App() {
         <Features />
         <ShowcaseConversation />
         <ShowcaseCalendar />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Pricing />
         <FAQ />
         <CTABanner />

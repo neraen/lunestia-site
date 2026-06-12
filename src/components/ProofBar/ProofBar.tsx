@@ -2,8 +2,7 @@ import { AnimateIn } from '../ui/AnimateIn'
 import styles from './ProofBar.module.css'
 
 const stats = [
-  { num: '180k+', label: 'Thèmes calculés' },
-  { num: '4.9', label: 'Note moyenne' },
+  { num: '800+', label: 'Thèmes calculés' },
   { num: '42', label: 'Pays' },
   { num: '24/7', label: 'Lyra disponible' },
 ]
