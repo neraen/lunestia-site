@@ -44,30 +44,7 @@ export function Hero() {
               </svg>
             </Button>
           </div>
-          <div className={styles.meta}>
-            <div className={styles.rating}>
-              <div className={styles.stars} aria-label="5 étoiles">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <svg
-                    key={i}
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z" />
-                  </svg>
-                ))}
-              </div>
-              <span className={styles.metaText}>
-                <strong>4.9</strong> / 5 sur l'App Store
-              </span>
-            </div>
-            <div className={styles.metaText}>
-              <strong>180&nbsp;000+</strong> utilisateurs guidés
-            </div>
-          </div>
+
         </AnimateIn>
 
         <AnimateIn delay={150}>
