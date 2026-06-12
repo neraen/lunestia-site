@@ -14,9 +14,7 @@ export function Hero() {
             L'astrologie qui vous <em>ressemble</em> vraiment.
           </h1>
           <p className={styles.sub}>
-            Lunestia décode votre thème natal, vos transits et votre
-            compatibilité au degré près. Plus qu'un horoscope — un guide intime,
-            calculé pour votre ciel, conversationnel quand il faut.
+            L'astrologie qui transforme des données complexes en réponses claires sur vous et vos relations.
           </p>
           <div className={styles.actions}>
             <Button href="#download" variant="primary">

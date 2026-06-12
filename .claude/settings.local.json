@@ -19,7 +19,11 @@
       "Bash(node scripts/generate.mjs)",
       "mcp__Claude_Preview__preview_start",
       "Bash(git commit -q -m ' *)",
-      "Bash(echo \"SYNTAX EXIT: $?\")"
+      "Bash(echo \"SYNTAX EXIT: $?\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/cgu.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4321/)",
+      "Bash(grep -n \"mentions-legales\\\\|confidentialite\\\\|/cgu\\\\|compatibilite/\\\\${s}\\\\|compatibilite/\\\\${c.slug}\" scripts/generate.mjs)",
+      "Bash(echo \"exit: $?\")"
     ]
   }
 }

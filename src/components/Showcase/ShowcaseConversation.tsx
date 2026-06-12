@@ -97,13 +97,10 @@ export function ShowcaseConversation() {
                   les étoiles. Qu'as-tu en tête aujourd'hui&nbsp;?
                 </div>
                 <div className={styles.msgUser}>
-                  Comment va se passer ma vie amoureuse ce mois-ci&nbsp;?
+                  Est-ce que je vais trouver l'amour cette année &nbsp;?
                 </div>
                 <div className={styles.msgAi} style={{ fontSize: '10.5px' }}>
-                  Vénus traverse ton secteur 7 jusqu'au 22 — une vraie ouverture
-                  côté lien à l'autre. Tu pourrais ressentir le besoin de poser
-                  des mots plus tendres et plus clairs. Mars en carré demande de
-                  ne pas confondre passion et impatience…
+                  Les transits actuels de Vénus et Jupiter ouvrent un cycle favorable aux rencontres — mais l'astrologie ne prédit pas qui, elle éclaire quand tu es le plus réceptif. Si ton thème natal montre une Vénus en maison 7, ces prochains mois pourraient être un vrai tournant. L'important : rester ouvert aux connexions inattendues.
                 </div>
               </div>
             </div>

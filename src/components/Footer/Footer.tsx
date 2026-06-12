@@ -17,9 +17,9 @@ const resourceLinks = [
 
 const companyLinks = [
   { label: 'À propos', href: '#' },
-  { label: 'Mentions légales', href: '#' },
-  { label: 'Confidentialité', href: '#' },
-  { label: 'CGU', href: '#' },
+  { label: 'Mentions légales', href: '/mentions-legales' },
+  { label: 'Confidentialité', href: '/confidentialite' },
+  { label: 'CGU', href: '/cgu' },
 ]
 
 export function Footer() {
