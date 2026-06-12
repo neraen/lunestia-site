@@ -1705,4 +1705,461 @@ export const compat = [
       { q: "Quel est le plus grand défi du couple Taureau-Poissons&nbsp;?", a: "Le décalage entre concret et rêve. Le Taureau peut s'agacer du flou des Poissons, qui peuvent le trouver peu romantique. Le défi est que le Taureau s'ouvre à l'imaginaire et que les Poissons s'ancrent dans le réel." },
     ],
   }),
+
+  // ===================== SEMI-SEXTILES (30°) — voisins, ajustement =====================
+  pair({
+    a: 'belier', b: 'taureau',
+    metaDesc: "Compatibilité Bélier Taureau : un semi-sextile entre signes voisins, le feu et la terre. L'impulsion contre la patience, un ajustement de rythme. Dynamique, défis et forces.",
+    ogDesc: "Semi-sextile feu/terre : l'apprentissage mutuel entre l'élan du Bélier et la patience du Taureau.",
+    h1Html: "Compatibilité Bélier & Taureau, l'<em>élan</em> et l'<em>ancrage</em>",
+    leadHtml: "Bélier et Taureau sont voisins dans le zodiaque : leur compatibilité prend la forme d'un semi-sextile, l'aspect du léger inconfort fécond. Le feu impatient côtoie la terre patiente — deux rythmes à accorder, mais beaucoup à s'apprendre.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/belier\">Bélier</a> précède immédiatement le <a href=\"/signes/taureau\">Taureau</a> dans la roue zodiacale. Ce voisinage crée un semi-sextile : ni opposition ni harmonie évidente, mais un décalage subtil. Le Bélier allume, le Taureau consolide ; le premier a l'énergie de l'élan, le second la sagesse de la durée. L'un détient ce qui manque à l'autre — d'où un ajustement à trouver.",
+      ] },
+      { h2: 'Bélier et Taureau : la dynamique profonde', paras: [
+        "Mars (Bélier) et Vénus (Taureau) forment le couple archétypal du désir et du plaisir : l'impulsion rencontre la sensualité. Le Bélier veut conquérir vite, le Taureau veut savourer lentement. Le Taureau apprend du Bélier à oser, le Bélier apprend du Taureau à durer et à profiter.",
+        "Le semi-sextile demande un effort conscient : leurs natures ne se comprennent pas d'emblée. Le Bélier peut trouver le Taureau lent et passif, le Taureau peut trouver le Bélier brusque et instable. Mais ce voisinage cache une complémentarité réelle — le Taureau ancre le feu du Bélier, le Bélier dynamise la terre du Taureau.",
+      ] },
+      { h2: 'Comment Bélier et Taureau communiquent', paras: [
+        "Le Bélier va vite et fort, le Taureau prend son temps et pèse ses mots. Le Bélier s'impatiente, le Taureau se braque face à la pression. Leurs tempos de communication diffèrent nettement.",
+        "La clé est le respect du rythme : le Bélier apprend à laisser le Taureau réfléchir sans le bousculer, le Taureau à ne pas prendre l'impulsivité du Bélier pour de l'agression. Quand chacun ralentit ou accélère un peu, le dialogue trouve son équilibre.",
+      ] },
+      { h2: "L'alchimie entre Bélier et Taureau", paras: [
+        "L'attirance Mars-Vénus est puissante : le Bélier est séduit par la sensualité tranquille du Taureau, le Taureau par l'ardeur du Bélier. Dans l'intimité, la fougue rencontre la lenteur voluptueuse — un contraste qui peut être délicieux.",
+        "L'écueil est le rythme, encore : le Bélier veut tout de suite, le Taureau veut faire durer. Si le Bélier apprend la patience sensuelle du Taureau et le Taureau accueille l'élan du Bélier, leur intimité devient riche et complémentaire.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose l'impulsivité du Bélier à l'inertie du Taureau. Le Bélier veut changer, bouger, foncer ; le Taureau veut stabiliser, garder, ne rien précipiter. Le besoin de sécurité du Taureau peut sembler une entrave au Bélier, l'agitation du Bélier une menace au Taureau.",
+        "La clé de résolution : valoriser la complémentarité plutôt que la subir. Le Bélier offre au Taureau le courage du changement, le Taureau offre au Bélier la patience qui fait aboutir. C'est tout le sens du semi-sextile : un apprentissage de voisinage.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils accordent leurs rythmes, Bélier et Taureau forment un couple à la fois dynamique et solide. Le Bélier lance les projets, le Taureau les mène à terme et les fait durer — une combinaison efficace dans la vie comme en amour.",
+        "Le Bélier empêche le Taureau de s'endormir dans la routine, le Taureau empêche le Bélier de s'épuiser dans la précipitation. Le léger inconfort du semi-sextile devient un équilibre fécond entre l'action et la patience.",
+      ] },
+    ],
+    faq: [
+      { q: "Bélier et Taureau sont-ils compatibles&nbsp;?", a: "Bélier et Taureau, signes voisins, forment un semi-sextile : une compatibilité d'ajustement, sans hostilité mais sans évidence. Leurs rythmes opposés demandent un effort, mais leur complémentarité Mars-Vénus est réelle. La synastrie complète des deux thèmes nuance fortement ce portrait." },
+      { q: "Pourquoi le Bélier et le Taureau ont-ils des rythmes opposés&nbsp;?", a: "Le Bélier (feu cardinal) initie vite et fonce ; le Taureau (terre fixe) consolide lentement et fait durer. Comme signes voisins, ils ne partagent ni élément ni mode, d'où un décalage de tempo. Mais le Bélier dynamise le Taureau, qui ancre le Bélier." },
+      { q: "Quel est le plus grand défi du couple Bélier-Taureau&nbsp;?", a: "Accorder l'impulsivité du Bélier et l'inertie du Taureau. Le Bélier veut bouger, le Taureau veut stabiliser. Le défi est de voir la complémentarité — courage contre patience — plutôt que de la subir comme une entrave." },
+    ],
+  }),
+
+  pair({
+    a: 'taureau', b: 'gemeaux',
+    metaDesc: "Compatibilité Taureau Gémeaux : un semi-sextile entre signes voisins, la terre et l'air. La stabilité contre le mouvement, un ajustement de tempo. Dynamique, défis et forces.",
+    ogDesc: "Semi-sextile terre/air : l'apprentissage entre l'ancrage du Taureau et la vivacité des Gémeaux.",
+    h1Html: "Compatibilité Taureau & Gémeaux, l'<em>ancrage</em> et le <em>mouvement</em>",
+    leadHtml: "Taureau et Gémeaux sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. La terre stable côtoie l'air mobile — deux tempéraments très différents qui ont pourtant beaucoup à s'offrir.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/taureau\">Taureau</a> précède les <a href=\"/signes/gemeaux\">Gémeaux</a> dans le zodiaque. Ce voisinage crée un semi-sextile : le Taureau ancré et sensoriel côtoie les Gémeaux aériens et curieux. Le premier construit et savoure, les seconds explorent et virevoltent. Un décalage qui peut frustrer… ou enrichir.",
+      ] },
+      { h2: 'Taureau et Gémeaux : la dynamique profonde', paras: [
+        "Vénus (Taureau) et Mercure (Gémeaux) associent le plaisir des sens et la vivacité de l'esprit. Le Taureau cherche la sécurité et la permanence, les Gémeaux la nouveauté et le changement. Le Taureau apprend des Gémeaux à s'ouvrir et à se renouveler, les Gémeaux apprennent du Taureau à s'ancrer et à approfondir.",
+        "Le semi-sextile demande un effort d'adaptation : le Taureau trouve les Gémeaux instables et dispersés, les Gémeaux trouvent le Taureau routinier et lent. Mais leurs ressources se complètent — la terre offre un socle, l'air offre un souffle.",
+      ] },
+      { h2: 'Comment Taureau et Gémeaux communiquent', paras: [
+        "Le Taureau parle peu et concret, les Gémeaux beaucoup et vite. Les Gémeaux peuvent étourdir le Taureau de mots et d'idées, le Taureau peut sembler fermé ou borné aux Gémeaux avides de débat.",
+        "La clé est la patience mutuelle : le Taureau s'ouvre à la curiosité des Gémeaux, les Gémeaux respectent le besoin de stabilité et de concret du Taureau. Le Taureau gagne en légèreté, les Gémeaux en profondeur.",
+      ] },
+      { h2: "L'alchimie entre Taureau et Gémeaux", paras: [
+        "L'attirance vient du contraste : le Taureau sensuel intrigue les Gémeaux cérébraux, dont la vivacité amuse et stimule le Taureau. L'un apporte la chaleur du corps, les autres le jeu de l'esprit.",
+        "L'écueil tient au besoin : le Taureau veut de la régularité et de la présence, les Gémeaux de la variété et de la liberté. Si le Taureau accepte un peu de mouvement et les Gémeaux un peu d'ancrage, leur intimité conjugue sensualité et fantaisie.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de stabilité du Taureau à la soif de changement des Gémeaux. Le Taureau veut une routine rassurante, les Gémeaux fuient l'ennui à tout prix. Le Taureau peut se sentir déstabilisé, les Gémeaux étouffés.",
+        "La clé de résolution : voir le décalage comme une richesse. Le Taureau apprend des Gémeaux à se renouveler, les Gémeaux apprennent du Taureau à se poser. L'inconfort du semi-sextile devient un équilibre entre constance et nouveauté.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Taureau et Gémeaux forment un couple complémentaire : le Taureau apporte la sécurité et le concret, les Gémeaux l'ouverture et la légèreté. L'un empêche l'autre de se figer ou de se disperser.",
+        "Le Taureau ancre les idées des Gémeaux dans le réel, les Gémeaux empêchent le Taureau de s'enfermer dans la routine. Le léger inconfort du voisinage devient un échange fécond entre la terre et l'air.",
+      ] },
+    ],
+    faq: [
+      { q: "Taureau et Gémeaux sont-ils compatibles&nbsp;?", a: "Taureau et Gémeaux, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la stabilité et le mouvement. Sans hostilité mais sans évidence, elle demande un effort. La complémentarité terre/air peut être riche. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Taureau et les Gémeaux sont-ils si différents&nbsp;?", a: "Le Taureau (terre fixe) cherche la sécurité, la routine et le concret ; les Gémeaux (air mutable) cherchent la nouveauté, le changement et les idées. Comme signes voisins, ils ne partagent ni élément ni mode, d'où un décalage net de tempérament." },
+      { q: "Quel est le plus grand défi du couple Taureau-Gémeaux&nbsp;?", a: "Concilier le besoin de stabilité du Taureau avec la soif de changement des Gémeaux. Le défi est de voir le décalage comme une richesse : le Taureau apprend à se renouveler, les Gémeaux à se poser." },
+    ],
+  }),
+
+  pair({
+    a: 'gemeaux', b: 'cancer',
+    metaDesc: "Compatibilité Gémeaux Cancer : un semi-sextile entre signes voisins, l'air et l'eau. La raison contre l'émotion, un ajustement délicat. Dynamique, communication, défis et forces.",
+    ogDesc: "Semi-sextile air/eau : l'apprentissage entre la légèreté des Gémeaux et la sensibilité du Cancer.",
+    h1Html: "Compatibilité Gémeaux & Cancer, l'<em>esprit</em> et le <em>cœur</em>",
+    leadHtml: "Gémeaux et Cancer sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. L'air mental côtoie l'eau émotionnelle — deux mondes différents qui peuvent s'équilibrer.",
+    sections: [
+      { h2: null, paras: [
+        "Les <a href=\"/signes/gemeaux\">Gémeaux</a> précèdent le <a href=\"/signes/cancer\">Cancer</a> dans le zodiaque. Ce voisinage crée un semi-sextile : les Gémeaux légers et cérébraux côtoient le Cancer sensible et protecteur. Les uns vivent dans la tête, l'autre dans le cœur. Un décalage qui demande du tact, mais ouvre un bel apprentissage.",
+      ] },
+      { h2: 'Gémeaux et Cancer : la dynamique profonde', paras: [
+        "Mercure (Gémeaux) et la Lune (Cancer) associent la pensée et l'émotion. Les Gémeaux analysent et relativisent, le Cancer ressent et s'attache. Les Gémeaux apprennent du Cancer la profondeur du sentiment, le Cancer apprend des Gémeaux le recul et la légèreté.",
+        "Le semi-sextile demande un effort : les Gémeaux peuvent trouver le Cancer trop émotif et susceptible, le Cancer peut trouver les Gémeaux froids et inconstants. Mais leurs ressources se complètent — l'esprit éclaire l'émotion, l'émotion réchauffe l'esprit.",
+      ] },
+      { h2: 'Comment Gémeaux et Cancer communiquent', paras: [
+        "Les Gémeaux verbalisent et rationalisent, le Cancer ressent et sous-entend. Les Gémeaux peuvent blesser le Cancer en intellectualisant ses émotions, le Cancer peut dérouter les Gémeaux par ses humeurs et ses non-dits.",
+        "La clé est la délicatesse : les Gémeaux apprennent à honorer les ressentis du Cancer plutôt qu'à les analyser, le Cancer apprend à exprimer ses besoins en mots clairs. L'esprit et le cœur trouvent alors un langage commun.",
+      ] },
+      { h2: "L'alchimie entre Gémeaux et Cancer", paras: [
+        "L'attirance vient de la complémentarité : le Cancer est rassuré et amusé par la vivacité des Gémeaux, les Gémeaux touchés par la tendresse du Cancer. L'un apporte le jeu, l'autre la chaleur.",
+        "L'écueil tient au besoin : le Cancer veut de la fusion et de la réassurance, les Gémeaux de la liberté et de la légèreté. Si les Gémeaux offrent de la présence et le Cancer de l'espace, leur intimité allie douceur et fantaisie.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le détachement des Gémeaux à l'attachement du Cancer. Les Gémeaux ont besoin d'air et de variété, le Cancer de sécurité et de proximité. Le Cancer peut se sentir négligé, les Gémeaux étouffés par la demande affective.",
+        "La clé de résolution : valoriser l'équilibre. Les Gémeaux apprennent du Cancer à s'investir émotionnellement, le Cancer apprend des Gémeaux à dédramatiser. Le léger inconfort du semi-sextile devient un équilibre entre tête et cœur.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Gémeaux et Cancer forment un couple où l'esprit et l'émotion se nourrissent. Les Gémeaux apportent la légèreté et l'ouverture, le Cancer la profondeur et la tendresse — un bel équilibre.",
+        "Les Gémeaux aident le Cancer à prendre du recul sur ses émotions, le Cancer aide les Gémeaux à habiter leur cœur. Le décalage du voisinage devient une complémentarité douce entre l'air et l'eau.",
+      ] },
+    ],
+    faq: [
+      { q: "Gémeaux et Cancer sont-ils compatibles&nbsp;?", a: "Gémeaux et Cancer, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la raison et l'émotion. Délicate mais riche, elle demande du tact. La complémentarité air/eau peut équilibrer le couple. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi les Gémeaux et le Cancer se comprennent-ils mal&nbsp;?", a: "Les Gémeaux (air) vivent dans la tête, les mots et le recul ; le Cancer (eau) vit dans le cœur, l'émotion et l'attachement. Les Gémeaux peuvent paraître froids au Cancer, qui peut sembler trop émotif aux Gémeaux. Leurs registres diffèrent." },
+      { q: "Quel est le plus grand défi du couple Gémeaux-Cancer&nbsp;?", a: "Concilier le détachement des Gémeaux avec l'attachement du Cancer. Le défi est que les Gémeaux s'investissent émotionnellement et que le Cancer dédramatise, pour trouver un équilibre entre tête et cœur." },
+    ],
+  }),
+
+  pair({
+    a: 'cancer', b: 'lion',
+    metaDesc: "Compatibilité Cancer Lion : un semi-sextile entre signes voisins, l'eau et le feu. La sensibilité contre le rayonnement, un ajustement tendre. Dynamique, défis et forces du couple.",
+    ogDesc: "Semi-sextile eau/feu : l'apprentissage entre la tendresse du Cancer et la chaleur du Lion.",
+    h1Html: "Compatibilité Cancer & Lion, la <em>tendresse</em> et l'<em>éclat</em>",
+    leadHtml: "Cancer et Lion sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. L'eau protectrice côtoie le feu rayonnant — deux cœurs généreux qui doivent accorder leurs besoins.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/cancer\">Cancer</a> précède le <a href=\"/signes/lion\">Lion</a> dans le zodiaque. Ce voisinage crée un semi-sextile : le Cancer intime et nourricier côtoie le Lion solaire et expressif. Le premier protège le foyer, le second illumine la scène. Deux générosités différentes qui s'apprivoisent.",
+      ] },
+      { h2: 'Cancer et Lion : la dynamique profonde', paras: [
+        "La Lune (Cancer) et le Soleil (Lion) sont les deux luminaires : l'intimité et l'éclat, la nuit et le jour. Le Cancer aime en couvant, le Lion en rayonnant. Le Cancer apprend du Lion à oser s'exprimer et à briller, le Lion apprend du Cancer la tendresse et l'écoute.",
+        "Le semi-sextile demande un effort : le Cancer peut trouver le Lion trop centré sur lui-même, le Lion peut trouver le Cancer trop sensible ou possessif. Mais Soleil et Lune se complètent profondément — l'un réchauffe, l'autre nourrit.",
+      ] },
+      { h2: 'Comment Cancer et Lion communiquent', paras: [
+        "Le Cancer s'exprime par l'émotion et le soin, le Lion par la chaleur et l'affirmation. Le Lion a besoin d'être admiré, le Cancer d'être rassuré. Le Lion peut blesser le Cancer par son égocentrisme, le Cancer peut étouffer le Lion par sa susceptibilité.",
+        "La clé est la reconnaissance mutuelle : le Lion valorise la sensibilité du Cancer et le rassure, le Cancer admire et soutient le Lion. Quand chacun nourrit le besoin de l'autre, le dialogue devient chaleureux.",
+      ] },
+      { h2: "L'alchimie entre Cancer et Lion", paras: [
+        "L'attirance est tendre et chaleureuse : le Cancer est réchauffé par la générosité du Lion, le Lion attendri par la douceur du Cancer. L'un apporte la passion généreuse, l'autre la tendresse enveloppante.",
+        "L'écueil tient au besoin : le Lion veut de l'admiration et de la grandeur, le Cancer de l'intimité et de la réassurance. Si le Lion offre de la tendresse et le Cancer de l'admiration, leur intimité devient à la fois ardente et douce.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin d'attention du Lion au besoin de sécurité du Cancer. Le Lion veut briller en société, le Cancer veut un cocon protégé. Le Cancer peut se sentir négligé, le Lion bridé par la sensibilité du Cancer.",
+        "La clé de résolution : équilibrer le dedans et le dehors. Le Lion apprend du Cancer la profondeur émotionnelle, le Cancer apprend du Lion à s'affirmer et à rayonner. Le léger inconfort du semi-sextile devient une complémentarité chaleureuse.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Cancer et Lion forment un couple généreux et chaleureux. Le Cancer crée le foyer où le Lion peut se reposer de son éclat, le Lion apporte la lumière et la joie qui réchauffent le nid du Cancer.",
+        "Le Cancer offre au Lion une base affective sûre, le Lion offre au Cancer confiance et rayonnement. Le décalage du voisinage devient un bel équilibre entre l'intimité et la lumière.",
+      ] },
+    ],
+    faq: [
+      { q: "Cancer et Lion sont-ils compatibles&nbsp;?", a: "Cancer et Lion, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la tendresse et l'éclat. Deux cœurs généreux que tout sépare en surface, mais que Lune et Soleil rendent complémentaires. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Cancer et le Lion s'ajustent-ils difficilement&nbsp;?", a: "Le Cancer (eau) cherche l'intimité, la sécurité et le foyer ; le Lion (feu) cherche l'éclat, la reconnaissance et la scène. Le Cancer peut trouver le Lion égocentrique, le Lion peut trouver le Cancer trop sensible. Mais Lune et Soleil se complètent." },
+      { q: "Quel est le plus grand défi du couple Cancer-Lion&nbsp;?", a: "Concilier le besoin d'attention du Lion avec le besoin de sécurité du Cancer. Le défi est que le Lion offre de la tendresse et que le Cancer offre de l'admiration, équilibrant le dedans intime et le dehors rayonnant." },
+    ],
+  }),
+
+  pair({
+    a: 'lion', b: 'vierge',
+    metaDesc: "Compatibilité Lion Vierge : un semi-sextile entre signes voisins, le feu et la terre. L'éclat contre la discrétion, un ajustement subtil. Dynamique, communication, défis et forces.",
+    ogDesc: "Semi-sextile feu/terre : l'apprentissage entre le rayonnement du Lion et la modestie de la Vierge.",
+    h1Html: "Compatibilité Lion & Vierge, l'<em>éclat</em> et la <em>discrétion</em>",
+    leadHtml: "Lion et Vierge sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. Le feu flamboyant côtoie la terre modeste — deux tempéraments opposés qui peuvent former une belle équipe.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/lion\">Lion</a> précède la <a href=\"/signes/vierge\">Vierge</a> dans le zodiaque. Ce voisinage crée un semi-sextile : le Lion exubérant et créatif côtoie la Vierge discrète et méticuleuse. L'un veut briller, l'autre veut bien faire. Deux manières d'exister qui semblent s'ignorer mais peuvent se compléter.",
+      ] },
+      { h2: 'Lion et Vierge : la dynamique profonde', paras: [
+        "Le Soleil (Lion) et Mercure (Vierge) associent le rayonnement et le discernement. Le Lion veut être reconnu et créer en grand, la Vierge veut servir et perfectionner dans l'ombre. Le Lion apprend de la Vierge l'humilité et le souci du détail, la Vierge apprend du Lion la confiance et l'audace.",
+        "Le semi-sextile demande un effort : le Lion peut trouver la Vierge critique et terne, la Vierge peut trouver le Lion vaniteux et excessif. Mais leurs ressources se complètent — l'éclat a besoin de rigueur, la rigueur a besoin de lumière.",
+      ] },
+      { h2: 'Comment Lion et Vierge communiquent', paras: [
+        "Le Lion parle avec chaleur et grandeur, la Vierge avec précision et réserve. Le Lion a besoin d'éloges, la Vierge a tendance à corriger : un mélange qui peut blesser la fierté du Lion et agacer la Vierge.",
+        "La clé est la valorisation mutuelle : le Lion reconnaît la compétence discrète de la Vierge, la Vierge offre au Lion une admiration sincère et adoucit ses critiques. Le dialogue gagne alors en respect.",
+      ] },
+      { h2: "L'alchimie entre Lion et Vierge", paras: [
+        "L'attirance vient du contraste : la Vierge est fascinée par l'assurance du Lion, le Lion touché par le dévouement attentif de la Vierge. L'un apporte la passion généreuse, l'autre le soin délicat.",
+        "L'écueil tient au tempérament : le Lion veut de la démonstration et de la grandeur, la Vierge est pudique et réservée. Si le Lion respecte la pudeur de la Vierge et la Vierge ose se laisser aller, leur intimité allie chaleur et tendresse attentive.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de reconnaissance du Lion à la modestie critique de la Vierge. Le Lion veut être admiré, la Vierge analyse et relève les failles. Le Lion peut se sentir rabaissé, la Vierge agacée par l'ego du Lion.",
+        "La clé de résolution : transformer la différence en complémentarité. Le Lion apprend de la Vierge l'humilité, la Vierge apprend du Lion à s'affirmer et à se mettre en valeur. Le léger inconfort du semi-sextile devient un équilibre entre lumière et précision.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Lion et Vierge forment une équipe efficace : le Lion inspire et crée, la Vierge organise et perfectionne. L'éclat du Lion porte le travail de la Vierge, la rigueur de la Vierge solidifie les élans du Lion.",
+        "La Vierge offre au Lion une base fiable et un regard juste, le Lion offre à la Vierge confiance et reconnaissance. Le décalage du voisinage devient une collaboration entre le feu et la terre.",
+      ] },
+    ],
+    faq: [
+      { q: "Lion et Vierge sont-ils compatibles&nbsp;?", a: "Lion et Vierge, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre l'éclat et la discrétion. Sans évidence, elle demande du respect mutuel, mais leur complémentarité feu/terre peut former une belle équipe. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Lion et la Vierge s'ajustent-ils difficilement&nbsp;?", a: "Le Lion (feu) veut briller, être admiré et créer en grand ; la Vierge (terre) veut servir, perfectionner et rester discrète. Le Lion peut trouver la Vierge critique, la Vierge peut trouver le Lion vaniteux. Leurs façons d'exister diffèrent." },
+      { q: "Quel est le plus grand défi du couple Lion-Vierge&nbsp;?", a: "Concilier le besoin de reconnaissance du Lion avec la modestie critique de la Vierge. Le défi est que le Lion apprenne l'humilité et que la Vierge offre une admiration sincère en adoucissant ses critiques." },
+    ],
+  }),
+
+  pair({
+    a: 'vierge', b: 'balance',
+    metaDesc: "Compatibilité Vierge Balance : un semi-sextile entre signes voisins, la terre et l'air. La rigueur contre l'harmonie, un ajustement raffiné. Dynamique, défis et forces du couple.",
+    ogDesc: "Semi-sextile terre/air : l'apprentissage entre la rigueur de la Vierge et la grâce de la Balance.",
+    h1Html: "Compatibilité Vierge & Balance, la <em>rigueur</em> et la <em>grâce</em>",
+    leadHtml: "Vierge et Balance sont voisines dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. La terre méthodique côtoie l'air harmonieux — deux raffinements différents qui peuvent s'embellir mutuellement.",
+    sections: [
+      { h2: null, paras: [
+        "La <a href=\"/signes/vierge\">Vierge</a> précède la <a href=\"/signes/balance\">Balance</a> dans le zodiaque. Ce voisinage crée un semi-sextile : la Vierge utile et exigeante côtoie la Balance esthète et diplomate. L'une perfectionne le concret, l'autre harmonise les relations. Deux quêtes de justesse qui se rencontrent.",
+      ] },
+      { h2: 'Vierge et Balance : la dynamique profonde', paras: [
+        "Mercure (Vierge) et Vénus (Balance) associent le discernement et le sens de l'harmonie. La Vierge cherche l'efficacité et la perfection, la Balance la beauté et l'équilibre relationnel. La Vierge apprend de la Balance la douceur et le sens du lien, la Balance apprend de la Vierge la rigueur et le sens pratique.",
+        "Le semi-sextile demande un effort : la Vierge peut trouver la Balance superficielle ou indécise, la Balance peut trouver la Vierge trop critique ou terre-à-terre. Mais leur commun raffinement offre un terrain d'entente.",
+      ] },
+      { h2: 'Comment Vierge et Balance communiquent', paras: [
+        "La Vierge va au fait et relève les défauts, la Balance lisse et cherche l'accord. La franchise critique de la Vierge peut heurter le besoin d'harmonie de la Balance, dont l'évitement du conflit peut frustrer la Vierge.",
+        "La clé est l'équilibre du ton : la Vierge adoucit ses remarques, la Balance ose nommer les vrais sujets. Leur dialogue gagne en justesse — précis sans être dur, harmonieux sans être évasif.",
+      ] },
+      { h2: "L'alchimie entre Vierge et Balance", paras: [
+        "L'attirance vient d'un raffinement partagé : la Balance séduit la Vierge par sa grâce, la Vierge touche la Balance par son attention dévouée. L'une apporte la douceur esthétique, l'autre le soin précis.",
+        "L'écueil tient au tempérament : la Balance veut romance et légèreté, la Vierge est pudique et pragmatique. Si la Vierge se laisse aller à la sensualité et la Balance valorise les attentions de la Vierge, leur intimité devient tendre et élégante.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose la critique de la Vierge à l'évitement de la Balance. La Vierge veut corriger ce qui cloche, la Balance veut préserver la paix à tout prix. La Vierge peut sembler dure, la Balance fuyante.",
+        "La clé de résolution : conjuguer leurs forces. La Vierge apprend de la Balance la diplomatie, la Balance apprend de la Vierge à affronter les problèmes concrets. Le léger inconfort du semi-sextile devient un raffinement commun.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand elles s'ajustent, Vierge et Balance forment un couple raffiné et attentionné. La Vierge apporte la rigueur et le soin, la Balance la grâce et l'harmonie — ensemble, elles créent un cadre de vie à la fois beau et bien tenu.",
+        "La Vierge offre à la Balance une assise concrète, la Balance offre à la Vierge douceur et légèreté. Le décalage du voisinage devient une élégance partagée entre la terre et l'air.",
+      ] },
+    ],
+    faq: [
+      { q: "Vierge et Balance sont-elles compatibles&nbsp;?", a: "Vierge et Balance, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la rigueur et la grâce. Sans évidence, elle demande de l'équilibre, mais leur raffinement commun peut donner un couple élégant et attentionné. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi la Vierge et la Balance s'ajustent-elles difficilement&nbsp;?", a: "La Vierge (terre) cherche l'efficacité, la perfection et la franchise ; la Balance (air) cherche l'harmonie, la beauté et l'accord. La Vierge peut trouver la Balance superficielle, la Balance peut trouver la Vierge trop critique. Leurs priorités diffèrent." },
+      { q: "Quel est le plus grand défi du couple Vierge-Balance&nbsp;?", a: "Concilier la critique de la Vierge avec l'évitement du conflit par la Balance. Le défi est que la Vierge adoucisse son ton et que la Balance ose nommer les vrais sujets." },
+    ],
+  }),
+
+  pair({
+    a: 'balance', b: 'scorpion',
+    metaDesc: "Compatibilité Balance Scorpion : un semi-sextile entre signes voisins, l'air et l'eau. La légèreté contre l'intensité, un ajustement profond. Dynamique, défis et forces du couple.",
+    ogDesc: "Semi-sextile air/eau : l'apprentissage entre la grâce de la Balance et l'intensité du Scorpion.",
+    h1Html: "Compatibilité Balance & Scorpion, la <em>grâce</em> et l'<em>intensité</em>",
+    leadHtml: "Balance et Scorpion sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. L'air léger côtoie l'eau profonde — deux mondes qui se fascinent autant qu'ils se déconcertent.",
+    sections: [
+      { h2: null, paras: [
+        "La <a href=\"/signes/balance\">Balance</a> précède le <a href=\"/signes/scorpion\">Scorpion</a> dans le zodiaque. Ce voisinage crée un semi-sextile : la Balance sociable et harmonieuse côtoie le Scorpion intense et secret. L'une recherche l'équilibre et la surface lisse, l'autre la profondeur et la vérité brute. Un décalage troublant et magnétique.",
+      ] },
+      { h2: 'Balance et Scorpion : la dynamique profonde', paras: [
+        "Vénus (Balance) et Pluton (Scorpion) associent le charme et la puissance. La Balance veut plaire et harmoniser, le Scorpion veut connaître et transformer. La Balance apprend du Scorpion la profondeur et l'authenticité, le Scorpion apprend de la Balance la légèreté et le tact.",
+        "Le semi-sextile demande un effort : la Balance peut trouver le Scorpion trop intense et sombre, le Scorpion peut trouver la Balance superficielle et fuyante. Mais leur attirance est réelle — la surface gracieuse cache une curiosité pour les profondeurs.",
+      ] },
+      { h2: 'Comment Balance et Scorpion communiquent', paras: [
+        "La Balance communique avec diplomatie et évite le conflit, le Scorpion va au fond et ne craint pas l'affrontement. Le Scorpion peut trouver la Balance évasive, la Balance peut être déstabilisée par l'intensité du Scorpion.",
+        "La clé est le courage et la douceur : la Balance ose la profondeur et la franchise, le Scorpion tempère son intensité et accorde sa confiance. Leur dialogue gagne alors en authenticité sans perdre en élégance.",
+      ] },
+      { h2: "L'alchimie entre Balance et Scorpion", paras: [
+        "L'attirance est magnétique : la Balance est fascinée par l'intensité du Scorpion, le Scorpion séduit par le charme de la Balance. L'une apporte la sensualité raffinée, l'autre la passion profonde.",
+        "L'écueil tient au registre : la Balance veut romance et harmonie, le Scorpion fusion et intensité. Si la Balance plonge dans la profondeur et le Scorpion adoucit son emprise, leur intimité allie raffinement et passion.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose la légèreté de la Balance à l'intensité du Scorpion. La Balance fuit le conflit et la lourdeur, le Scorpion exige profondeur et vérité. La jalousie possible du Scorpion se heurte au besoin de sociabilité de la Balance.",
+        "La clé de résolution : la Balance apprend du Scorpion à ne pas fuir l'intensité, le Scorpion apprend de la Balance à lâcher le contrôle et la suspicion. Le léger inconfort du semi-sextile devient une rencontre entre surface et profondeur.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Balance et Scorpion forment un couple à la fois élégant et profond. La Balance apporte l'harmonie et la douceur, le Scorpion l'intensité et l'authenticité — un mélange rare de grâce et de puissance.",
+        "La Balance allège le Scorpion, le Scorpion approfondit la Balance. Le décalage du voisinage devient une fascination durable entre l'air et l'eau, le charme et la profondeur.",
+      ] },
+    ],
+    faq: [
+      { q: "Balance et Scorpion sont-ils compatibles&nbsp;?", a: "Balance et Scorpion, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la légèreté et l'intensité. Déconcertante mais magnétique, elle demande du courage. La rencontre air/eau peut être fascinante. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi la Balance et le Scorpion s'ajustent-ils difficilement&nbsp;?", a: "La Balance (air) recherche l'harmonie, la surface lisse et évite le conflit ; le Scorpion (eau) recherche la profondeur, la vérité brute et ne craint pas l'affrontement. La Balance peut trouver le Scorpion trop sombre, le Scorpion peut trouver la Balance superficielle." },
+      { q: "Quel est le plus grand défi du couple Balance-Scorpion&nbsp;?", a: "Concilier la légèreté de la Balance avec l'intensité du Scorpion. Le défi est que la Balance ose la profondeur et que le Scorpion lâche le contrôle et la suspicion." },
+    ],
+  }),
+
+  pair({
+    a: 'scorpion', b: 'sagittaire',
+    metaDesc: "Compatibilité Scorpion Sagittaire : un semi-sextile entre signes voisins, l'eau et le feu. La profondeur contre la liberté, un ajustement intense. Dynamique, défis et forces du couple.",
+    ogDesc: "Semi-sextile eau/feu : l'apprentissage entre l'intensité du Scorpion et l'élan du Sagittaire.",
+    h1Html: "Compatibilité Scorpion & Sagittaire, la <em>profondeur</em> et l'<em>élan</em>",
+    leadHtml: "Scorpion et Sagittaire sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. L'eau profonde côtoie le feu aventureux — l'intensité rencontre la liberté.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/scorpion\">Scorpion</a> précède le <a href=\"/signes/sagittaire\">Sagittaire</a> dans le zodiaque. Ce voisinage crée un semi-sextile : le Scorpion intense et fusionnel côtoie le Sagittaire libre et expansif. L'un plonge dans les profondeurs, l'autre court vers l'horizon. Un décalage entre l'enracinement émotionnel et l'envie d'ailleurs.",
+      ] },
+      { h2: 'Scorpion et Sagittaire : la dynamique profonde', paras: [
+        "Pluton (Scorpion) et Jupiter (Sagittaire) associent la transformation et l'expansion. Le Scorpion veut tout connaître en profondeur, le Sagittaire veut tout explorer en largeur. Le Scorpion apprend du Sagittaire la légèreté et la foi, le Sagittaire apprend du Scorpion la profondeur et l'engagement.",
+        "Le semi-sextile demande un effort : le Scorpion peut trouver le Sagittaire superficiel et fuyant, le Sagittaire peut trouver le Scorpion trop intense et possessif. Mais leur curiosité commune pour le sens crée un pont.",
+      ] },
+      { h2: 'Comment Scorpion et Sagittaire communiquent', paras: [
+        "Le Scorpion sonde et garde ses secrets, le Sagittaire dit tout franchement et largement. La franchise désinvolte du Sagittaire peut heurter le Scorpion, dont le mystère peut agacer le Sagittaire.",
+        "La clé est l'ouverture mutuelle : le Scorpion ose la confiance et la légèreté, le Sagittaire apprend la délicatesse et la constance. Leur échange peut devenir une exploration commune du sens, à la fois profonde et libre.",
+      ] },
+      { h2: "L'alchimie entre Scorpion et Sagittaire", paras: [
+        "L'attirance est vive : le Scorpion est intrigué par la liberté du Sagittaire, le Sagittaire fasciné par l'intensité du Scorpion. L'un apporte la passion profonde, l'autre la fougue aventureuse.",
+        "L'écueil tient au besoin : le Scorpion veut fusion et exclusivité, le Sagittaire liberté et espace. Si le Scorpion lâche un peu de contrôle et le Sagittaire offre de l'engagement, leur intimité allie intensité et aventure.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le besoin de fusion du Scorpion à la soif de liberté du Sagittaire. Le Scorpion veut tout partager intensément, le Sagittaire a besoin d'air et d'indépendance. La jalousie du Scorpion se heurte à l'esprit libre du Sagittaire.",
+        "La clé de résolution : le Scorpion accorde sa confiance, le Sagittaire rassure par sa fidélité. Le Scorpion apprend la légèreté, le Sagittaire la profondeur. Le léger inconfort du semi-sextile devient une quête de sens partagée.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Scorpion et Sagittaire forment un couple intense et stimulant. Le Scorpion apporte la profondeur et l'engagement, le Sagittaire l'optimisme et l'ouverture — ensemble, ils explorent la vie dans toutes ses dimensions.",
+        "Le Sagittaire allège le Scorpion et lui ouvre des horizons, le Scorpion approfondit le Sagittaire et l'ancre. Le décalage du voisinage devient une aventure entre l'eau et le feu, la profondeur et la liberté.",
+      ] },
+    ],
+    faq: [
+      { q: "Scorpion et Sagittaire sont-ils compatibles&nbsp;?", a: "Scorpion et Sagittaire, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre l'intensité et la liberté. Sans évidence, elle demande de l'ouverture, mais leur curiosité commune pour le sens crée un beau pont. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Scorpion et le Sagittaire s'ajustent-ils difficilement&nbsp;?", a: "Le Scorpion (eau) cherche la fusion, la profondeur et l'exclusivité ; le Sagittaire (feu) cherche la liberté, l'aventure et l'espace. Le Scorpion peut trouver le Sagittaire fuyant, le Sagittaire peut trouver le Scorpion possessif. Leurs besoins s'opposent." },
+      { q: "Quel est le plus grand défi du couple Scorpion-Sagittaire&nbsp;?", a: "Concilier le besoin de fusion du Scorpion avec la soif de liberté du Sagittaire. Le défi est que le Scorpion accorde sa confiance et que le Sagittaire rassure par sa fidélité." },
+    ],
+  }),
+
+  pair({
+    a: 'sagittaire', b: 'capricorne',
+    metaDesc: "Compatibilité Sagittaire Capricorne : un semi-sextile entre signes voisins, le feu et la terre. La liberté contre la discipline, un ajustement constructif. Dynamique, défis et forces.",
+    ogDesc: "Semi-sextile feu/terre : l'apprentissage entre l'élan du Sagittaire et la rigueur du Capricorne.",
+    h1Html: "Compatibilité Sagittaire & Capricorne, l'<em>élan</em> et la <em>discipline</em>",
+    leadHtml: "Sagittaire et Capricorne sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. Le feu aventureux côtoie la terre ambitieuse — la liberté rencontre la structure.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/sagittaire\">Sagittaire</a> précède le <a href=\"/signes/capricorne\">Capricorne</a> dans le zodiaque. Ce voisinage crée un semi-sextile : le Sagittaire optimiste et libre côtoie le Capricorne sérieux et discipliné. L'un rêve grand et part à l'aventure, l'autre planifie et construit. Un décalage entre l'enthousiasme et la rigueur.",
+      ] },
+      { h2: 'Sagittaire et Capricorne : la dynamique profonde', paras: [
+        "Jupiter (Sagittaire) et Saturne (Capricorne) sont les deux grands maîtres du temps long : l'expansion et la contraction, la foi et la prudence. Le Sagittaire voit grand, le Capricorne bâtit solide. Le Sagittaire apprend du Capricorne la discipline et la patience, le Capricorne apprend du Sagittaire l'optimisme et l'audace.",
+        "Le semi-sextile demande un effort : le Sagittaire peut trouver le Capricorne rigide et pessimiste, le Capricorne peut trouver le Sagittaire imprudent et dispersé. Mais Jupiter et Saturne, combinés, donnent une force rare — la vision réalisée.",
+      ] },
+      { h2: 'Comment Sagittaire et Capricorne communiquent', paras: [
+        "Le Sagittaire est franc, enthousiaste et large, le Capricorne mesuré, sobre et pragmatique. Le Capricorne peut doucher l'enthousiasme du Sagittaire, le Sagittaire peut agacer le Capricorne par sa désinvolture.",
+        "La clé est la reconnaissance mutuelle : le Sagittaire respecte le réalisme du Capricorne, le Capricorne accueille la vision du Sagittaire. Quand l'élan rencontre la méthode, leur dialogue devient constructif.",
+      ] },
+      { h2: "L'alchimie entre Sagittaire et Capricorne", paras: [
+        "L'attirance vient du contraste : le Capricorne est séduit par la joie de vivre du Sagittaire, le Sagittaire par la solidité du Capricorne. L'un apporte la fougue, l'autre la profondeur contenue.",
+        "L'écueil tient au tempérament : le Sagittaire veut spontanéité et liberté, le Capricorne se livre lentement. Si le Sagittaire patiente et le Capricorne se détend, leur intimité allie chaleur et profondeur.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose la liberté du Sagittaire à la discipline du Capricorne. Le Sagittaire fuit les contraintes, le Capricorne structure tout. Le Sagittaire peut se sentir bridé, le Capricorne exaspéré par l'inconstance du Sagittaire.",
+        "La clé de résolution : conjuguer vision et méthode. Le Sagittaire apprend du Capricorne à concrétiser ses rêves, le Capricorne apprend du Sagittaire à dédramatiser et à oser. Le léger inconfort du semi-sextile devient une alliance entre l'idéal et le réel.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Sagittaire et Capricorne forment un couple capable de grandes réalisations. Le Sagittaire apporte la vision et l'enthousiasme, le Capricorne la structure et la persévérance — ensemble, ils transforment les rêves en accomplissements.",
+        "Le Sagittaire allège le Capricorne et lui donne foi, le Capricorne ancre le Sagittaire et le fait aboutir. Le décalage du voisinage devient une force entre le feu et la terre, l'élan et la discipline.",
+      ] },
+    ],
+    faq: [
+      { q: "Sagittaire et Capricorne sont-ils compatibles&nbsp;?", a: "Sagittaire et Capricorne, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la liberté et la discipline. Sans évidence, elle demande un effort, mais l'alliance Jupiter-Saturne peut transformer les rêves en réalisations. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Sagittaire et le Capricorne s'ajustent-ils difficilement&nbsp;?", a: "Le Sagittaire (feu) est optimiste, libre et aventureux ; le Capricorne (terre) est sérieux, discipliné et prudent. Le Sagittaire peut trouver le Capricorne rigide, le Capricorne peut trouver le Sagittaire imprudent. Leurs tempéraments s'opposent." },
+      { q: "Quel est le plus grand défi du couple Sagittaire-Capricorne&nbsp;?", a: "Concilier la liberté du Sagittaire avec la discipline du Capricorne. Le défi est que le Sagittaire apprenne à concrétiser et que le Capricorne apprenne à dédramatiser et à oser." },
+    ],
+  }),
+
+  pair({
+    a: 'capricorne', b: 'verseau',
+    metaDesc: "Compatibilité Capricorne Verseau : un semi-sextile entre signes voisins, la terre et l'air. La tradition contre l'innovation, un ajustement fécond. Dynamique, défis et forces du couple.",
+    ogDesc: "Semi-sextile terre/air : l'apprentissage entre la structure du Capricorne et l'innovation du Verseau.",
+    h1Html: "Compatibilité Capricorne & Verseau, la <em>structure</em> et l'<em>innovation</em>",
+    leadHtml: "Capricorne et Verseau sont voisins dans le zodiaque, autrefois tous deux régis par Saturne : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. La terre traditionnelle côtoie l'air visionnaire.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/capricorne\">Capricorne</a> précède le <a href=\"/signes/verseau\">Verseau</a> dans le zodiaque, et l'astrologie traditionnelle les rattachait tous deux à Saturne. Ce voisinage crée un semi-sextile : le Capricorne structuré et ambitieux côtoie le Verseau original et libre. L'un bâtit sur les fondations, l'autre invente l'avenir. Un décalage entre tradition et rupture.",
+      ] },
+      { h2: 'Capricorne et Verseau : la dynamique profonde', paras: [
+        "Saturne (Capricorne) et Uranus (Verseau, avec Saturne en maître traditionnel) associent la structure et l'innovation. Le Capricorne respecte l'ordre établi, le Verseau veut le réinventer. Le Capricorne apprend du Verseau l'ouverture et l'audace, le Verseau apprend du Capricorne la patience et la concrétisation.",
+        "Le semi-sextile demande un effort : le Capricorne peut trouver le Verseau imprévisible et utopiste, le Verseau peut trouver le Capricorne rigide et conservateur. Mais leur héritage saturnien commun crée une compréhension de fond.",
+      ] },
+      { h2: 'Comment Capricorne et Verseau communiquent', paras: [
+        "Le Capricorne raisonne par le réalisme et l'expérience, le Verseau par les idées et l'avenir. Le Capricorne peut freiner les élans du Verseau, le Verseau peut bousculer les certitudes du Capricorne.",
+        "La clé est la curiosité mutuelle : le Capricorne s'ouvre aux idées nouvelles du Verseau, le Verseau respecte le sens du concret du Capricorne. Leur échange peut devenir un dialogue fécond entre l'expérience et la vision.",
+      ] },
+      { h2: "L'alchimie entre Capricorne et Verseau", paras: [
+        "L'attirance vient d'un respect intellectuel : le Capricorne est intrigué par l'originalité du Verseau, le Verseau par la maîtrise du Capricorne. Tous deux plutôt cérébraux, ils se séduisent par l'esprit.",
+        "L'écueil tient à l'émotion : ni l'un ni l'autre n'est très démonstratif, et la chaleur peut manquer. Si le Capricorne se livre et le Verseau s'engage, leur intimité gagne en profondeur derrière la réserve.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le conservatisme du Capricorne à la rébellion du Verseau. Le Capricorne veut bâtir dans la continuité, le Verseau veut rompre et innover. Le Capricorne peut être déstabilisé, le Verseau bridé.",
+        "La clé de résolution : conjuguer structure et innovation. Le Capricorne apprend du Verseau à se réinventer, le Verseau apprend du Capricorne à construire durablement. Le léger inconfort du semi-sextile devient une force entre tradition et avenir.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Capricorne et Verseau forment un couple capable d'allier solidité et originalité. Le Capricorne donne corps aux visions du Verseau, le Verseau empêche le Capricorne de se figer dans le conformisme.",
+        "Le Capricorne ancre les idées du Verseau, le Verseau ouvre les horizons du Capricorne. Le décalage du voisinage devient un équilibre entre la terre et l'air, la structure et l'innovation.",
+      ] },
+    ],
+    faq: [
+      { q: "Capricorne et Verseau sont-ils compatibles&nbsp;?", a: "Capricorne et Verseau, signes voisins liés par Saturne, forment un semi-sextile : une compatibilité d'ajustement entre tradition et innovation. Sans évidence, elle demande un effort, mais leur héritage commun crée une compréhension de fond. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Capricorne et le Verseau s'ajustent-ils difficilement&nbsp;?", a: "Le Capricorne (terre) respecte l'ordre établi, la structure et la tradition ; le Verseau (air) veut réinventer, innover et rompre. Le Capricorne peut trouver le Verseau utopiste, le Verseau peut trouver le Capricorne rigide. Leurs rapports au changement diffèrent." },
+      { q: "Quel est le plus grand défi du couple Capricorne-Verseau&nbsp;?", a: "Concilier le conservatisme du Capricorne avec la rébellion du Verseau, et trouver de la chaleur émotionnelle. Le défi est que le Capricorne s'ouvre à l'innovation et que le Verseau apprenne à construire durablement." },
+    ],
+  }),
+
+  pair({
+    a: 'verseau', b: 'poissons',
+    metaDesc: "Compatibilité Verseau Poissons : un semi-sextile entre signes voisins, l'air et l'eau. La raison contre l'intuition, un ajustement subtil. Dynamique, communication, défis et forces.",
+    ogDesc: "Semi-sextile air/eau : l'apprentissage entre la vision du Verseau et la compassion des Poissons.",
+    h1Html: "Compatibilité Verseau & Poissons, la <em>vision</em> et le <em>rêve</em>",
+    leadHtml: "Verseau et Poissons sont voisins dans le zodiaque : leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil. L'air visionnaire côtoie l'eau rêveuse — deux idéalistes qui regardent le monde autrement.",
+    sections: [
+      { h2: null, paras: [
+        "Le <a href=\"/signes/verseau\">Verseau</a> précède les <a href=\"/signes/poissons\">Poissons</a> dans le zodiaque — les deux derniers signes, tournés vers le collectif et l'universel. Ce voisinage crée un semi-sextile : le Verseau cérébral et détaché côtoie les Poissons sensibles et fusionnels. L'un pense l'humanité, les autres la ressentent.",
+      ] },
+      { h2: 'Verseau et Poissons : la dynamique profonde', paras: [
+        "Uranus (Verseau) et Neptune (Poissons) sont deux planètes transpersonnelles : l'innovation et la transcendance, l'idéal et le rêve. Le Verseau veut réformer le monde par les idées, les Poissons l'embrasser par la compassion. Le Verseau apprend des Poissons la profondeur émotionnelle, les Poissons apprennent du Verseau le recul et la clarté.",
+        "Le semi-sextile demande un effort : le Verseau peut trouver les Poissons trop flous et émotifs, les Poissons peuvent trouver le Verseau froid et distant. Mais leur idéalisme commun et leur regard tourné vers l'universel les rapprochent.",
+      ] },
+      { h2: 'Comment Verseau et Poissons communiquent', paras: [
+        "Le Verseau raisonne et conceptualise, les Poissons ressentent et devinent. Le Verseau peut intellectualiser ce que les Poissons vivent intensément, les Poissons peuvent dérouter le Verseau par leur flou émotionnel.",
+        "La clé est le pont entre tête et cœur : le Verseau honore les ressentis des Poissons, les Poissons mettent des mots sur leurs intuitions. Leur idéalisme partagé devient alors un terrain de dialogue riche.",
+      ] },
+      { h2: "L'alchimie entre Verseau et Poissons", paras: [
+        "L'attirance est poétique et étrange : les Poissons sont fascinés par l'originalité du Verseau, le Verseau touché par la douceur des Poissons. L'un apporte la surprise et l'inventivité, les autres la tendresse et l'imaginaire.",
+        "L'écueil tient au besoin : les Poissons veulent fusion et profondeur émotionnelle, le Verseau espace et liberté mentale. Si le Verseau s'engage émotionnellement et les Poissons respectent son besoin d'air, leur intimité devient tendre et inventive.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose le détachement du Verseau à la fusion des Poissons. Le Verseau a besoin d'indépendance et vit dans les idées, les Poissons ont besoin de fusion et vivent dans les émotions. Les Poissons peuvent se sentir incompris, le Verseau envahi.",
+        "La clé de résolution : le Verseau descend dans le cœur, les Poissons s'ancrent et donnent de l'espace. Le Verseau apprend la profondeur, les Poissons la clarté. Le léger inconfort du semi-sextile devient une rencontre entre l'esprit et l'âme.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Verseau et Poissons forment un couple idéaliste et créatif. Le Verseau apporte la vision et la clarté, les Poissons la compassion et l'imaginaire — ensemble, ils rêvent un monde meilleur, l'un par les idées, les autres par le cœur.",
+        "Le Verseau aide les Poissons à structurer leurs rêves, les Poissons aident le Verseau à habiter son cœur. Le décalage du voisinage devient une complémentarité entre l'air et l'eau, la vision et le rêve.",
+      ] },
+    ],
+    faq: [
+      { q: "Verseau et Poissons sont-ils compatibles&nbsp;?", a: "Verseau et Poissons, signes voisins, forment un semi-sextile : une compatibilité d'ajustement entre la raison et l'intuition. Deux idéalistes que tout sépare en surface mais qu'un regard commun vers l'universel rapproche. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Verseau et les Poissons s'ajustent-ils difficilement&nbsp;?", a: "Le Verseau (air) vit dans les idées, la clarté et l'indépendance ; les Poissons (eau) vivent dans les émotions, le rêve et la fusion. Le Verseau peut paraître froid aux Poissons, qui peuvent sembler trop flous au Verseau. Leurs registres diffèrent." },
+      { q: "Quel est le plus grand défi du couple Verseau-Poissons&nbsp;?", a: "Concilier le détachement du Verseau avec la fusion des Poissons. Le défi est que le Verseau s'engage émotionnellement et que les Poissons s'ancrent en donnant de l'espace." },
+    ],
+  }),
+
+  pair({
+    a: 'belier', b: 'poissons',
+    metaDesc: "Compatibilité Bélier Poissons : un semi-sextile entre signes voisins, le feu et l'eau. L'action contre le rêve, un ajustement entre la fin et le début du zodiaque. Dynamique et forces.",
+    ogDesc: "Semi-sextile feu/eau : l'apprentissage entre l'élan du Bélier et la sensibilité des Poissons.",
+    h1Html: "Compatibilité Bélier & Poissons, l'<em>élan</em> et le <em>rêve</em>",
+    leadHtml: "Bélier et Poissons sont voisins dans le zodiaque — la fin et le recommencement de la roue. Leur compatibilité est un semi-sextile, l'aspect de l'ajustement subtil : le feu naissant côtoie l'eau infinie.",
+    sections: [
+      { h2: null, paras: [
+        "Les <a href=\"/signes/poissons\">Poissons</a> ferment le zodiaque, le <a href=\"/signes/belier\">Bélier</a> le rouvre : ce sont des voisins qui se touchent à la jonction de la fin et du commencement. Ce semi-sextile unit le feu impulsif du Bélier à l'eau rêveuse des Poissons — l'action pure et la sensibilité océanique, le premier souffle et la dissolution finale.",
+      ] },
+      { h2: 'Bélier et Poissons : la dynamique profonde', paras: [
+        "Mars (Bélier) et Neptune (Poissons) associent l'action et le rêve, la pulsion et la compassion. Le Bélier fonce et affirme, les Poissons ressentent et s'abandonnent. Le Bélier apprend des Poissons la sensibilité et l'imagination, les Poissons apprennent du Bélier le courage et l'affirmation.",
+        "Le semi-sextile demande un effort : le Bélier peut trouver les Poissons flous et passifs, les Poissons peuvent trouver le Bélier brutal et insensible. Mais le Bélier peut protéger les Poissons, et les Poissons adoucir le Bélier — une complémentarité touchante.",
+      ] },
+      { h2: 'Comment Bélier et Poissons communiquent', paras: [
+        "Le Bélier dit tout directement et fort, les Poissons s'expriment par allusions et ressentis. La franchise du Bélier peut blesser les Poissons, dont le flou peut désorienter le Bélier.",
+        "La clé est la douceur : le Bélier adoucit sa franchise et tient compte de la sensibilité des Poissons, les Poissons osent exprimer leurs besoins en mots clairs. Le feu apprend la délicatesse, l'eau apprend l'affirmation.",
+      ] },
+      { h2: "L'alchimie entre Bélier et Poissons", paras: [
+        "L'attirance est romantique et magnétique : les Poissons sont fascinés par l'énergie du Bélier, le Bélier attendri par la douceur des Poissons. L'un apporte l'ardeur, les autres la tendresse et l'imaginaire.",
+        "L'écueil tient au rythme et au registre : le Bélier veut intensité et immédiateté, les Poissons douceur et fusion. Si le Bélier ralentit et les Poissons s'affirment, leur intimité allie passion et tendresse.",
+      ] },
+      { h2: 'Les défis à surmonter', paras: [
+        "Le défi central oppose l'affirmation du Bélier à la sensibilité fuyante des Poissons. Le Bélier fonce et impose, les Poissons absorbent et se dérobent. Le Bélier peut écraser les Poissons sans le vouloir, les Poissons peuvent frustrer le Bélier par leur passivité.",
+        "La clé de résolution : le Bélier devient protecteur plutôt que dominateur, les Poissons s'ancrent et s'affirment. Le Bélier apprend la compassion, les Poissons le courage. Le léger inconfort du semi-sextile devient une rencontre entre force et douceur.",
+      ] },
+      { h2: 'Ce qui rend ce duo puissant', paras: [
+        "Quand ils s'ajustent, Bélier et Poissons forment un couple touchant où la force protège la douceur. Le Bélier défend et entraîne les Poissons, les Poissons adoucissent et inspirent le Bélier — la jonction du commencement et de l'infini.",
+        "Le Bélier offre aux Poissons un ancrage et un élan, les Poissons offrent au Bélier une profondeur émotionnelle qui lui manque. Le décalage du voisinage devient une complémentarité entre le feu et l'eau, l'action et le rêve.",
+      ] },
+    ],
+    faq: [
+      { q: "Bélier et Poissons sont-ils compatibles&nbsp;?", a: "Bélier et Poissons, signes voisins à la jonction du zodiaque, forment un semi-sextile : une compatibilité d'ajustement entre l'action et le rêve. Sans évidence, elle demande de la douceur, mais le Bélier peut protéger les Poissons et les Poissons adoucir le Bélier. La synastrie complète des deux thèmes nuance ce portrait." },
+      { q: "Pourquoi le Bélier et les Poissons s'ajustent-ils difficilement&nbsp;?", a: "Le Bélier (feu) est direct, impulsif et affirmé ; les Poissons (eau) sont sensibles, fluides et fusionnels. La franchise du Bélier peut blesser les Poissons, dont le flou peut désorienter le Bélier. Leurs natures s'opposent." },
+      { q: "Quel est le plus grand défi du couple Bélier-Poissons&nbsp;?", a: "Concilier l'affirmation du Bélier avec la sensibilité fuyante des Poissons. Le défi est que le Bélier devienne protecteur plutôt que dominateur et que les Poissons s'ancrent et s'affirment." },
+    ],
+  }),
 ];
