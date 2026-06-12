@@ -83,6 +83,9 @@ const urls = [
   ...signs.map((s) => ({ loc: `${SITE}/signes/${s.slug}`, pri: '0.7', freq: 'monthly' })),
   ...compat.map((c) => ({ loc: `${SITE}/compatibilite/${c.slug}`, pri: '0.6', freq: 'monthly' })),
   ...guides.map((g) => ({ loc: `${SITE}/guide/${g.slug}`, pri: '0.6', freq: 'monthly' })),
+  { loc: `${SITE}/mentions-legales`, pri: '0.3', freq: 'yearly' },
+  { loc: `${SITE}/confidentialite`, pri: '0.3', freq: 'yearly' },
+  { loc: `${SITE}/cgu`, pri: '0.3', freq: 'yearly' },
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
