@@ -33,7 +33,12 @@
       "Bash(sed -i '' \"s/glyph: '♍'/glyph: ZODIAC_SVG.vierge/g\" /Users/clementsilvestre/web/perso/lunestia-site/scripts/data/guides.mjs)",
       "Bash(node -e ' *)",
       "mcp__visualize__read_me",
-      "mcp__visualize__show_widget"
+      "mcp__visualize__show_widget",
+      "Bash(git commit -m 'feat: add account deletion section to privacy policy *)",
+      "Bash(git commit -m 'fix: account data deletion is immediate in privacy policy *)",
+      "Bash(git commit -m 'feat: add help & contact page with mailto *)",
+      "Bash(perl -0pi -e 's{\\(<li><a href=\"/cgu\" class=\"footer-link\">CGU</a></li>\\\\n\\)}{$1            <li><a href=\"/aide\" class=\"footer-link\">Aide &amp; Contact</a></li>\\\\n}' index.html cgu.html confidentialite.html mentions-legales.html)",
+      "Bash(git commit -m 'feat: link Aide & Contact in footer below CGU on all pages *)"
     ]
   }
 }
